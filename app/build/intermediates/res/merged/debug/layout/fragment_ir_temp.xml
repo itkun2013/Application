@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:konsung="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IrTempActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <!--irTemp耳温趋势值-->
+        <LinearLayout
+            android:id="@+id/irtemp_trend_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/irtemp_trend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minWidth="80dp"
+                android:text="@string/irtemp_trend"
+                android:textColor="#FF9933"
+                android:textSize="30sp" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="@string/temp_high"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="@string/temp_low"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/irtemp_trend_tv"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:textColor="@color/mesu_text"
+                android:maxLength="5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="-?-"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/mesu_text"
+                android:layout_gravity="center_vertical"
+                android:text="℃"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/iv_irtemp_trend"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/alarm_high"
+                android:visibility="invisible"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:visibility="gone"
+                android:id="@+id/save_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:text="保  存"/>
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/content_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

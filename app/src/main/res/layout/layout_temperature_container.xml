@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_temp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/x_temperature"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            
+            style="@style/report_first_item_style"
+            android:paddingRight="18dp"
+            android:text="@string/x_temperature"/>
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            style="@style/report_content_style"
+            android:text="@string/default_value"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_celsius"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_temperature_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_temperature_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

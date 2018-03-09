@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/get_ecg_data_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.konsung.fragment.GetMeasureDataByPatientFragment">
+<ImageView
+    android:id="@+id/iv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <!--姓名-->
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/p_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/patient_name"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="@dimen/text_right"
+            android:paddingRight="@dimen/text_right"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:minWidth="80dp"
+            android:textSize="16sp"/>
+
+        <com.konsung.defineview.ImageTextButton
+            android:id="@+id/person_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/float_btn_color"
+            android:textColor="#ededed"
+            android:text="@string/check_person_detail"
+            android:textSize="30sp"
+            android:visibility="gone"/>
+        <com.konsung.defineview.ImageTextButton
+            android:visibility="gone"
+            android:id="@+id/jws"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/float_btn_color"
+            android:textColor="#ededed"
+            android:text="@string/detail_history"
+            android:textSize="30sp"
+            />
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/get_measure_data_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp">
+    </ListView>
+
+
+
+</FrameLayout>

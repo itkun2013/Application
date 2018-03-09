@@ -1,0 +1,2712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--UI-->
+    <string name="tips">温馨提示</string>
+    <string name="tips_detail">是否切换居民?</string>
+    <string name="pls_check_idcard">请刷身份证或健康卡!</string>
+    <string name="change_way_for_select">手动选择用户</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    <string name="no_test">未测</string>
+    <!--注册-->
+    <string name="new_register">新用户注册</string>
+    <string name="new_username">输入医生名:</string>
+    <string name="pls_password">请输入密码:</string>
+    <string name="pls_password_agin">请确认密码:</string>
+
+    <!--测试账号-->
+    <string name="test_user">admin</string>
+    <string name="test_password">0517</string>//超级管理员账户密码
+    <string name="test_common_password">0518</string>//普通测试账户密码
+
+
+    <!--新增-->
+    <string name="new_born_followup">新生儿随访</string>
+    <string name="name_no_special">姓名不允许出现特殊字符</string>
+    <string name="children_check_followup">儿童检查随访</string>
+    <string name="query_failure">查询更新失败，请检查与服务器连接是否正常</string>
+    <string name="newborn_followup_exist">新生儿随访记录已存在，不需要重复新建</string>
+    <string name="holergasia_has_checked_in">该精神病患者已经登记，不需要重复登记</string>
+    <string name="holergasia_check_in">该患者未进行重性精神疾病信息登记，请先进行登记</string>
+    <string name="patients_into_success">居民录入成功!</string>
+    <string name="verify_patients_into_success">确认录入该居民?</string>
+    <string name="name_cannot_empty">姓名不能为空!</string>
+    <string name="name_input_error">姓名输入有误，请重新输入!</string>
+    <string name="idcard_not_empty">身份证/会员卡不能同时为空!</string>
+    <string name="card_not_empty">身份证不能为空</string>
+    <string name="input_18_idcard">请输入18位身份证!</string>
+    <string name="idcard_error">身份证号码有误，请重新输入</string>
+    <string name="id_error_infoexist">身份证号码已存在，请重新输入！</string>
+    <string name="weight_illegal">体重输入的数值不合法，小数点不能出现在开头和末尾</string>
+    <string name="weight_error">体重数值不正确，应在0~250kg范围之内</string>
+    <string name="height_illegal">身高输入的数值不合法，小数点不能出现在开头和末尾</string>
+    <string name="height_erro">身高数值不正确，应在0~300cm范围之内</string>
+    <string name="ecg">心电</string>
+    <string name="spo2">血氧</string>
+    <string name="blood">血糖</string>
+    <string name="hemameba">白细胞</string>
+    <string name="purine_trione">尿酸</string>
+    <string name="blood_three">血液三项</string>
+    <string name="confirm_print">确认打印机服务端地址?</string>
+    <string name="confirm_efficacious_ip">请输入有效的IP地址</string>
+    <string name="confirm_efficacious_doman">请输入有效的域名地址</string>
+    <string name="software_update_address_not_empty">软件更新地址不能为空</string>
+    <string name="server_ip_address_not_empty">服务器IP地址不能为空</string>
+    <string name="cloud_ip_address_not_empty">云平台IP地址不能为空</string>
+    <string name="confirm_efficacious_updata">确认修改软件更新地址?</string>
+    <string name="confirm_device_config">确认修改设备配置?</string>
+    <string name="simplified_chinese">简体中文</string>
+    <string name="kazak">哈萨克语</string>
+    <string name="uygur">维吾尔语</string>
+    <string name="delete_patient">删除用户</string>
+    <string name="delete_cancel">取消删除</string>
+    <string name="patients_add">请先添加用户!</string>
+    <string name="delete_al_patient">是否删除所有选中的用户？</string>
+    <string name="exit_select_patients">是否确认退出当前用户？</string>
+    <string name="ip_cannot_empty">IP地址不能为空</string>
+    <string name="instrumentation_failure">IP地址不能为空</string>
+    <string name="confirm_modify_user">确认修改居民“</string>
+    <string name="data_question">”的数据？</string>
+    <string name="currently_modify_patient">当前正在修改用户:</string>
+    <string name="confirm_delete_user">确认删除用户“</string>
+    <string name="maternal_health_management">孕产妇健康管理</string>
+    <string name="holergasia_health_management">重性精神病管理</string>
+    <string name="health_education_activity">健康教育活动</string>
+    <string name="vaccination_services">预防接种服务</string>
+    <string name="health_supervision_service">卫生监督服务</string>
+    <string name="date_follow_noempty">随访日期不能为空</string>
+    <string name="next_date_follow_noempty">下次随访日期不能为空</string>
+    <string name="saving_waiting">正在保存...</string>
+    <string name="saving_succeed">保存成功</string>
+    <string name="saving_failed">保存失败</string>
+    <string name="saving_visit_succeed">保存随访记录成功!</string>
+    <string name="saving_visit_failure">保存随访记录失败!</string>
+    <string name="visit_this_date_noempty">本次访视日期不能为空</string>
+    <string name="visit_next_date_noempty">下次访视日期不能为空</string>
+    <string name="failure_load_medical">加载体检信息失败:</string>
+    <string name="failure_load_visit">加载随访记录失败:</string>
+    <string name="have_table_data">已有此日期的数据，请修改日期再次保存！</string>
+    <string name="initializes_abnormal_data">初始化数据时出现异常!</string>
+    <string name="day_one_data">一天只能创建一条评估记录</string>
+    <string name="health_supervision_report">卫生监督协管信息报告</string>
+    <string name="health_supervision">卫生监督协管巡查</string>
+    <string name="elderly_health_management">老年人中医药健康管理</string>
+    <string name="selected">请选择</string>
+    <string name="residents_health_measurement">请您为该居民进行健康测量</string>
+    <string name="neonatal_family_visit">新生儿家庭访视</string>
+    <string name="health_check_onesix">0~6岁儿童健康检查</string>
+    <string name="select_type">请选择随访类型</string>
+    <string name="prenatal_follow_one">第一次产前随访</string>
+    <string name="prenatal_follow_two_five">第2～5次产前随访</string>
+    <string name="saving_prenatal_follow_two_five">保存第2~5次产前随访成功</string>
+    <string name="postpartum_visit">产后访视</string>
+    <string name="postpartum_visit_forty_two">产后42天访视</string>
+    <string name="personal_information_register">重性精神疾病患者个人信息登记</string>
+    <string name="personal_information_visit">重性精神疾病患者随访服务</string>
+    <string name="select_table_type">请选择填表类型</string>
+    <string name="patient_already_register">该居民已经登记了预防接种信息，不需要重复登记
+    </string>
+    <string name="discharge_date_noempty">未出院日期不能为空</string>
+    <string name="table_date_noempty">填表日期不能为空</string>
+    <string name="query_noempty">未查询到结果</string>
+    <string name="date_format_error">解析日期格式错误</string>
+    <string name="personal_register">重型精神病患者登记</string>
+    <string name="personal_visit_records">重性精神病患者随访记录</string>
+    <string name="loading_form">正在加载表单...</string>
+    <string name="saving_postpartum_visit_forty_two">保存产后42天访视服务成功</string>
+    <string name="saving_postpartum_visit">保存产后访视服务成功</string>
+    <string name="lase_date_menstruation_error">末次月经日期格式不对，请输入正确的日期格式</string>
+    <string name="maternal_date_error">孕产期日期格式不对，请输入正确的日期格式</string>
+    <string name="existing_follow_records">已存在随访记录</string>
+    <string name="food_safety">食品安全</string>
+    <string name="drinking_water_safety">饮用水安全</string>
+    <string name="occupational_hazard">职业病危害</string>
+    <string name="school_hygiene">学校卫生</string>
+    <string name="illegal_practice_medicine">非法行医（采供血）</string>
+    <string name="activity_time_noempty">活动时间不能为空</string>
+    <string name="ventricular_tachycardia">室速</string>
+    <string name="room_slowly">室缓</string>
+    <string name="heart_rate_high">心率过高！</string>
+    <string name="heart_rate_low">心率过低！</string>
+    <string name="blood_sugar">血糖(mmol/L)</string>
+    <string name="purine_trione_mmol">尿酸(mmol/L)</string>
+    <string name="td_mmol">总胆固醇(mmol/L)</string>
+    <string name="hemoglobin">血红蛋白</string>
+    <string name="red_blood">红细胞压积值</string>
+    <string name="white_blood_cell">白细胞(10^9/L)</string>
+    <string name="heart_rate">心率(bpm)</string>
+    <string name="animal_heat">体温(℃)</string>
+    <string name="systolic_pressure">收缩压(mmHg)</string>
+    <string name="diastolic_pressure">舒张压(mmHg)</string>
+    <string name="mean_blood_pressure">平均压(mmHg)</string>
+    <string name="pulse_rate">脉率(bpm)</string>
+    <string name="blood_oxygen">血氧(%)</string>
+    <string name="check_update_soft">检查软件更新</string>
+    <string name="input_device_num">点击录入</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="modify_server_IP_address">确认修改服务器IP地址?</string>
+    <string name="modify_software_address">确认修改软件更新地址?</string>
+    <string name="modify_server_address">确认修改服务器地址?</string>
+    <string name="modify_cloud_address">确认修改云平台地址?</string>
+    <string name="connection_succeed">连接成功!</string>
+    <string name="connection_failed">连接失败!</string>
+    <string name="confirm_konsung_server">确认康尚外网服务器IP地址?</string>
+    <string name="record_download_success">健康档案下载成功！</string>
+    <string name="record_download_failed">健康档案下载失败！</string>
+    <string name="cancel_modify">取消修改</string>
+    <string name="data_uploading_print">正在上传所有数据，请稍候打印....</string>
+    <string name="dispose_print_data">正在处理中，请耐心等待打印作业完成....</string>
+    <string name="dispose_print_usb">打印机未连接，请连接打印机！</string>
+    <string name="dispose_print_port">打印失败，请检测USB连接！</string>
+    <string name="dispose_print_again">请允许应用访问Usb设备！</string>
+    <string name="dispose_print_finish">本次打印作业结束！</string>
+    <string name="dispose_print_waiting">打印开始，时间大约50秒,切勿进行其它操作，
+        请耐心等待！</string>
+    <string name="dispose_print">正在打印: </string>
+    <string name="dispose_print_failed">打印失败!</string>
+    <string name="at_least_input_one">至少输入一项进行查询</string>
+    <string name="patient_inexistence">用户不存在!</string>
+    <string name="elder_manager_service">老年人健康管理服务</string>
+    <string name="measure_report">测量报告</string>
+    <string name="heart_case0">心脏停搏</string>
+    <string name="heart_case1">室颤/室速</string>
+    <string name="heart_case2">RONT</string>
+    <string name="heart_case3">连续室性早搏</string>
+    <string name="heart_case4">两个连发室性早搏</string>
+    <string name="heart_case5">单个早搏</string>
+    <string name="heart_case6">二联律</string>
+    <string name="heart_case7">三联律</string>
+    <string name="heart_case8">室速</string>
+    <string name="heart_case9">室缓</string>
+    <string name="heart_case10">起搏器未俘获</string>
+    <string name="heart_case11">起搏器未起搏</string>
+    <string name="heart_case12">漏搏</string>
+    <string name="heart_case13">窦性心律失常</string>
+    <string name="heart_case14">室性节律</string>
+    <string name="heart_case15">心律不齐</string>
+    <string name="cannot_export">不能导出到</string>
+    <string name="target_file">目录下,请选择导出到‘内部存储’或者外部usb存储设备中</string>
+    <string name="file_exported">文件已经导出到</string>
+    <string name="complete">完成</string>
+    <string name="no_record_export">没有记录可以导出!</string>
+    <string name="at">在</string>
+    <string name="not_found_target_file">文件夹下面未找到konsung_checkdata.csv和konsung_personinfo.csv这两个文件,请选择正确的文件夹</string>
+    <string name="check_info">检查信息</string>
+    <string name="basic_info">基本信息</string>
+    <string name="inport">导入</string>
+    <string name="success">成功</string>
+    <string name="file_no_data">文件没有数据</string>
+    <string name="health_measure_test">健康测量测试</string>
+    <string name="syn_state">同步状态</string>
+    <string name="modify">修改</string>
+
+    <string name="sex">性别</string>
+    <!--登录-->
+    <string name="username">医生名:</string>
+    <string name="password">密码:</string>
+    <string name="login">登    录</string>
+    <string name="register">注    册</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">医生名或密码不正确,请重新输入</string>
+    <string name="pls_enter">请输入医生名或密码</string>
+    <string name="password_is_wrong">密码不一致</string>
+    <string name="username_is_exist">医生名已存在</string>
+    <string name="no_network">新账号,请联网登录</string>
+    <string name="congratulate_for_register">恭喜你成功注册！</string>
+
+    <string name="username_isexist_nbsp">医生名存在空格!</string>
+    <string name="password_isexist_nbsp">密码存在空格!</string>
+
+    <string name="app_name">健康一体机</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="patient">用户</string>
+    <string name="add_patient">新增用户</string>
+    <string name="show_patient_name">用户姓名</string>
+    <string name="query_patient">查询用户</string>
+    <string name="show_all_patient">全部用户</string>
+    <string name="change_patient">切换用户</string>
+    <string name="image_Description">defaultDesc</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="patient_name">姓名</string>
+    <string name="patient_type">病人类型</string>
+    <string name="patient_age">年龄</string>
+    <string name="patient_year">岁</string>
+    <string name="patient_sex">性别</string>
+    <string name="patient_blood">血型</string>
+    <string name="patient_height">身高：</string>
+    <string name="patient_weight">体重：</string>
+    <string name="patient_birthday">出生日期：</string>
+    <string name="patient_idCard">身份证</string>
+    <string name="membership_card">会员卡</string>
+    <string name="tele">电话</string>
+    <string name="address">住址</string>
+    <string name="note">备注</string>
+    <string name="patient_birthday_btn">点击选择日期</string>
+    <string name="measure_time">测量时间：</string>
+    <string name="measure_time2">测量时间</string>
+    <string name="patient_login">请登录病人</string>
+    <string name="modift_patient">修改用户</string>
+
+    <string name="image_description_health_check">健康测量</string>
+    <string name="image_description_public_administration">健康档案</string>
+    <string name="image_description_public_health">健康管理</string>
+    <string name="image_description_setting">应用设置</string>
+    <string name="system_help">帮助</string>
+    <string name="patient_detail">居民信息</string>
+    <string name="measure_detail">测量信息</string>
+    <string name="measure_story">历史回顾</string>
+    <string name="ecg_wave">心电波形回顾</string>
+    <string name="public_health">公共卫生</string>
+
+    <!--血压按钮UI-->
+    <string name="nibp_btn_start">启动测量</string>
+    <string name="nibp_btn_stop">停止测量</string>
+    <string name="nibp_test">血压测试</string>
+
+    <string name="default_value">-?-</string>
+
+    <!-- 血压-->
+    <string name="nibp_setting">血压设置</string>
+    <string name="nibbp_result_0">恭喜,测量成功!</string>
+    <string name="nibbp_result_1">测量失败,袖带太松</string>
+    <string name="nibbp_result_2">测量失败,系统漏气</string>
+    <string name="nibbp_result_3">测量失败,空气压力错</string>
+    <string name="nibbp_result_4">测量失败,信号弱</string>
+    <string name="nibbp_result_5">测量失败,测量超范围</string>
+    <string name="nibbp_result_6">测量失败,信号干扰</string>
+    <string name="nibbp_result_7">测量失败,袖带压力过大</string>
+    <string name="nibbp_result_8">测量失败,信号饱和</string>
+    <string name="nibbp_result_9">测量失败,漏气检测失败</string>
+    <string name="nibbp_result_10">测量失败,系统故障</string>
+    <string name="nibbp_result_11">测量失败,袖带类型错误</string>
+    <string name="nibbp_result_12">测量失败,测量超时</string>
+    <string name="nibp_introduction_2">2.将袖带正确捆绑在用户的上臂，袖带缠绕上臂不应太紧，以能够插入两个手指为宜。袖带上标记↓的位置应置于动脉处</string>
+    <string name="nibp_introduction_1">1.从附件包中取出血压袖带延长线，与血压袖带接好，将延长线插头插入一体机左侧的NIBP接口</string>
+    <string name="flag_down_pic">↓</string>
+    <string name="nibp_calibrate">校准</string>
+    <string name="nibp_leak_test">漏气检测</string>
+    <string name="nibp_reset">复位</string>
+    <string name="nibp_stop_calibrate">停止校准</string>
+    <string name="calibrating">正在校准</string>
+    <string name="nibp_stop_leak_test">停止漏气检测</string>
+    <string name="leak_testing">漏气检测中</string>
+    <string name="nibp_connect_healthone">连接一体机</string>
+    <string name="nibp_bind_cuff">正确捆绑袖带</string>
+    <string name="nibbp_result_13">漏气检测通过</string>
+
+    <!--ecgUI-->
+    <string name="ecg_pls_checkforline">请插入导联线</string>
+    <string name="ecg_pls_checkfordevice">请启动服务</string>
+    <string name="ecg_pls_keep_quiet_wait_check">静待启动测量</string>
+    <string name="ecg_pls_keep_quiet_while_check">测量中，请保持安静</string>
+    <string name="ecg_check_complited">恭喜，测量完成</string>
+    <string name="ecg_check_timeout">测量超时，请重新测量！</string>
+    <string name="breathe">呼吸:</string>
+    <string name="ecg_trend_btn">趋势</string>
+    <string name="ecg_wave_btn">波形</string>
+    <!--ecg参数-->
+    <string name="ecg_hr">心率:</string>
+    <string name="ecg_hr_other">心率</string>
+    <string name="qt_qtc_interval">QT/QTC间隔:</string>
+    <string name="pr_interval">PR间隔:</string>
+    <string name="p_qrs_t">P/QRS/T轴:</string>
+    <string name="qrs_interval">QRS间隔:</string>
+    <string name="rv5_sv1">RV5/SV1:</string>
+    <string name="rv5__sv1">RV5+SV1:</string>
+    <string name="ecg_diagnose_result">诊断结果:</string>
+    <string name="ecg_pvcs">PVCs</string>
+    <string name="ecg_st">ST</string>
+    <string name="ecg_diagnose">诊断</string>
+    <string name="ecg_diagnose_normal">正常心电图，窦性心律</string>
+    <string name="ecg_test">心电测试</string>
+
+
+    <string name="ecg_dg_hr">hr:</string>
+    <string name="ecg_dg_pvcs">pvcs:</string>
+    <string name="ecg_dg_st">st:</string>
+
+    <string name="ecg_title_I">I导联</string>
+    <string name="ecg_title_II">II导联</string>
+    <string name="ecg_title_III">III导联</string>
+    <string name="ecg_title_AVR">AVR导联</string>
+    <string name="ecg_title_AVL">AVL导联</string>
+    <string name="ecg_title_AVF">AVF导联</string>
+    <string name="ecg_title_V1">V1导联</string>
+    <string name="ecg_title_V">V导联</string>
+    <string name="ecg_title_V2">V2导联</string>
+    <string name="ecg_title_V3">V3导联</string>
+    <string name="ecg_title_V4">V4导联</string>
+    <string name="ecg_title_V5">V5导联</string>
+    <string name="ecg_title_V6">V6导联</string>
+
+    <string name="grid_title">25mm/s  10mm/mv  AC50</string>
+
+
+    <!--resp参数-->
+    <string name="resp_rr">RespRr:</string>
+
+    <!--spo2 UI 界面-->
+    <string name="spo2_waiting">等待测量...</string>
+    <string name="spo2_isChecking">正在测量...</string>
+    <string name="spo2_pls_put_probe">请插入血氧探头</string>
+    <string name="spo2_pls_put_finger">请将手指插入探头</string>
+    <string name="spo2_check_complited">恭喜,检测完成</string>
+    <string name="spo2_low_alarm">血氧低！</string>
+    <string name="spo2_test">血氧测试</string>
+
+    <!--spo2参数-->
+    <string name="spo2_trend">血氧:</string>
+    <string name="spo2_pr">脉率:</string>
+    <string name="spo2_ware">"血氧波"</string>
+
+    <string name="spo2_dg_trend">血氧:</string>
+    <string name="spo2_dg_pr">脉率:</string>
+    <string name="measure">重新测量</string>
+
+    <!--temp参数-->
+
+    <string name="temp_t1">T1:</string>
+    <string name="temp_t2">T2:</string>
+    <string name="temp_td">Td:</string>
+    <string name="temp_dg_t1">T1:</string>
+    <string name="temp_dg_t2">T2:</string>
+    <string name="temp_dg_td">Td:</string>
+    <string name="temp_test">体温测试</string>)
+
+    <!--IrTemp体温-->
+    <string name="irtemp_trend">体温:</string>
+    <string name="irtemp_dg_trend">体温:</string>
+    <string name="temp_title">测量中...</string>
+    <string name="temp_check_probe">请插入接触式探头</string>
+    <string name="wait_for_check">静待测量</string>
+    <string name="temp_pls_start">请启动测量</string>
+
+    <!--nibp参数-->
+    <string name="nibp">血压:</string>
+    <string name="nibp_dia">舒张压</string>
+    <string name="nibp_sys">收缩压</string>
+    <string name="nibp_dia_other">舒张压</string>
+    <string name="nibp_sys_other">收缩压</string>
+    <string name="nibp_map">平均压:</string>
+    <string name="nibp_pr">脉&#160;&#160;&#160;&#160;率:</string>
+    <string name="nibp_cuff">袖带压</string>
+
+    <!--血糖-->
+    <string name="blood_glu_trend">血糖:</string>
+    <string name="wbc_test">白细胞测试</string>
+
+    <string-array name="sex_spinner_array">
+        <item>男</item>
+        <item>女</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="blood_spinner_array">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+        <item>N</item>
+    </string-array>
+
+    <string-array name="patient_type_array">
+        <item>成人</item>
+        <item>小儿</item>
+        <item>婴幼儿</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!--urinert参数-->
+    <string name="urinert">尿常规:</string>
+    <string name="urinert_leu">白细胞(LEU):</string>
+    <string name="urinert_nit">亚硝酸盐(NIT):</string>
+    <string name="urinert_ubg">尿胆原(UBG):</string>
+    <string name="urinert_pro">蛋白质(PRO):</string>
+    <string name="urinert_pro_tv">尿蛋白:</string>
+    <string name="urinert_ph">pH值(pH):</string>
+    <string name="urinert_bld">隐血(BLD):</string>
+    <string name="urinert_bld_no">潜血(BLD)</string>
+    <string name="urinert_sg">比重(SG):</string>
+    <string name="urinert_sg_tv">比重:</string>
+    <string name="urinert_bil">胆红素(BIL):</string>
+    <string name="urinert_ket">酮体(KET):</string>
+    <string name="urinert_glu">葡萄糖(GLU):</string>
+    <string name="urinert_vc">VC:</string>
+    <string name="urinert_alb">微量白蛋白(MA):</string>
+    <string name="urinert_asc">维生素C(VC):</string>
+    <string name="urinert_asc_no">抗坏血酸(ASC)</string>
+    <string name="urinert_cre">肌酐(CRE):</string>
+    <string name="urinert_ca">尿钙(Ca):</string>
+    <string name="urinert_test">尿常规测试</string>
+
+    <!--白细胞-->
+    <string name="blood_wbc_trend">白细胞:</string>
+    <string name="bloodglu_uric_cholesterol">血糖:尿酸:总胆固醇测试</string>
+
+    <!--血红蛋白-->
+    <string name="blood_hgb_trend">血红蛋白:</string>
+    <string name="blood_hct_trend">红细胞压积值:</string>
+    <string name="blood_hgb_test">血红蛋白测试</string>
+
+    <!--尿酸-->
+    <string name="uric_acid_trend">尿酸:</string>
+
+    <!--总胆固醇-->
+    <string name="cholesterol_trend">总胆固醇:</string>
+    <!--血脂    -->
+    <string name="lipids_name">血脂</string>
+    <string name="lipids_chol">总胆固醇:</string>
+    <string name="lipids_trig">甘油三酯:</string>
+    <string name="lipids_hdl">高密度脂蛋白:</string>
+    <string name="lipids_trig_1">甘油三脂</string>
+    <string name="lipids_hdl_1">高密度脂蛋白</string>
+    <string name="lipids_ldl_1">低密度脂蛋白</string>
+    <string name="chol">CHOL</string>
+    <string name="trig">TG</string>
+    <string name="TRIG">甘油三脂</string>
+    <string name="hdl">HDL</string>
+    <string name="HHDL">高密度脂蛋白</string>
+    <string name="ldl">LDL</string>
+    <string name="lipids_ldl">低密度脂蛋白:</string>
+    <string name="lip_ldl">低密度脂蛋白</string>
+    <string name="lipids_chol_range">2.59-5.69</string>
+    <string name="lipids_trig_range">0.56-1.70</string>
+    <string name="lipids_hdl_range">0.91-2.07</string>
+    <string name="lipids_ldl_range">1.29-3.16</string>
+
+    <!--生化相关-->
+    <string name="biochemistry_name">生化</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_pls_select_patient">请先选择居民</string>
+    <string name="actionbar_pls_select_patient">请登录居民</string>
+    <string name="is_network_connecting">检测到网络，是否上传数据？</string>
+
+    <string name="create_title">温馨提示</string>
+    <string name="is_create_new_record">是否创建一条新记录？</string>
+    <string name="limit_nums">测量记录限制数:</string>
+
+    <string name="isuploading">正在上传</string>
+
+    <string name="updata_title">网络状态</string>
+    <string name="isloading">正在加载中，请稍后</string>
+    <string name="upload_failure">网络异常，请稍后重试</string>
+    <string name="net_unnormal_state">网络异常或已断开连接，请检查网络</string>
+    <string name="upload_success">上传成功</string>
+    <string name="uploading">正在上传档案，请稍候...</string>
+
+    <string name="ReUpload">重新上传</string>
+    <string name="ReDownload">重新下载</string>
+
+    <!--离线版公共卫生-->
+    <string name="personal_detail">居民健康档案</string>
+    <string name="detail_name">姓名</string>
+    <string name="detail_nums">编号</string>
+    <string name="detail_sex">性别</string>
+    <string name="detail_birthday">出生日期</string>
+    <string name="sex_unknown">未知</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="sex_unsay">未说明</string>
+    <string-array name="detail_sex">
+        <item>女</item>
+        <item>男</item>
+    </string-array>
+    <string name="detail_sex_1">未知</string>
+    <string name="detail_sex_2">男</string>
+    <string name="detail_sex_3">女</string>
+    <string name="detail_sex_4">未说明</string>
+
+    <string name="detail_idcard">身份证号</string>
+    <string name="detail_workAddress">工作单位</string>
+    <string name="detail_personalPhone">个人电话</string>
+    <string name="detail_connectUserName">联系人姓名</string>
+    <string name="detail_connectUserNums">联系人电话</string>
+    <string name="detail_live_type">常住类型</string>
+    <string-array name="detail_live_type_array">
+        <item>1.户籍</item>
+        <item>2.非户籍</item>
+    </string-array>
+
+    <string name="detail_nation">民族</string>
+    <string-array name="detail_nation_array">
+        <item>1.汉</item>
+        <item>2.少数民族</item>
+    </string-array>
+    <string name="detail_blood_type">血型</string>
+    <string-array name="detail_blood_type_array">
+        <item>A型</item>
+        <item>B型</item>
+        <item>O型</item>
+        <item>AB型</item>
+        <item>不详</item>
+    </string-array>
+    <string name="detail_blood_type_1">A型</string>
+    <string name="detail_blood_type_2">B型</string>
+    <string name="detail_blood_type_3">O型</string>
+    <string name="detail_blood_type_4">AB型</string>
+    <string name="detail_blood_type_5">不详</string>
+
+
+    <string name="detail_blood_RH">RH阴性</string>
+    <string-array name="detail_blood_RH_array">
+        <item>1.是</item>
+        <item>2.否</item>
+        <item>3.不详</item>
+    </string-array>
+
+    <string name="detail_degree_of_education">文化程度</string>
+    <string-array name="detail_degree_of_education_array">
+        <item>1.文盲及半文盲</item>
+        <item>2.小学</item>
+        <item>3.初中</item>
+        <item>4.高中/技校/中专</item>
+        <item>5.大学专科及以上</item>
+        <item>6.不详</item>
+    </string-array>
+
+    <string name="detail_career">职业</string>
+    <string-array name="detail_career_array">
+        <item>1.国家机关、党群组织、企业、事业单位负责人</item>
+        <item>2.专业技术人员</item>
+        <item>3.办事人员和有关人员</item>
+        <item>4.商业、服务业人员</item>
+        <item>5.农、林、牧、渔、水利业生产人员</item>
+        <item>6.生产、运输设备操作人员及有关人员</item>
+        <item>7.军人</item>
+        <item>8.不便分类的其他从业人员</item>
+    </string-array>
+
+    <string name="detail_maritalStatus">婚姻狀況</string>
+    <string-array name="detail_maritalStatus_array">
+        <item>1.未婚</item>
+        <item>2.已婚</item>
+        <item>3.丧偶</item>
+        <item>4.离婚</item>
+        <item>5.未说明的婚姻状况</item>
+    </string-array>
+
+    <string name="detail_payType">医疗费用支付方式</string>
+    <string name="detail_paytype_all1">
+        1.城镇职工基本医疗保险  2.城镇居民基本医疗保险  3.新型农村合作医疗  4.贫困救助
+    </string>
+    <string name="detail_paytype_all2">
+        5.商业医疗保险  6.全公费  7.全自费  8.其他—
+    </string>
+    <string-array name="detail_payType_array">
+        <item>1.城镇职工基本医疗保险</item>
+        <item>2.城镇居民基本医疗保险</item>
+        <item>3.新型农村合作医疗</item>
+        <item>4.贫困救助</item>
+        <item>5.商业医疗保险</item>
+        <item>6.全公费</item>
+        <item>7.全自费</item>
+        <item>8.其他</item>
+    </string-array>
+
+    <string name="detail_history_allergy">药物过敏史</string>
+    <string name="detail_history_allergy_all">1.无  2.青霉素  3.磺胺  4.链霉素  5.其他—</string>
+    <string-array name="detail_history_allergy">
+        <item>1.无</item>
+        <item>2.青霉素</item>
+        <item>3.磺胺</item>
+        <item>4.链霉素</item>
+        <item>5.其他</item>
+    </string-array>
+
+    <string name="detail_history_expose">暴露史</string>
+    <string name="detail_history_expose_all">1.无  2.化学品  3.毒药  4.射线</string>
+    <string-array name="detail_history_expose">
+        <item>1.无</item>
+        <item>2.化学品</item>
+        <item>3.毒药</item>
+        <item>4.射线</item>
+    </string-array>
+
+    <string name="detail_history">既往史</string>
+    <string name="detail_history_disease">疾病</string>
+    <string name="detail_history_disease_all_1">1.无  2.高血压  3.糖尿病  4.冠心病  5.慢性阻塞性肺疾病  6.恶性肿瘤—</string>
+    <string name="detail_history_disease_all_2">7.脑卒中  8.重性精神疾病  9.结核病  10.肝炎  11.其他法定传染病</string>
+    <string name="detail_history_disease_all_3">12.职业病—</string>
+    <string name="detail_history_disease_all_4">13.其他—</string>
+
+    <string-array name="detail_history_disease_array">
+        <item>1.无</item>
+        <item>2.高血压</item>
+        <item>3.糖尿病</item>
+        <item>4.冠心病</item>
+        <item>5.慢性阻塞性肺疾病</item>
+        <item>6.恶性肿瘤</item>
+        <item>7.脑卒中</item>
+        <item>8.重性精神疾病</item>
+        <item>9.结核病</item>
+        <item>10.肝炎</item>
+        <item>11.其他法定传染病</item>
+        <item>12.职业病</item>
+        <item>13.其他</item>
+    </string-array>
+
+    <string name="detail_history_operation">手术</string>
+    <string-array name="detail_history_operation_sp">
+        <item>1.无</item>
+        <item>2.有</item>
+    </string-array>
+    <string name="detail_history_operation_1">名称</string>
+    <string name="detail_history_operation_2">时间</string>
+    <string name="detail_history_operation_3">名称</string>
+
+    <string name="detail_history_trauma">外伤</string>
+    <!--外伤内容如手术-->
+
+    <string name="detail_history_transfusion">输血</string>
+    <string name="detail_history_transfusion_1">原因</string>
+    <string name="detail_history_transfusion_2">时间</string>
+    <string name="detail_history_transfusion_3">原因</string>
+
+    <string name="detail_history_disease_time">确诊时间:</string>
+
+    <string name="detail_history_home">家族史</string>
+    <string name="detail_history_home_father">父亲</string>
+    <string name="detail_history_home_mother">母亲</string>
+    <string name="detail_history_home_brother">兄弟姐妹</string>
+    <string name="detail_history_home_child">子女</string>
+    <!--疾病如既往史-&#45;&#45;疾病，附加两条-->
+    <string name="detail_history_home_disease_string1">1.无  2.高血压  3.糖尿病  4.冠心病  5.慢性阻塞性肺疾病  6.恶性肿瘤  7.脑卒中</string>
+    <string name="detail_history_home_disease_string2">8.重性精神疾病  9.结核病  10.肝炎  11.先天畸形  12.其他—</string>
+
+    <string-array name="detail_history_home_disease">
+        <item>1.无</item>
+        <item>2.高血压</item>
+        <item>3.糖尿病</item>
+        <item>4.冠心病</item>
+        <item>5.慢性阻塞性肺疾病</item>
+        <item>6.恶性肿瘤</item>
+        <item>7.脑卒中</item>
+        <item>8.重性精神疾病</item>
+        <item>9.结核病</item>
+        <item>10.肝炎</item>
+        <item>11.先天畸形</item>
+        <item>12.其他</item>
+    </string-array>
+
+    <string name="detail_history_disease_inherited">遗传病史</string>
+    <string name="detail_history_disease_inherited_name">疾病名称</string>
+
+    <string name="detail_history_disease_disability">残疾情况</string>
+    <string name="detail_history_disease_disability_string1">1.无残疾  2.视力残疾  3.听力残疾  4.言语残疾  5.肢体残疾  6.智力残疾</string>
+    <string name="detail_history_disease_disability_string2">7.精神残疾  8.其他残疾—</string>
+    <string name="detail_history_disease_disability_string3">  </string>
+    <string-array name="detail_history_disease_disability">
+        <item>1.无残疾</item>
+        <item>2.视力残疾</item>
+        <item>3.听力残疾</item>
+        <item>4.言语残疾</item>
+        <item>5.肢体残疾</item>
+        <item>6.智力残疾</item>
+        <item>7.精神残疾</item>
+        <item>8.其他残疾</item>
+    </string-array>
+    <string name="detail_history_livingEnvironment">生活环境</string>
+    <string name="detail_history_livingEnvironment_kitchen">厨房排风</string>
+    <string-array name="detail_history_livingEnvironment_kitchen_array">
+        <item>1.无</item>
+        <item>2.油烟机</item>
+        <item>3.换气扇</item>
+        <item>4.烟囱</item>
+    </string-array>
+    <string name="detail_history_livingEnvironment_fuelType">燃料类型</string>
+    <string-array name="detail_history_livingEnvironment_fuelType_array">
+        <item>1.液化气</item>
+        <item>2.煤</item>
+        <item>3.天然气</item>
+        <item>4.沼气</item>
+        <item>5.柴火</item>
+        <item>6.其他</item>
+    </string-array>
+    <string name="detail_history_livingEnvironment_drinkingWater">饮水</string>
+    <string-array name="detail_history_livingEnvironment_drinkingWater_array">
+        <item>1.自來水</item>
+        <item>2.经净化过滤的水</item>
+        <item>3.井水</item>
+        <item>4.河湖水</item>
+        <item>5.塘水</item>
+        <item>6.其他</item>
+    </string-array>
+    <string name="detail_history_livingEnvironment_toilet">厕所</string>
+    <string-array name="detail_history_livingEnvironment_toilet_array">
+        <item>1.卫生厕所</item>
+        <item>2.一格或两格粪池式</item>
+        <item>3.马桶</item>
+        <item>4.露天粪坑</item>
+        <item>5.简易棚厕</item>
+    </string-array>
+    <string name="detail_history_livingEnvironment_livestock">禽畜栏</string>
+    <string-array name="detail_history_livingEnvironment_livestock_array">
+        <item>1.单设</item>
+        <item>2.室内</item>
+        <item>3.室外</item>
+    </string-array>
+    <!--健康测量-->
+    <string name="health_table">体检表</string>
+    <string name="health_num">编号</string>
+    <string name="health_name">姓名</string>
+    <string name="health_measure_time">体检日期</string>
+    <string name="health_measure_doctor">责任医生</string>
+    <string name="health_symptom">症状</string>
+    <string name="health_symptom_string1">1.无症状  2.头痛  3.头晕  4.心悸  5.胸闷  6.胸痛  7.慢性咳嗽  8.咳痰  9.呼吸困难</string>
+    <string name="health_symptom_string2">10.多饮  11.多尿  12.体重下降  13.乏力  14.关节疼痛  15.视力模糊  16.手脚麻木</string>
+    <string name="health_symptom_string3">17.尿急  18.尿痛  19.便秘  20.腹泻  21.恶心呕吐  22.眼花  23.耳鸣  24.乳房胀痛</string>
+    <string name="health_symptom_string4">25.其他</string>
+    <string-array name="health_sympton_array">
+        <item>1.无症状</item>
+        <item>2.头痛</item>
+        <item>3.头晕</item>
+        <item>4.心悸</item>
+        <item>5.胸闷</item>
+        <item>6.胸痛</item>
+        <item>7.慢性咳嗽</item>
+        <item>8.咳痰</item>
+        <item>9.呼吸困难</item>
+        <item>10.多饮</item>
+        <item>11.多尿</item>
+        <item>12.体重下降</item>
+        <item>13.乏力</item>
+        <item>14.关节疼痛</item>
+        <item>15.视力模糊</item>
+        <item>16.手脚麻木</item>
+        <item>17.尿急</item>
+        <item>18.尿痛</item>
+        <item>19.便秘</item>
+        <item>20.腹泻</item>
+        <item>21.恶心呕吐</item>
+        <item>22.眼花</item>
+        <item>23.耳鸣</item>
+        <item>24.乳房胀痛</item>
+        <item>25.其他</item>
+    </string-array>
+    <string name="health_simple">一般状况</string>
+    <string name="health_temp">体温</string>
+    <string name="health_pr">脉率</string>
+    <string name="health_breathing">呼吸频率</string>
+    <string name="health_bloothglu">血压</string>
+    <string name="health_height">身高:</string>
+    <string name="health_weight">体重:</string>
+    <string name="health_waistline">腰围</string>
+    <string name="health_physique">体质指数(BMI)</string>
+    <string name="health_status_evaluation">老年人健康状态自我评估*</string>
+    <string-array name="health_status_evaluation_array">
+        <item>1.满意</item>
+        <item>2.基本满意</item>
+        <item>3.说不清楚</item>
+        <item>4.不太满意</item>
+        <item>5.不满意</item>
+    </string-array>
+    <string name="health_self_evaluation">老年人生活自理能力自我评估*</string>
+    <string-array name="health_self_evaluation_array">
+        <item>1.可自理(0-3分)</item>
+        <item>2.轻度依赖(4-8分)</item>
+        <item>3.中度依赖(9-18分)</item>
+        <item>4.不能依赖(≧19分)</item>
+    </string-array>
+    <string name="health_cognitive_ability">老年人认知能力*</string>
+    <string name="health_cognitive_ability_score">简单智力状态检查，总分:</string>
+    <string name="health_emotion_status">老年人情感状态*</string>
+    <string name="health_depressed_score">老年人抑郁评分检查，总分:</string>
+
+    <string-array name="health_ability_level">
+        <item>1.粗筛阴性</item>
+        <item>2.粗筛阳性</item>
+    </string-array>
+
+    <string name="health_liveStyle">生活方式</string>
+    <string name="health_liveStyle_exercise">体育锻炼</string>
+    <string name="health_liveStyle_exercise_1">锻炼频率</string>
+    <string-array name="health_liveStyle_exercise_1_array">
+        <item>1.每天</item>
+        <item>2.每周一次以上</item>
+        <item>3.偶尔</item>
+        <item>4.不锻炼</item>
+    </string-array>
+    <string name="health_liveStyle_exercise_2">每次锻炼时间</string>
+    <string name="health_liveStyle_exercise_3">坚持锻炼时间</string>
+    <string name="health_liveStyle_exercise_4">锻炼方式</string>
+
+    <string name="health_liveStyle_food">饮食习惯</string>
+    <string name="health_liveStyle_food_string">1.荤素均衡  2.荤食为主  3.素食为主
+    4.嗜盐  5.嗜油  6.嗜糖
+    </string>
+    <string-array name="health_liveStyle_food">
+        <item>1.荤素均衡</item>
+        <item>2.荤食为主</item>
+        <item>3.素食为主</item>
+        <item>4.嗜盐</item>
+        <item>5.嗜油</item>
+        <item>6.嗜糖</item>
+    </string-array>
+    <string name="health_liveStyle_smoke">吸烟情况</string>
+    <string name="health_liveStyle_smoke_status">吸烟状况</string>
+    <string-array name="health_liveStyle_smoke_status_array">
+        <item>1.从不吸烟</item>
+        <item>2.已戒烟</item>
+        <item>3.吸烟</item>
+
+    </string-array>
+    <string name="health_liveStyle_smoke_average">日吸烟量</string>
+    <string name="health_liveStyle_smoke_average_1">平均</string>
+    <string name="health_liveStyle_smoke_average_2">支</string>
+    <string name="health_liveStyle_smoke_begin">开始吸烟年龄</string>
+    <string name="health_liveStyle_smoke_remove">戒烟年龄</string>
+
+
+    <string name="health_liveStyle_drinking">饮酒情况</string>
+    <string name="health_liveStyle_drinking_num">饮酒频率</string>
+    <string-array name="health_liveStyle_drinking_array">
+        <item>1.每天</item>
+        <item>2.偶尔</item>
+        <item>3.经常</item>
+        <item>4.每天</item>
+    </string-array>
+    <string name="health_liveStyle_drinking_day">日饮酒量</string>
+    <string name="health_liveStyle_drinking_isrm">是否戒酒</string>
+    <string-array name="health_liveStyle_drinking_isrm_array">
+        <item>1.未戒酒</item>
+        <item>2.已戒酒</item>
+    </string-array>
+    <string name="health_liveStyle_drinking_rmage"> 戒酒年龄</string>
+    <string name="health_liveStyle_drinking_begin">开始饮酒年龄</string>
+    <string name="health_liveStyle_drinking_more">近一年是否有醉酒</string>
+    <string name="health_liveStyle_drinking_type">饮酒种类</string>
+    <string name="health_liveStyle_drinking_what">1.白酒  2.啤酒  3.红酒  4.黄酒  5.其他—</string>
+
+
+    <string name="health_liveStyle_job">工种</string>
+    <string name="health_liveStyle_worktime">从业时间</string>
+    <string name="health_liveStyle_drug">毒物种类</string>
+    <string name="health_liveStyle_drug_dust">粉尘</string>
+    <string name="health_liveStyle_drug_radiation">放射物质</string>
+    <string name="health_liveStyle_physics">物理因素</string>
+    <string name="health_liveStyle_chemistry">化学物质</string>
+    <string name="health_liveStyle_other">其他</string>
+    <string name="health_liveStyle_protect">防护措施</string>
+    <string-array name="noOrYes">
+        <item>1.是</item>
+        <item>2.否</item>
+    </string-array>
+    <string-array name="yesOrno">
+        <item>1.否</item>
+        <item>2.是</item>
+    </string-array>
+    <string-array name="ifhave">
+        <item>1.无</item>
+        <item>2.有</item>
+    </string-array>
+
+    <string name="health_liveStyle_occupational">职业病危害因素接触史</string>
+    <string name="health_mouth">口腔</string>
+    <string name="health_mouth_lips">口唇</string>
+    <string-array name="health_mouth_lips_array">
+        <item>1.红润</item>
+        <item>2.苍白</item>
+        <item>3.发绀</item>
+        <item>4.皲裂</item>
+        <item>5.疱疹</item>
+    </string-array>
+    <string name="health_mouth_dentition">齿列</string>
+    <string-array name="health_mouth_dentition_array">
+        <item>1.正常</item>
+        <item>2.缺齿</item>
+        <item>3.龋齿</item>
+        <item>4.义齿(假牙)</item>
+
+    </string-array>
+
+    <string name="health_mouth_pharyngeal">咽部</string>
+    <string-array name="health_mouth_pharyngeal_array">
+        <item>1.无充血</item>
+        <item>2.充血</item>
+        <item>3.淋巴滤泡增生</item>
+    </string-array>
+    <string name="health_vision">视力</string>
+    <string name="health_vision_left">左眼</string>
+    <string name="health_vision_right">右眼</string>
+    <string name="health_vision_correct">矫正视力:</string>
+
+    <string name="health_hearing">听力</string>
+    <string-array name="health_hearing_array">
+        <item>1.听见</item>
+        <item>2.听不清或无法听见</item>
+    </string-array>
+    <string name="health_sport">运动功能</string>
+    <string-array name="health_sport_array">
+        <item>1.可顺利完成</item>
+        <item>2.无法独立完成其中任何一个动作</item>
+    </string-array>
+
+    <string name="health_eyeground">眼底</string>
+    <string-array name="health_eyeground">
+        <item>1.正常</item>
+        <item>2.异常</item>
+    </string-array>
+
+    <string name="health_skin">皮肤</string>
+    <string-array name="health_skin_array">
+        <item>1.正常</item>
+        <item>2.潮红</item>
+        <item>3.苍白</item>
+        <item>4.发绀</item>
+        <item>5.黄染</item>
+        <item>6.色素沉着</item>
+        <item>7.其他</item>
+    </string-array>
+
+    <string name="health_sclera">巩膜</string>
+    <string-array name="health_sclera_array">
+        <item>1.正常</item>
+        <item>2.黄染</item>
+        <item>3.充血</item>
+        <item>4.其他</item>
+    </string-array>
+    <string name="health_lymphonodus">淋巴结</string>
+    <string-array name="health_lymphonodus">
+        <item>1.未触及</item>
+        <item>2.锁骨上</item>
+        <item>3.腋窝</item>
+        <item>4.其他</item>
+    </string-array>
+    <string name="health_lung">肺</string>
+    <string name="health_olung">桶状胸</string>
+    <string name="health_breathvoice">呼吸音</string>
+    <string name="health_breath">呼吸:</string>
+    <string name="health_rale">罗音</string>
+    <string-array name="health_rale_array">
+        <item>1.无</item>
+        <item>2.干罗音</item>
+        <item>3.湿罗音</item>
+        <item>4.其他</item>
+    </string-array>
+
+    <string name="health_heart">心脏</string>
+    <string name="health_heart_pr">心率</string>
+    <string name="health_rhythm">心律</string>
+    <string name="health_heart_other">杂音</string>
+    <string-array name="health_rhythm">
+        <item>1.齐</item>
+        <item>2.不齐</item>
+        <item>3.绝对不齐</item>
+    </string-array>
+    <string name="health_abdomen">腹部</string>
+    <string name="health_press">压痛</string>
+    <string name="health_block">包块</string>
+    <string name="health_hepatomegaly">肝大</string>
+    <string name="health_splenomegaly">脾大</string>
+    <string name="health_shift">移动性浊音</string>
+    <string name="health_edema">下肢水肿</string>
+    <string-array name="health_edema_stringt">
+        <item>1.无</item>
+        <item>2.单侧</item>
+        <item>3.双侧不对称</item>
+        <item>4.双侧对称</item>
+    </string-array>
+    <string name="health_foot_pr">足背动脉搏动</string>
+    <string-array name="health_foot_pr_string">
+        <item>1.未触及</item>
+        <item>2.触及双侧对称</item>
+        <item>3.触及左侧弱或消失</item>
+        <item>4.触及右侧或消失</item>
+    </string-array>
+    <string name="health_ass">肛门指诊</string>
+    <string-array name="health_add_array">
+        <item>1.未及异常</item>
+        <item>2.触痛</item>
+        <item>3.包块</item>
+        <item>4.前列腺异常</item>
+        <item>5.其他</item>
+    </string-array>
+
+    <string name="health_breast">乳腺</string>
+    <string name="health_breast_string1">1.未见异常  2.乳房切除  3.异常泌乳  4.乳腺包块</string>
+    <string name="health_breast_string2">5.其他—</string>
+    <string-array name="issomethingworry">
+        <item>1.未见异常</item>
+        <item>2.异常</item>
+    </string-array>
+    <string name="health_gynaexology">妇科</string>
+    <string name="health_vulvae">外阴</string>
+    <string name="health_vagina">阴道</string>
+    <string name="health_uterus">宫颈</string>
+    <string name="health_vbody">宫体</string>
+    <string name="health_attachment">附件</string>
+    <string name="health_vother">其他*</string>
+
+    <string name="health_routine">血常规</string>
+    <string name="health_hemoglobin">血红蛋白</string>
+    <string name="health_leukocyte">白细胞</string>
+    <string name="health_platelet">血小板</string>
+    <string name="health_cother">其他</string>
+    <string name="health_urine">尿常规</string>
+    <string name="health_pro">尿蛋白</string>
+    <string name="health_glu">尿糖</string>
+    <string name="health_ace">尿酮体</string>
+    <string name="health_otb">尿潜血</string>
+    <string name="health_uother">其他</string>
+
+    <string name="health_fastglu">空腹血糖</string>
+    <string name="health_ecg">心电图</string>
+    <string name="health_little_pro">尿微量白蛋白</string>
+    <string name="health_fob">大便潜血</string>
+    <string-array name="health_fob_array">
+        <item>1.阴性</item>
+        <item>2.阳性</item>
+    </string-array>
+    <string name="health_gh">糖化血红蛋白</string>
+    <string name="healht_hb">乙型肝炎表面抗原</string>
+
+    <string name="health_liver">肝功能</string>
+    <string name="health_sgpt">血清谷丙转氨酶</string>
+    <string name="health_sgot">血清谷草转氨酶</string>
+    <string name="health_xpro">白蛋白</string>
+    <string name="health_tb">总胆红素</string>
+    <string name="health_cb">结合胆红素</string>
+
+    <string name="health_renal">肾功能</string>
+    <string name="health_scr">血清肌酐</string>
+    <string name="health_bun">血尿素氮</string>
+    <string name="health_km">血钾浓度</string>
+    <string name="health_nn">血钠浓度</string>
+
+    <string name="health_bfat">血脂</string>
+    <string name="health_ct">总胆固醇</string>
+    <string name="health_gt">甘油三脂</string>
+    <string name="health_lowt">血清低密度脂蛋白胆固醇</string>
+    <string name="health_hight">血清高密度脂蛋白胆固醇</string>
+    <string name="health_breaseX">胸部X线片</string>
+    <string name="health_b">B超</string>
+    <string name="health_vbodyc">宫颈涂片</string>
+    <string name="health_checkother">其他</string>
+    <string name="health_cnph">平和质</string>
+    <string name="health_cnqx">气虚质</string>
+    <string name="health_cnyangxu">阳虚质</string>
+    <string name="health_cnyinxu">阴虚质</string>
+    <string name="health_cntans">痰湿质</string>
+    <string name="health_cnshir">湿热质</string>
+    <string name="health_cnxuey">血瘀质</string>
+    <string name="health_cnqiy">气郁质</string>
+    <string name="health_cnteb">特秉质</string>
+    <string-array name="health_cn_string_j">
+        <item>1.是</item>
+        <item>2.基本是</item>
+    </string-array>
+    <string-array name="health_cn_string_q">
+        <item>1.是</item>
+        <item>2.倾向是</item>
+    </string-array>
+    <string name="health_cere">脑血管疾病</string>
+    <string name="health_cere_string1">1.未发现  2.缺血性卒中  3.脑出血  4.蛛网膜下腔出血</string>
+    <string name="health_cere_string2">5.短暂性脑缺血  6.其他—</string>
+    <string name="health_renal_disease">肾脏疾病</string>
+    <string name="health_renal_disease_string1">1.未发现  2.糖尿病肾病  3.肾功能衰竭  4.急性肾炎</string>
+    <string name="health_renal_disease_string2">5.慢性肾炎  6.其他—</string>
+    <string name="health_heart_disease">心脏疾病</string>
+    <string name="health_heart_disease_string1">1.未发现  2.心肌梗死  3.心绞痛  4.冠状动脉血运重建</string>
+    <string name="health_heart_disease_string2">5.充血性心力  6.心前区疼痛  7.其他—</string>
+    <string name="health_bloodvessel">血管疾病</string>
+    <string name="health_bloodvessel_string1">1.未发现  2.夹层动脉瘤  3.动脉闭塞性疾病</string>
+    <string name="health_bloodvessel_string2">4.其他—</string>
+
+    <string name="health_eye">眼部疾病</string>
+    <string name="health_eye_string1">1.未发现  2.视网膜出血或渗出  3.视乳头水肿  4.白内障</string>
+    <string name="health_eye_string2">5.其他—</string>
+
+    <string name="health_nervous">神经系统疾病</string>
+    <string-array name="health_get">
+        <item>1.未发现</item>
+        <item>2.有</item>
+    </string-array>
+    <string name="health_sys_disease">其他系统疾病</string>
+
+    <string name="health_hospital_detail">住院治疗情况</string>
+    <string name="health_hospital">住院史</string>
+    <string name="health_hospital_indate">入院日期</string>
+    <string name="health_hospital_outdate">出院日期</string>
+    <string name="health_hospital_reason">原因</string>
+    <string name="health_hospital_name">医疗机构名称</string>
+    <string name="health_hospital_num">病案号</string>
+
+    <string name="health_home">家庭病床史</string>
+    <string name="health_home_create">建床日期</string>
+    <string name="health_home_delete">撤床日期</string>
+    <string name="health_home_reason">原因</string>
+
+    <string name="health_drug_detail">主要用药情况</string>
+    <string name="health_drug_madicine">药物名称</string>
+    <string name="health_drug_usage">用法</string>
+    <string name="health_drug_dosage">用量</string>
+    <string name="health_drug_time">用药时间</string>
+    <string name="health_drug_range">服药依从性</string>
+    <string-array name="health_drug_range">
+        <item>1.规律</item>
+        <item>2.间断</item>
+        <item>3.不服药</item>
+    </string-array>
+    <string name="health_vaccine">非免疫规划预防接种史</string>
+    <string name="health_vaccine_name">名称</string>
+    <string name="health_vaccine_date">接种时间</string>
+    <string name="health_vaccine_hospital">接种机构</string>
+
+    <string name="health_evaluation">健康评价</string>
+    <string name="health_err1">异常1</string>
+    <string name="health_err2">异常2</string>
+    <string name="health_err3">异常3</string>
+    <string name="health_err4">异常4</string>
+
+    <string name="health_guide">健康指导</string>
+    <string name="health_guide_string">1.纳入慢性病患者管理  2.建议复查  3.建议转诊</string>
+    <string name="health_risk">危险因素控制</string>
+    <string name="health_risk_string">1.戒酒  2.健康饮酒  3.饮食  4.锻炼</string>
+    <string name="health_risk_string2">5.减体重</string>
+    <string name="health_risk_string3">6.建议接种疫苗</string>
+    <string name="health_risk_other">7.其他</string>
+
+    <!--新生儿-->
+    <string name="children_table">儿童健康管理</string>
+
+    <!--高血压患者随访服务记录表-->
+    <string name="hypertension_table">高血压患者随访服务记录</string>
+    <string name="hypertension_num">编号</string>
+    <string name="hypertension_name">姓名</string>
+    <string name="hypertension_date">随访日期</string>
+    <string name="hypertension_way">随访方式</string>
+    <string-array name="hypertension_way_arry">
+        <item>1.门诊</item>
+        <item>2.家庭</item>
+        <item>3.电话</item>
+    </string-array>
+    <string name="hypertension_symptom">症状</string>
+    <string name="hypertension_symptom_string1">1.无症状  2.头痛头晕  3.恶心呕吐  4.眼花耳鸣  5.呼吸困难  6.心悸胸闷  7.鼻衄出血不止  8.四肢发麻  9.下肢水肿</string>
+    <string name="hypertension_symptom_string2">10.其他</string>
+    <string-array name="hypertension_sympton_array">
+        <item>1.无症状</item>
+        <item>2.头痛头晕</item>
+        <item>3.恶心呕吐</item>
+        <item>4.眼花耳鸣</item>
+        <item>5.呼吸困难</item>
+        <item>6.心悸胸闷</item>
+        <item>7.鼻衄出血不止</item>
+        <item>8.四肢发麻</item>
+        <item>9.下肢水肿</item>
+        <item>10.其他</item>
+    </string-array>
+    <string name="hypertension_sign">体征</string>
+    <string name="hypertension_nibp">血压（mmHg）</string>
+    <string name="hypertension_weight">体重（kg）</string>
+    <string name="hypertension_bmi">体质指数</string>
+    <string name="hypertension_hr">心率</string>
+    <string name="hypertension_other">其他</string>
+    <string name="hypertension_next_date">下次随访日期</string>
+
+    <!--2型糖尿病患者随访服务记录表-->
+    <string name="diabetes_table">Ⅱ型糖尿病患者随访服务记录</string>
+    <string name="diabetes_num">编号</string>
+    <string name="diabetes_name">姓名</string>
+    <string name="diabetes_date">随访日期</string>
+    <string name="diabetes_way">随访方式</string>
+    <string-array name="diabetes_way_arry">
+        <item>1.门诊</item>
+        <item>2.家庭</item>
+        <item>3.电话</item>
+    </string-array>
+    <string name="diabetes_symptom">症状</string>
+    <string name="diabetes_symptom_string1">1.无症状  2.多饮  3.多食  4.多尿  5.视力模糊  6.感染  7.手脚麻木  8.下肢浮肿  9.体重明显下降</string>
+    <string name="diabetes_symptom_string2">10.其他</string>
+    <string-array name="diabetes_sympton_array">
+        <item>1.无症状</item>
+        <item>2.多饮</item>
+        <item>3.多食</item>
+        <item>4.多尿</item>
+        <item>5.视力模糊</item>
+        <item>6.感染</item>
+        <item>7.手脚麻木</item>
+        <item>8.下肢浮肿</item>
+        <item>9.体重明显下降</item>
+        <item>10.其他</item>
+    </string-array>
+    <string name="diabetes_sign">体征</string>
+    <string name="diabetes_nibp">血压（mmHg）</string>
+    <string name="diabetes_weight">体重（kg）</string>
+    <string name="diabetes_bmi">体质指数</string>
+    <string name="diabetes_pulse">足背动脉搏动</string>
+    <string name="diabetes_other">其他</string>
+    <string name="diabetes_next_date">下次随访日期</string>
+
+
+    <string name="next_page">下一页</string>
+    <string name="previous_page">上一页</string>
+
+    <string name="age">岁</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="min">分</string>
+    <string name="g">两</string>
+
+    <string name="save">保存</string>
+
+    <string name="num1">①</string>
+    <string name="num2">②</string>
+    <string name="num3">③</string>
+    <string name="num4">④</string>
+    <string name="num5">⑤</string>
+    <string name="num6">⑥</string>
+    <string name="num7">⑦</string>
+    <string name="num8">⑧</string>
+
+    <string-array name="mm_list">
+        <item>5mm/s</item>
+        <item>6.25mm/s</item>
+        <item>10mm/s</item>
+        <item>12.5mm/s</item>
+        <item>25mm/s</item>
+        <item>50mm/s</item>
+    </string-array>
+
+    <string-array name="xx_list">
+        <item>x0.25</item>
+        <item>x0.5</item>
+        <item>x1</item>
+        <item>x2</item>
+        <item>自动</item>
+    </string-array>
+
+    <string name="health_unit_or">或</string>
+    <string name="health_unit_degree">℃</string>
+    <string name="health_unit_x9">×10^9/L</string>
+    <string name="unit_wbc">10^9/L</string>
+    <string name="health_unit_cm">cm</string>
+    <string name="health_unit_kg">kg</string>
+    <string name="health_unit_kgm">kg/㎡</string>
+    <string name="health_unit_mmhg">mmHg</string>
+    <string name="health_unit_pia">次/分钟</string>
+    <string name="health_unit_mol">mmol/L</string>
+    <string name="health_unit_umol">μmol/L</string>
+    <string name="health_unit_dl">mg/dL</string>
+    <string name="health_unit_gdl">g/dL</string>
+    <string name="health_unit_ul">U/L</string>
+    <string name="health_unit_gl">g/L</string>
+    <string name="health_uhnit_umol">umol/L</string>
+    <string name="no_patient">请登录居民</string>
+    <string name="offline">检测到当前正处于离线状态，转入离线页面</string>
+    <string name="offline_admin">网络未连接，请连接网络</string>
+    <string name="saving">正在保存数据，请勿切换页面</string>
+    <string name="saved">数据已保存</string>
+    <string name="pls_checkfornum">编号尚未填写，请填写编号</string>
+    <string name="pls_write">请输入您要添加的内容</string>
+    <string name="add">新增</string>
+    <string name="new_add">添加</string>
+    <string name="download">下载</string>
+    <string name="network_is_down">没网络连接，请检查网络</string>
+
+    <string name="youcannotaddanymore">你不能添加更多的选择了，请点击上方已添加的项取消选择</string>
+
+    <string name="crash_down">很抱歉,程序出现异常,正在收集日志，即将退出</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="check_person_detail">查看个人信息</string>
+    <string name="check_wave">查看波形</string>
+    <string name="print_report">打印报告</string>
+
+    <!--<string name="unknown">未知的性别</string>-->
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="undeclare">未说明的性别</string>
+    <string name="setting">设置</string>
+    <string name="ecg_setting">心电配置</string>
+    <string name="ecg_mm">波形速率:</string>
+    <string name="ecg_xx">波形增幅:</string>
+    <string name="language">语言:</string>
+    <string-array name="language_array">
+        <item>简体中文</item>
+        <item>哈萨克语</item>
+        <item>维吾尔语</item>
+    </string-array>
+    <string name="printer_ip_address">打印机IP地址:</string>
+    <string name="temp_type">体温类型</string>
+    <string name="urine_type">尿机类型</string>
+    <string-array name="temp_type_array">
+        <item>接触式</item>
+        <item>红外</item>
+    </string-array>
+    <string-array name="urine_type_array">
+        <item>11项</item>
+        <item>14项</item>
+    </string-array>
+    <string name="infrared">红外</string>
+    <string name="contact">接触式</string>
+
+    <!--定义设备配置时的设备名称-->
+    <string name="device_config">设备配置</string>
+    <string name="ksm5">KSM5</string>
+    <string name="empui">EmpUi</string>
+    <string name="ga7">GA7</string>
+    <string name="ida007">IDA007</string>
+    <string name="htd8819">HTD8819</string>
+    <string name="th809">TH809</string>
+    <string name="bene_check_glu">BeneCheckGlu</string>
+    <string name="bene_check">BeneCheck</string>
+    <string name="ogm111">OGM111</string>
+    <string name="urit31">URIT-31</string>
+    <string name="mission_u120">Mission U120</string>
+    <string name="hemo_cue_wbc">HemoCue WBC</string>
+    <string name="hemo_cue_hb">HemoCue Hb</string>
+    <string name="urit12">URIT-12</string>
+    <string name="mission_hb">Mission Hb</string>
+    <string name="beiwen1">BeiWen(usb转串口)</string>
+    <string name="beiwen2">BeiWen(指定串口)</string>
+
+    <!-- 参数配置-->
+    <string-array name="quickSet">
+        <item>血氧</item>
+        <item>血压</item>
+        <item>体温</item>
+        <item>血液三项</item>
+        <item>血红蛋白</item>
+        <item>显示11项</item>
+        <item>血脂</item>
+        <item>14项</item>
+        <item>糖化</item>
+        <item>bmi</item>
+        <item>白细胞</item>
+    </string-array>
+    <string name="param_config">参数配置</string>
+    <string name="save_param_config">保存参数配置</string>
+    <string name="save_config">是否对当前参数配置修改保存</string>
+    <string name="param_ecg">心电</string>
+    <string name="param_spo2">血氧</string>
+    <string name="pram_blood_pressure">血压</string>
+    <string name="param_temp">体温</string>
+    <string name="param_more">血糖、尿酸、总胆固醇</string>
+    <string name="param_urine_11">尿常规11项</string>
+    <string name="param_urine_14">尿常规14项</string>
+    <string name="param_blogin">血红蛋白</string>
+    <string name="param_sugar_blogin">糖化血红蛋白</string>
+    <string name="param_blood_4">血脂四项</string>
+    <string name="param_blood_commom">血常规</string>
+    <string name="param_blood_3">血球三分类</string>
+    <string name="param_blood_5">血球五分类</string>
+    <string name="param_white">白细胞</string>
+    <string name="param_bmi">BMI</string>
+    <string name="param_bmi_other">BMI:</string>
+    <string name="param_phisic">生化分析仪</string>
+    <string name="param_blood_fat_ccm">CCM111</string>
+
+    <!--<string name="pulltosd"-->
+    <!--老年人评估-->
+    <string name="elder_table">老年人自理能力评估</string>
+    <string name="evaluation_date">评估日期</string>
+    <string name="evaluation_title">评估事项、内容与评分</string>
+    <string name="meal">（1）进餐：使用餐具将饭菜送入口、咀嚼、吞咽等活动</string>
+    <string name="meal_0">1>可自理   (独立完成 评分：0 分)</string>
+    <string name="meal_1">2>轻度依赖 (一     评分：0 分)</string>
+    <string name="meal_2">3>中度依赖 (需要协助，如切碎、搅拌食物等 评分：3 分)</string>
+    <string name="meal_3">4>不能自理 (完全需要帮助 评分：5 分)</string>
+
+    <string name="wash">（2）梳洗：梳头、洗脸、刷牙、剃须洗澡等活动</string>
+    <string name="wash_0">1>可自理   (独立完成 评分：0 分)</string>
+    <string name="wash_1">2>轻度依赖 (能独立地洗头、梳头、洗脸、刷牙、剃须等；洗澡需要协助    评分：1 分)</string>
+    <string name="wash_2">3>中度依赖 (在协助下和适当的时间内，能完成部分梳洗活动 评分：3 分)</string>
+    <string name="wash_3">4>不能自理 (完全需要帮助 评分：7 分)</string>
+
+    <string name="wear">（3）穿衣：穿衣裤、袜子、鞋子等活动</string>
+    <string name="wear_0">1>可自理   (独立完成 评分：0 分)</string>
+    <string name="wear_1">2>轻度依赖 (一    评分：0 分)</string>
+    <string name="wear_2">3>中度依赖 (需要协助，在适当的时间内完成部分穿衣 评分：3 分)</string>
+    <string name="wear_3">4>不能自理 (完全需要帮助 评分：5 分)</string>
+
+    <string name="toilet">（4）如厕：小便、大便等活动及自控</string>
+    <string name="toilet_0">1>可自理   (不需协助，可自控 评分：0 分)</string>
+    <string name="toilet_1">2>轻度依赖 (偶尔失禁，但基本上能如厕或使用便具   评分：1 分)</string>
+    <string name="toilet_2">3>中度依赖 (经常失禁，在很多提示和协助下尚能如厕或使用便具 评分：5 分)</string>
+    <string name="toilet_3">4>不能自理 (完全失禁，完全需要帮助 评分：10 分)</string>
+
+    <string name="activity">（5）活动：站立、室内行走、上下楼梯、户外活动</string>
+    <string name="activity_0">1>可自理   (独立完成所有活动 评分：0 分)</string>
+    <string name="activity_1">2>轻度依赖 (借助较小的外力或辅助装置能完成站立、行走、上下楼梯等   评分：1 分)</string>
+    <string name="activity_2">3>中度依赖 (借助较大的外力才能完成站立、行走，不能上下楼梯 评分：5 分)</string>
+    <string name="activity_3">4>不能自理 (卧床不起，活动完全需要帮助 评分：10 分)</string>
+
+
+    <!--产妇-->
+    <string-array name="dishistory">
+        <item>1 无</item>
+        <item>2 心脏病</item>
+        <item>3 肾脏疾病</item>
+        <item>4 肝脏疾病</item>
+        <item>5 高血压</item>
+        <item>6 贫血</item>
+    </string-array>
+
+
+    <string-array name="type1">
+        <item>没有(根本不/从来没有) 1分</item>
+        <item>很少(有一点/偶尔) 2分</item>
+        <item>有时(有些/少数时间) 3分</item>
+        <item>经常(相当/多数时间) 4分</item>
+        <item>总是(非常/每天) 5分</item>
+    </string-array>
+
+    <string name="type1_1">没有(根本不/从来没有) 1分</string>
+    <string name="type1_2">很少(有一点/偶尔) 2分</string>
+    <string name="type1_3">有时(有些/少数时间) 3分</string>
+    <string name="type1_4">经常(相当/多数时间) 4分</string>
+    <string name="type1_5">总是(非常/每天) 5分</string>
+
+    <string name="type2_1">没有(根本不/从来没有) 1分(一年＜2次)</string>
+    <string name="type2_2">很少(有一点/偶尔) 2分(一年感冒2-4次)</string>
+    <string name="type2_3">有时(有些/少数时间) 3分(一年感冒5-6次)</string>
+    <string name="type2_4">经常(相当/多数时间) 4分(一年8次以上)</string>
+    <string name="type2_5">总是(非常/每天) 5分(几乎每月都感冒)</string>
+
+    <string name="type3_1">没有(根本不/从来没有) 1分(BMI＜24)</string>
+    <string name="type3_2">很少(有一点/偶尔) 2分(24≤BMI＜25)</string>
+    <string name="type3_3">有时(有些/少数时间) 3分(25≤BMI＜26)</string>
+    <string name="type3_4">经常(相当/多数时间) 4分(26≤BMI＜28)</string>
+    <string name="type3_5">总是(非常/每天) 5分(BMI≥28)</string>
+
+    <string name="type4_1">没有(根本不/从来没有) 1分(腹围＜80cm，相当于2.4尺)</string>
+    <string name="type4_2">很少(有一点/偶尔) 2分(腹围80-85cm，2.4-2.55尺)</string>
+    <string name="type4_3">有时(有些/少数时间) 3分(腹围86-90cm，2.56-2.7尺)</string>
+    <string name="type4_4">经常(相当/多数时间) 4分(腹围91-105cm，2.71-3.15尺)</string>
+    <string name="type4_5">总是(非常/每天) 5分(腹围>105cm或3.15尺)</string>
+
+    <string name="type5_1">没有(根本不/从来没有) 1分(从来没有)</string>
+    <string name="type5_2">很少(有一点/偶尔) 2分(一年1、2次)</string>
+    <string name="type5_3">有时(有些/少数时间) 3分(一年3、4次)</string>
+    <string name="type5_4">经常(相当/多数时间) 4分(一年5、6次)</string>
+    <string name="type5_5">总是(非常/每天) 5分(每次遇到上述原因都过敏)</string>
+
+
+    <string name="q1">(1)您精力充沛吗？（指精神头足，乐于做事）</string>
+    <string name="q2">(2)您容易疲乏吗？（指体力如何，是否稍微活动一下或做一点家务劳动就感到累)</string>
+    <string name="q3">(3)您容易气短，呼吸短促，接不上气吗？</string>
+    <string name="q4">(4)您说话声音低弱无力吗?（指说话没有力气）</string>
+    <string name="q5">(5)您感到闷闷不乐、情绪低沉吗?（指心情不愉快，情绪低落）</string>
+    <string name="q6">(6)您容易精神紧张、焦虑不安吗?（指遇事是否心情紧张）</string>
+    <string name="q7">(7)您因为生活状态改变而感到孤独、失落吗？</string>
+    <string name="q8">(8)您容易感到害怕或受到惊吓吗?</string>
+    <string name="q9">(9)您感到身体超重不轻松吗?(感觉身体沉重)[BMI指数=体重（kg）/身高2（m）]</string>
+    <string name="q10">(10)您眼睛干涩吗?</string>
+    <string name="q11">(11)您手脚发凉吗?（不包含因周围温度低或穿的少导致的手脚发冷）</string>
+    <string name="q12">(12)您胃脘部、背部或腰膝部怕冷吗？（指上腹部、背部、腰部或膝关节等，有一处或多处怕冷）</string>
+    <string name="q13">(13)您比一般人耐受不了寒冷吗？（指比别人容易害怕冬天或是夏天的冷空调、电扇等）</string>
+    <string name="q14">(14)您容易患感冒吗?（指每年感冒的次数）</string>
+    <string name="q15">(15)您没有感冒时也会鼻塞、流鼻涕吗?</string>
+    <string name="q16">(16)您有口粘口腻，或睡眠打鼾吗？</string>
+    <string name="q17">(17)您容易过敏(对药物、食物、气味、花粉或在季节交替、气候变化时)吗?</string>
+    <string name="q18">(18)您的皮肤容易起荨麻疹吗? (包括风团、风疹块、风疙瘩)</string>
+    <string name="q19">(19)您的皮肤在不知不觉中会出现青紫瘀斑、皮下出血吗?（指皮肤在没有外伤的情况下出现青一块紫一块的情况）</string>
+    <string name="q20">(20)您的皮肤一抓就红，并出现抓痕吗?（指被指甲或钝物划过后皮肤的反应）</string>
+    <string name="q21">(21)您皮肤或口唇干吗?</string>
+    <string name="q22">(22)您有肢体麻木或固定部位疼痛的感觉吗？</string>
+    <string name="q23">(23)您面部或鼻部有油腻感或者油亮发光吗?（指脸上或鼻子）</string>
+    <string name="q24">(24)您面色或目眶晦黯，或出现褐色斑块/斑点吗?</string>
+    <string name="q25">(25)您有皮肤湿疹、疮疖吗？</string>
+    <string name="q26">(26)您感到口干咽燥、总想喝水吗？</string>
+    <string name="q27">(27)您感到口苦或嘴里有异味吗?（指口苦或口臭）</string>
+    <string name="q28">(28)您腹部肥大吗?（指腹部脂肪肥厚）</string>
+    <string name="q29">(29)您吃(喝)凉的东西会感到不舒服或者怕吃(喝)凉的东西吗？（指不喜欢吃凉的食物，或吃了凉的食物后会不舒服）</string>
+    <string name="q30">(30)您有大便黏滞不爽、解不尽的感觉吗?(大便容易粘在马桶或便坑壁上)</string>
+    <string name="q31">(31)您容易大便干燥吗?</string>
+    <string name="q32">(32)您舌苔厚腻或有舌苔厚厚的感觉吗?（如果自我感觉不清楚可由调查员观察后填写）</string>
+    <string name="q33">(33)您舌下静脉瘀紫或增粗吗？（可由调查员辅助观察后填写）</string>
+
+    <string name="flag_1">是</string>
+    <string name="flag_2">倾向是</string>
+
+    <string name="guid_1">1.情志调摄</string>
+    <string name="guid_2">2.饮食调养</string>
+    <string name="guid_3">3.起居调摄</string>
+    <string name="guid_4">4.运动保健</string>
+    <string name="guid_5">5.穴位保健</string>
+    <string name="guid_6">6.其他：</string>
+    <string name="name">姓名</string>
+    <string name="guardianName">监护人姓名</string>
+    <string name="patientRelationName">与患者关系</string>
+    <string name="guardianAdd">监护人地址</string>
+    <string name="guardianTel">监护人电话</string>
+    <string name="neighName">辖区村（居）委会联系人</string>
+    <string name="neighTel">辖区村（居）委会联系人电话</string>
+    <string name="joinManagerCode">知情同意</string>
+    <string name="joinManagerCode_1">1 同意参加管理</string>
+    <string name="joinManagerCode_2">2 不同意参加管理</string>
+    <string name="signatory">签字：</string>
+    <string name="signTime">签字时间</string>
+    <string name="firstAttackDate">初次发病时间</string>
+    <string name="historyMasterSymptomCode">既往主要症状</string>
+    <string name="historyMasterSymptomCode_1">1 幻觉</string>
+    <string name="historyMasterSymptomCode_2">2 交流困难</string>
+    <string name="historyMasterSymptomCode_3">3 猜疑</string>
+    <string name="historyMasterSymptomCode_4">4 喜怒无常</string>
+    <string name="historyMasterSymptomCode_5">5 行为怪异</string>
+    <string name="historyMasterSymptomCode_6">6 兴奋话多</string>
+    <string name="historyMasterSymptomCode_7">7 伤人毁物</string>
+    <string name="historyMasterSymptomCode_8">8 悲观厌世</string>
+    <string name="historyMasterSymptomCode_9">9 无故外走</string>
+    <string name="historyMasterSymptomCode_10">10 自语自笑</string>
+    <string name="historyMasterSymptomCode_11">11 孤僻懒散</string>
+    <string name="historyMasterSymptomCode_12">12 其他</string>
+    <string name="jwzlqk">既往治疗情况</string>
+    <string name="historyOutCure">门诊</string>
+    <string name="historyOutCure_1">1 未治</string>
+    <string name="historyOutCure_2">2 间断门诊治疗</string>
+    <string name="historyOutCure_3">3 连续门诊治疗</string>
+    <string name="historyoutFiAntiCureDate">首次抗精神病药治疗时间：</string>
+    <string name="inhp">住院</string>
+    <string name="holergasiadept">曾住精神专科医院/综合医院精神专科</string>
+    <string name="times">次</string>
+    <string name="diagnosis_situation">目前诊断情况</string>
+    <string name="diagnosis">诊断</string>
+    <string name="diagnoseho">确诊医院</string>
+    <string name="diagnoseDate">确诊日期</string>
+    <string name="recentlyCureEffect">最近一次治疗效果</string>
+    <string name="recentlyCureEffect_1">1 痊愈</string>
+    <string name="recentlyCureEffect_2">2 好转</string>
+    <string name="recentlyCureEffect_3">3 无变化</string>
+    <string name="recentlyCureEffect_4">4 加重</string>
+    <string name="socialImpact">患病对家庭社会的影响</string>
+    <string name="mildTrouble">轻度滋事</string>
+    <string name="trouble">肇事</string>
+    <string name="autolesion">自伤</string>
+    <string name="suicide">自杀未遂</string>
+    <string name="closeLock">关锁情况</string>
+    <string name="closeLockCode_1">1 无关锁</string>
+    <string name="closeLockCode_2">2 关锁</string>
+    <string name="closeLockCode_3">3 关锁已解除</string>
+    <string name="economicConditions">经济状况</string>
+    <string name="economicConditionsCode_1">1 贫困，在当地贫困线标准以下</string>
+    <string name="economicConditionsCode_2">2 非贫困</string>
+    <string name="economicConditionsCode_3">3 不详</string>
+    <string name="collegeDoctorSuggest">专科医生的意见(如果有请记录)</string>
+    <string name="reportDate">填表日期</string>
+    <string name="dutyDoctorName">医生签字</string>
+    <string name="holergasiaInfoNumber">编号</string>
+    <string name="followUpDate">随访日期</string>
+    <string name="nowSymptom">目前症状</string>
+    <string name="insight">自知力</string>
+    <string name="sleep">睡眠情况</string>
+    <string name="food">饮食情况</string>
+    <string name="life">个人生活料理</string>
+    <string name="housework">家务劳动</string>
+    <string name="work">生产劳动及工作</string>
+    <string name="study">学习能力</string>
+    <string name="interpersonal">社会人际交往</string>
+    <string name="lastLeaveHosDate">末次出院时间</string>
+    <string name="nextFollowUpDate">下次随访日期</string>
+    <string name="followUpDoctorName">随访医生签名</string>
+    <string name="refresh_title">软件更新</string>
+    <string name="refresh_net_fail">访问服务器失败</string>
+    <string name="refresh_net_timeout">访问服务器超时</string>
+    <string name="refresh_hint">任务正在下载中...</string>
+    <string name="refresh_new">最新版本:</string>
+    <string name="refresh_desc">已是最新版本/有最新版本软件升级</string>
+    <string name="refresh_net_progress">正在连接服务器.....</string>
+    <string name="refresh_doload_fail">下载失败，请重新下载</string>
+    <string name="refresh_no_net">网络未连接，提示用户连接网络</string>
+    <string name="memory_not_full">内存不足，请清理内存空间</string>
+
+    <string name="login_fail_no">此用户未注册</string>
+    <string name="password_isexist_special">无法填写特殊字符</string>
+    <string name="password_isexist_repet">该密码已被注册</string>
+    <string name="health_unit_bpm">bpm</string>
+    <string name="health_unit_rpm">rpm</string>
+    <string name="coding_repeat">不支持重新录入</string>
+    <string name="coding_sucess">录入成功</string>
+    <string name="upload_is">已是最新版本</string>
+    <string name="app_new_version">健康一体机当前已经是最新版本，无需下载</string>
+    <string name="device_new_version">AppDevice当前已经是最新版本，无需下载</string>
+    <string name="csb_new_version">参数板当前已经是最新版本，无需下载</string>
+    <string name="upload_no_data">没有查询到更新</string>
+
+    <!--数据库操作异常描述-->
+    <string name="save_failed">保存失败,保存对象为空!</string>
+    <string name="delete_failed">删除失败,业务主键为空!</string>
+    <string name="query_failed">查询失败,业务主键为空!</string>
+    <string name="no_record">没有找到此记录</string>
+    <string name="save_failed_followup">保存失败, 孕产妇产前随访对象为空!</string>
+    <string name="save_failed_followup_twotofive">保存失败, 孕产妇第2~5次随访对象为空!</string>
+    <string name="save_failed_followup_after">保存失败, 孕产妇产后随访对象为空!</string>
+    <string name="save_failed_follow42">保存失败, 孕产妇产后42天随访对象为空!</string>
+
+    <!--卫生监督服务表-->
+    <string name="select_date">点击选择日期</string>
+    <string name="found_time">发现时间不能为空</string>
+    <string name="info_type">信息类别不能为空</string>
+    <string name="report_time">报告时间不能为空</string>
+    <string name="report_epm_name">报告人不能为空</string>
+    <string name="save_success">保存成功</string>
+    <string name="inspection_date">巡查时间不能为空</string>
+    <string name="inspection_address">巡查地点不能为空</string>
+    <string name="inspection_content">巡查内容不能为空</string>
+    <string name="inspection_emp_name">巡查人不能为空</string>
+
+    <!--fileselect-->
+    <string name="back_root_directory">返回根目录..</string>
+    <string name="back_before">返回上一层..</string>
+    <string name="inside_save">内部存储</string>
+    <string name="hint_info">提示信息</string>
+    <string name="dialog_message_out">请将文件导出至内部存储或外接USB设备中</string>
+    <string name="dialog_message_in">请将内部存储或外接USB设备中的文件导入至本应用</string>
+
+    <!--IdCardUtil-->
+    <string name="id_error_info1">身份证号码长度应该为15位或18位!</string>
+    <string name="id_error_info2">身份证15位号码都应为数字 ; 18位号码除最后一位外，都应为数字!</string>
+    <string name="id_error_info3">身份证生日无效!</string>
+    <string name="id_error_info4">身份证生日不在有效范围!</string>
+    <string name="id_error_info5">身份证月份无效!</string>
+    <string name="id_error_info6">身份证日期无效!</string>
+    <string name="id_error_info7">身份证地区编码错误!</string>
+    <string name="id_error_info8">身份证无效，不是合法的身份证号码!</string>
+
+    <!--PopupPatientWindowBuilder-->
+    <string name="query_wait">正在查询，请稍候...</string>
+    <string name="load_failed">数据加载失败！</string>
+    <string name="data_clean">数据已全部清空...</string>
+    <string name="create_test_data">正在生成1000条测试数据，请稍候...</string>
+    <string name="check_network">请检查您的网络连接!</string>
+    <string name="search_download">请先搜索您要下载的居民!</string>
+    <string name="downloading">正在下载所有数据，请稍候!</string>
+    <string name="download_success">数据下载成功</string>
+    <string name="download_patient_empty">请选择居民下载</string>
+    <string name="download_patient_ok">居民下载成功</string>
+    <string name="no_data_upload">无数据需要上传!</string>
+    <string name="data_uploading">正在上传所有数据，请稍候....</string>
+    <string name="data_upload_success">上传成功!</string>
+    <string name="exit">医生退出</string>
+
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="login_failed_check">登录失败，请检查您的网络连接！</string>
+    <string name="admin_username">用户名</string>
+    <string name="admin_password">密码</string>
+    <string name="vendor_number">厂商编号</string>
+    <string name="security_code">验证码</string>
+    <string name="employee_id">职员ID</string>
+    <string name="employee_name">职员姓名</string>
+    <string name="org_number">机构编码</string>
+    <string name="load_success_continue">登录成功，您可以继续您的操作！</string>
+    <string name="load_failed_data_exception">登录失败:服务器返回数据格式异常！</string>
+    <string name="load_failed_communication">登录失败:与服务器通信失败！</string>
+    <string name="loading_wait">正在登录，请稍候...</string>
+    <string name="query_condition">请输入查询条件！</string>
+    <string name="data_load_failed">数据加载失败，服务器返回数据格式异常！</string>
+    <string name="data_communication_failed">数据加载失败，与服务器通信失败！</string>
+    <string name="querying_wait">正在查询，请稍候...</string>
+    <string name="downloading_all_data">正在下载所有数据，请稍候!</string>
+    <string name="data_download_success">数据下载成功！系统已自动忽略身份证无效居民</string>
+    <string name="db_version">数据库版本</string>
+    <string name="create_success">生产完毕</string>
+    <string name="create_data_300">生产300数据</string>
+    <string name="operator">操作</string>
+    <string name="read_card_error">读卡错误,请检查连接</string>
+    <string name="idcard_default">kangsong</string>
+
+    <string name="confirm_efficacious_ip_port">端口不合法</string>
+    <string name="ip_configure_port">端口:</string>
+
+    <string name="ip_configure_null">数据不能为空</string>
+    <string name="modify_cloud_IP_address">确定要修改云平台地址</string>
+    <string name="modification">修改</string>
+    <string name="refresh_auto_hint">您启用了自动更新，后台正在检查，请稍后重试手动更新!</string>
+    <string name="loading">正在加载请稍等...</string>
+    <string name="data_fail">数据解析问题</string>
+    <string name="refresh_soft">软件更新</string>
+    <string name="data_clean_success">清除数据</string>
+    <string name="storage_limits">存储数据多，请清除不必要的测量数据</string>
+    <string name="delete_max">选择居民最多10条</string>
+    <string name="updata_sussess">   上传成功</string>
+    <string name="auto_upload_success">自动上传成功</string>
+    <string name="auto_upload_failure">自动上传失败</string>
+    <string name="util">条测量记录</string>
+    <string name="updata_fail">同步数据失败，请检查网络连接</string>
+    <string name="totil_count">总共有</string>
+    <string name="upload_timeout">连接服务器超时</string>
+    <string name="upload_server_fail">服务器连接失败</string>
+    <string name="upload_no_meause">用户没有进行测量</string>
+    <string name="updata_fail_result">上传结果</string>
+    <string name="data_upload_fail">上传失败</string>
+    <string name="pantient_util">个居民</string>
+    <string name="loading_data">\"正在上传[ \"</string>
+    <string name="loading_data_end">\" ]，请稍候...\"</string>
+    <string name="tepy">病人类型</string>
+    <string name="zero">0</string>
+    <string name="doctor_name">检查医生 ：</string>
+    <string name="uploaded">已上传</string>
+    <string name="unUpload">未上传</string>
+    <string name="tip_choose_pdf">必须选取PDF格式的帮助文件</string>
+    <string name="tip_import_pdf_ok">导入帮助文档成功</string>
+    <string name="tip_help_pdf_empty">暂时还没有帮助文档，请导入！</string>
+    <string name="dialog_message_help_in">请选择你要导入的帮助文档</string>
+    <string name="idcard">身份证：</string>
+    <string name="serial">序号</string>
+    <string name="check_doctor">检查医生</string>
+    <string name="check_time">检查时间</string>
+    <string name="updata_state">是否上传</string>
+    <string name="confirm_delete_measure">确定删除此条记录</string>
+    <string name="confirm_delete_selete">确定删除选择数据</string>
+    <string name="updata_loading">正在同步数据..........</string>
+    <string name="right_ip">请输入正确的ip</string>
+    <string name="right_ip_port">端口不能为空</string>
+    <string name="tip_pdf_file_error">解析pdf文件出错</string>
+    <string name="tip_empt_help_file">暂时没有帮助文档</string>
+
+    <string-array name="unit_list">
+        <item>日</item>
+        <item>月</item>
+        <item>年</item>
+    </string-array>
+
+    <string name="finish_measure_saved">完成此次体检并保存</string>
+    <string name="mode_two">模式2</string>
+    <string name="medical_examination_report">体检报告</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_fail">导出失败</string>
+    <string name="reversion_text">版本描述：</string>
+    <string name="back">返回</string>
+    <string name="background_uploading">正在后台同步数据........</string>
+    <string name="sync_sucess">同步完成</string>
+    <string name="x_page_pre">上一页</string>
+    <string name="x_page_next">下一页</string>
+    <string-array name="medical_compliance_list">
+        <item>规律</item>
+        <item>间断</item>
+        <item>不服药</item>
+    </string-array>
+
+    <string name="is_frist_page">已经是第一页了</string>
+    <string name="is_last_page">已经是最后一页了</string>
+    <string name="totle_page">总共%1$s页</string>
+    <string name="select_page_number">选择页数</string>
+    <string name="repeate_download">重新下载</string>
+    <string name="is_repeate_app">是否重新下载升级软件</string>
+    <string name="please_input_user">请输入用户</string>
+    <string name="before_eat">空腹</string>
+    <string name="random">随机</string>
+    <string name="late_eat">餐后</string>
+    <string name="waist">腰围：</string>
+    <string name="hipline">臀围：</string>
+    <string name="waist_illegal">腰围输入的数值不合法，小数点不能出现在开头和末尾</string>
+    <string name="hip_illegal">臀围输入的数值不合法，小数点不能出现在开头和末尾</string>
+    <string name="height_waist">腰围数值不正确，应在0~150cm范围之内</string>
+    <string name="height_hip">臀围数值不正确，应在0~150cm范围之内</string>
+    <string name="tip_sex_cant_change">性别不能修改</string>
+    <string name="tip_name_cant_change">姓名不能修改</string>
+    <string name="tip_idcard_cant_change">身份证号码不能修改</string>
+    <string name="tip_memshipcard_cant_change">会员卡号不能修改</string>
+    <string name="into_check_date">请输入查询时间！</string>
+
+    <string name="v_measure_normal">"    -"</string>
+    <string name="empty_value">""</string>
+
+    <string name="negative">-</string>
+    <string name="unknown_value">-?-</string>
+
+    <!--体检报告页面 start-->
+    <string name="x_report">健康体检报告</string>
+    <string name="x_check_ecg">查看心电图</string>
+    <string name="x_report_name">姓名：</string>
+    <string name="x_sex">性别：</string>
+    <string name="x_ecg_no_measure">心电还未测量</string>
+    <string name="x_report_name_temp">张三</string>
+    <string name="x_report_age_temp">26</string>
+    <string name="x_report_age">年龄：</string>
+    <string name="x_report_doctor">医生：</string>
+    <string name="x_report_doctor_temp">李四</string>
+    <string name="x_measure_time">体检时间：</string>
+    <string name="x_measure_time_temp">"2016-6-26 16:24:24"</string>
+    <string name="x_ur">尿常规</string>
+    <string name="x_project_name">项目名称</string>
+    <string name="measure_result">检查结果</string>
+    <string name="x_measure_unit">单位</string>
+    <string name="x_preference_value">参考值</string>
+    <string name="x_tip">提示</string>
+    <string name="leu">白细胞</string>
+    <string name="_1_02">"-?-"</string>
+    <string name="x_measure_unit_normal">-</string>
+    <string name="alb">白蛋白</string>
+    <string name="bil">胆红素</string>
+    <string name="asc">维生素C</string>
+    <string name="asc2">抗坏血酸</string>
+    <string name="ket">酮体</string>
+    <string name="cre">尿肌酐</string>
+    <string name="bld">潜血</string>
+    <string name="bld2">隐血</string>
+    <string name="ubg">尿胆原</string>
+    <string name="pro">蛋白质</string>
+    <string name="glu">血糖</string>
+    <string name="sg">比重</string>
+    <string name="nit">亚硝酸盐</string>
+    <string name="ph">pH值</string>
+    <string name="ca">尿钙</string>
+    <string name="x_measure_unit_mg">mg/L</string>
+    <string name="x_measure_alb_reference">10-30</string>
+    <string name="x_measure_unit_mmol">mmol/L</string>
+    <string name="x_measure_cre_reference">-</string>
+    <string name="x_measure_sg_reference">1.015-1.025</string>
+    <string name="x_measure_ph_reference">5.0-8.5</string>
+    <string name="x_measure_ca_reference">1.0-10</string>
+    <string name="bo">血氧</string>
+    <string name="x_bo">血氧</string>
+    <string name="_97">"-?-"</string>
+    <string name="x_measure_unit_percent">%</string>
+    <string name="x_measure_bo_reference">94-100</string>
+    <string name="pr">脉率</string>
+    <string name="x_measure_unit_bpm">bpm</string>
+    <string name="x_measure_pr_reference">50-120</string>
+    <string name="x_bp">血压</string>
+    <string name="shrink_pressure">收缩压</string>
+    <string name="x_measure_unit_mmHg">mmHg</string>
+    <string name="x_measure_shrink_reference">90-140</string>
+    <string name="spread_pressure">舒张压</string>
+    <string name="_78">"-?-"</string>
+    <string name="x_measure_spread_reference">60-90</string>
+    <string name="average_pressure">平均压</string>
+    <string name="x_measure_average_pressure_reference">60-110</string>
+    <string name="x_temperature">体温</string>
+    <string name="_368">"-?-"</string>
+    <string name="x_measure_unit_celsius">℃</string>
+    <string name="x_measure_temperature_reference">36.2-37.2</string>
+    <string name="x_bs">血糖</string>
+    <string name="_5">"-?-"</string>
+    <string name="x_measure_bs_reference">2.77-7.0</string>
+    <string name="x_measure_ns_reference">0.2-0.42</string>
+    <string name="x_measure_td_reference">0.0-5.2</string>
+    <string name="x_conclusion_advice">结论及建议</string>
+    <string name="x_report_title">健康体检报告</string>
+    <string name="x_heart_pic_report">心电图报告</string>
+    <string name="x_district_temp">江西省吉安市吉安县敦厚镇百旺村卫生室</string>
+    <string name="glustyle_0">血糖(空腹)</string>
+    <string name="glustyle_1">血糖(随机)</string>
+    <string name="glustyle_2">血糖(餐后)</string>
+    <string name="x_btn_print">打印报告</string>
+    <string name="title_ecg">心率</string>
+    <string name="lipids_chol_title">总胆固醇</string>
+    <string name="lipids_trig_title">甘油三酯</string>
+    <string name="lipids_hdl_title">高密度脂蛋白</string>
+    <string name="lipids_ldl_title">低密度脂蛋白</string>
+    <string name="p_ca">尿钙（Ca）</string>
+    <string name="p_cre">肌酐（CRE）</string>
+    <string name="p_ma">微量白蛋白（MA）</string>
+    <string name="uri_cre_reference">10-300</string>
+
+    <string name="t_date_check_err">下次随访日期和产检日期输入有误，请检查（注意：下次随访日期不得早于产检日期）</string>
+    <string name="refresh_loading">正在查询最新版本...</string>
+    <string name="add_child_success">增加新生儿表单成功</string>
+    <string name="delet_child_success">删除新生儿表单成功</string>
+    <string name="deliveryWeek">分娩孕周</string>
+    <string name="weightTarget_is_probrm">目标重值有问题 超出范围-999.99~999.99</string>
+    <string name="one">1</string>
+    <string name="delete_success">删除一条记录</string>
+    <string name="add_success">增加一条记录</string>
+    <string name="no_add_success">增加记录达到最大上限</string>
+    <string name="medicalcomepliance1">1 规律</string>
+    <string name="medicalcomepliance2">2 间断</string>
+    <string name="medicalcomepliance3">3 不服药</string>
+    <string name="add_scuss">高血压专项档案建立成功</string>
+    <string name="adress_no">软件更新地址非法,请重新填写软件更新地址</string>
+    <string name="aspf_no">阿氏评分输入的值不合法 超出范围-999.99~999.99</string>
+    <string name="frist_ManagerChild">请先上传孕产妇分娩表</string>
+    <string name="frist_managerPartumVisit">请先上传产后访视表</string>
+    <string name="spo2_height_alarm">血氧高!</string>
+    <string name="seleced_year">请选择查询年份</string>
+    <string name="ns_vlaues">0.149-0.417</string>
+    <string name="zdgc_vlaues">2.86-5.98</string>
+    <string name="V6">V6</string>
+    <string name="V5">V5</string>
+    <string name="V4">V4</string>
+    <string name="V3">V3</string>
+    <string name="V2">V2</string>
+    <string name="V1">V1</string>
+    <string name="avr">RA</string>
+    <string name="avl">LA</string>
+    <string name="current_is_new_version">当前已经是最新版本，无需下载</string>
+    <string name="doload_fished">下载完成</string>
+    <string name="app_devce_name">AppDevice</string>
+    <string name="loading_refresh">正在后台下载</string>
+    <string name="doload_dataing">下载了</string>
+    <string name="query_no">没有查询到记录</string>
+    <string name="avf"> LL</string>
+    <string name="ecg_pls_checkforline1">请插入导联线</string>
+    <string name="x_ecg">心电图</string>
+    <string name="p_name">姓名：</string>
+    <string name="p_idcard">身份证号：</string>
+    <string name="p_measuretime">测量时间：</string>
+    <string name="p_xinnv">"心率: "</string>
+    <string name="p_bpm">bpm</string>
+    <string name="p_QT">"QT/QTC间隔: "</string>
+    <string name="p_ms">" ms"</string>
+    <string name="p_pr">"PR间隔: "</string>
+    <string name="p_PQRSt">"P/QRS/T轴: "</string>
+    <string name="p_qrs">"QRS间隔: "</string>
+    <string name="p_rvsv">"RV5/SV1: "</string>
+    <string name="x_unit_d">" °"</string>
+    <string name="p_unit_mv">" mV"</string>
+    <string name="p_rvsv1">"RV5+SV1: "</string>
+    <string name="p_diagnose">"诊断结果: "</string>
+    <string name="p_xueyang">血氧</string>
+    <string name="p_mainv">脉率</string>
+    <string name="p_shousuoya">收缩压</string>
+    <string name="p_shuzhangya">舒张压</string>
+    <string name="p_pingjunya">平均压</string>
+    <string name="p_temprature">体温</string>
+    <string name="p_blood_glu">血糖</string>
+    <string name="p_baixibao">白细胞</string>
+    <string name="p_leu">LEU</string>
+    <string name="p_bld">BLD</string>
+    <string name="p_nit">NIT</string>
+    <string name="p_ket">KET</string>
+    <string name="p_ubg">UBG</string>
+    <string name="p_bil">BIL</string>
+    <string name="p_pro">PRO</string>
+    <string name="p_glu">GLU</string>
+    <string name="p_ph">PH</string>
+    <string name="p_vc">VC</string>
+    <string name="p_sg">SG</string>
+    <string name="p_sex">性别：</string>
+    <string name="p_measure_time">体检时间：</string>
+    <string name="p_age">年龄：</string>
+    <string name="p_doc">医生：</string>
+    <string name="p_report_print">报告打印：</string>
+    <string name="hr_reference_range">60-100</string>
+    <string name="p_50120">50-120</string>
+    <string name="p_unit_percentage">%</string>
+    <string name="p_94100">94-100</string>
+    <string name="p_90100">90-100</string>
+    <string name="p_4050">40-50</string>
+    <string name="p_xueya">血压</string>
+    <string name="p_unit_mmhg">mmHg</string>
+    <string name="p_90140">90-140</string>
+    <string name="p_60110">60-110</string>
+    <string name="p_5090">60-90</string>
+    <string name="p_temperature">体温</string>
+    <string name="p_unit_c">℃</string>
+    <string name="p_temp_range">36.2-37.2</string>
+    <string name="p_unit_mmol">mmol/L</string>
+    <string name="p_4_7">4.0-7.0</string>
+    <string name="p_2_7">3.9-7.2</string>
+    <string name="p_2_11">0.0-10.0</string>
+    <string name="p_ur">尿常规</string>
+    <string name="p_baixibao1">白细胞（LEU）</string>
+    <string name="p_qianxue">潜血（BLD）</string>
+    <string name="p_yaxiaosuanyan">亚硝酸盐（NIT）</string>
+    <string name="p_dongti">酮体（KET）</string>
+    <string name="p_niaodanyuan">尿胆原（UBG）</string>
+    <string name="p_danhongsu">胆红素（BIL）</string>
+    <string name="p_danbaizhi">蛋白质（PRO）</string>
+    <string name="p_putaotang">葡萄糖（GLU）</string>
+    <string name="p_suanjianzhi">pH值（pH）</string>
+    <string name="p_ph_range">5.0-8.5</string>
+    <string name="p_hemoglobin_range">8.1-10.5</string>
+    <string name="p_vc1">维生素C（VC）</string>
+    <string name="p_bizhong">比重（SG）</string>
+    <string name="p_bizhong_range">1.015-1.025</string>
+    <string name="p_advice">结论及建议</string>
+    <string name="p_report_print1">报告打印：</string>
+    <string name="p_page1">第1页</string>
+    <string name="p_unit_bpm1">" bpm"</string>
+    <string name="p_unit_ms">" ms"</string>
+    <string name="p_ms1">" -?- ms"</string>
+    <string name="p_unit_d">" °"</string>
+    <string name="p_rv5">"RV5/SV1: "</string>
+    <string name="p_unit_temp1">" -?- °"</string>
+    <string name="p_unit_temp2">" -?- ms"</string>
+    <string name="p_unit_temp3">" -?- mV"</string>
+    <string name="p_page2">第2页</string>
+    <string name="p_page3">第3页</string>
+    <string name="p_point_down">↓</string>
+    <string name="p_point_up">↑</string>
+    <string name="measure_report_title">健康体检报告</string>
+    <string name="ecg__hr">心率：</string>
+    <!--体检报告页面 end-->
+    <string name="server_no">服务器未返回信息</string>
+    <string name="server_dolown">获取安装包信息出现问题</string>
+
+    <!--一些特殊的公用字符串-->
+    <string name="unknown">未知</string>
+
+
+    <!--快速测量-->
+    <string name="quick_check">快速检测</string>
+    <string name="video">远程医疗</string>
+    <string name="qc_tp">体温</string>
+    <string name="cuff_pressure">袖带压：</string>
+    <string name="qc_tp_max">37.6</string>
+    <string name="qc_tp_min">35.9</string>
+    <string name="qc_bp">血压</string>
+    <string name="bp_sys_range">收缩压90-140</string>
+    <string name="qc_dps_range">舒张压60-90</string>
+    <string name="qc_aver_range">平均压60-110</string>
+    <string name="qc_measure">启动测量</string>
+    <string name="qc_bp_aver">(-?-)</string>
+    <string name="c_devide">/</string>
+    <string name="qc_dgc">总胆固醇</string>
+    <string name="qc_dgc_max">5.98</string>
+    <string name="qc_dgc_min">2.86</string>
+    <string name="qc_ns">尿酸</string>
+    <string name="qc_ns_max">0.417</string>
+    <string name="qc_ns_min">0.149</string>
+    <string name="qc_bo">血氧</string>
+    <string name="bp_bo_max">100</string>
+    <string name="bp_bo_min">94</string>
+    <string name="qc_pr">脉率</string>
+    <string name="bp_pr_max">100</string>
+    <string name="bp_pr_min">60</string>
+    <string name="qc_bs_max">7.0</string>
+    <string name="qc_bs_min">2.8</string>
+    <string name="qc_bs">血糖</string>
+    <string name="qc_uri">尿常规</string>
+    <string name="qc_uri_num">序号</string>
+    <string name="qc_eg_name">缩写</string>
+    <string name="qc_uri_name">项目名称</string>
+    <string name="qc_uri_result">结果</string>
+    <string name="qc_uri_unit">单位</string>
+    <string name="qc_uri_reference">参考值</string>
+    <string name="qc_uri_sign">标志</string>
+    <string name="qc_uri_num1">1</string>
+    <string name="qc_uri_ph">PH</string>
+    <string name="qc_uri_name_ph">pH值(pH)</string>
+    <string name="qc_uri_reference_ph">5.0~8.5</string>
+    <string name="qc_uri_num2">2</string>
+    <string name="qc_uri_ubg">UBG</string>
+    <string name="qc_uri_name_ubg">尿胆原(UBG)</string>
+    <string name="qc_uri_bld">BLD</string>
+    <string name="qc_uri_name_bld">潜血(BLD)</string>
+    <string name="uri_default_reference">阴性(-)</string>
+    <string name="qc_uri_num3">3</string>
+    <string name="qc_uri_pro">PRO</string>
+    <string name="qc_uri_name_pro">蛋白质(PRO)</string>
+    <string name="qc_uri_num4">4</string>
+    <string name="qc_uri_num5">5</string>
+    <string name="qc_uri_ket">KET</string>
+    <string name="qc_uri_name_ket">酮体(KET)</string>
+    <string name="qc_uri_num6">6</string>
+    <string name="qc_uri_nit">NIT</string>
+    <string name="qc_uri_name_nit">亚硝酸盐(NIT)</string>
+    <string name="qc_uri_num7">7</string>
+    <string name="qc_uri_glu">GLU</string>
+    <string name="qc_uri_name_glu">葡萄糖(GLU)</string>
+    <string name="qc_uri_num8">8</string>
+    <string name="qc_uri_num9">9</string>
+    <string name="qc_uri_bil">BIL</string>
+    <string name="qc_uri_name_bil">胆红素(BIL)</string>
+    <string name="qc_uri_leu">LEU</string>
+    <string name="qc_uri_name_leu">白细胞(LEU)</string>
+    <string name="qc_uri_sg">SG</string>
+    <string name="qc_uri_name_sg">比重(SG)</string>
+    <string name="uri_sg_reference">1.015~1.025</string>
+    <string name="qc_uri_num10">10</string>
+    <string name="qc_uri_num11">11</string>
+    <string name="qc_uri_vc">VC</string>
+    <string name="qc_uri_name_vc">维生素C(VC)</string>
+    <string name="qc_uri_ca">尿钙(Ca)</string>
+    <string name="qc_uri_asc">维生素C(VC)</string>
+    <string name="qc_uri_alb">微量白蛋白(MA)</string>
+    <string name="qc_uri_cr">肌酐(CRE)</string>
+    <string name="temp_high">37.2</string>
+    <string name="temp_low">36.2</string>
+    <string name="qc_lipid">血脂</string>
+    <string name="qcheck_uri_ca_range">1.0~10</string>
+    <string name="delete_all">全部删除</string>
+    <string name="download_all">全部下载</string>
+    <string name="confirm_delete_all_patient">确定删除全部居民？</string>
+    <string name="data_deleting">数据删除中</string>
+    <string name="all_data_uploading">数据上传中，请稍候</string>
+    <string name="no_current_delete">当前用户不可删除</string>
+    <string name="no_data_delete">没有数据可删除</string>
+    <string name="query">查询</string>
+    <string name="query_name_or_idcard">请输入姓名/身份证号码</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_idcard">请输入身份证号</string>
+    <string name="per_cent">%</string>
+    <string name="select_idcard">idcard</string>
+    <string name="likename">name</string>
+    <string name="query_succeed">查询成功</string>
+    <string name="hr_reference_high">100</string>
+    <string name="hr_reference_low">60</string>
+
+    <!--NumInputWatcher start-->
+    <string name="t_include">,包含</string>
+    <string name="t_not_include">,不包含</string>
+    <string name="t_end0">.0</string>
+    <string name="t_point_len1">请注意小数点前最大</string>
+    <string name="t_point_len2">,小数点后保留</string>
+    <string name="t_point_len3">位</string>
+    <string name="t_valid_range">请输入有效范围(该数值的有效范围</string>
+    <string name="t_valid_range_1">请输入有效范围(该数值的有效范围大于等于</string>
+    <string name="t_valid_range_2">请输入有效范围(该数值的有效范围大于</string>
+    <string name="c_and">~</string>
+    <string name="c_r_bracket">)</string>
+    <string name="c_colon">:</string>
+    <string name="retain">只保留</string>
+    <string name="decimal">位小数</string>
+    <string name="error_max_input">该项最多只能输入</string>
+    <string name="error_string_prompt">位字符</string>
+    <string name="digit">位数</string>
+    <string name="number_overlength">整数长度不能超过</string>
+    <string name="widget_input_unreasonable">输入的数据不合理</string>
+    <string name="widget_input_too_long">输入的数据太长</string>
+    <string name="hgb_table">血红蛋白(mmol/L)</string>
+    <string name="htc_table">红细胞积压值(%)</string>
+    <!--NumInputWatcher end-->
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="back_count">倒计时</string>
+    <string name="before_dinner">空腹血糖</string>
+    <string name="after_dinner">餐后血糖</string>
+    <!--导入导出-->
+    <string name="length_too_short">长度不能小于1</string>
+    <string name="no_patient_data">没有居民数据可供导出</string>
+    <string name="no_measure_data">没有测量数据可供导出</string>
+    <string name="factory_protect">厂家维护</string>
+    <string name="video_help">视频培训</string>
+    <string name="sure_login">确定</string>
+    <string name="password_wrong">*密码错误</string>
+    <string name="search_local_video">正在加载本地健康教育视频</string>
+    <string name="all_upload">全部上传</string>
+    <string name="cancel_upload">取消上传</string>
+    <string name="unupload_data">没有可以上传的测量记录</string>
+    <string name="no_measure_record">没有测量记录</string>
+    <string name="native_not_find_video">本地没有可以加载的视频</string>
+    <string name="waiting_import_in">正在导入，请稍后</string>
+    <string name="waiting_import_out">正在导出，请稍后</string>
+    <string name="cancel_download">取消下载</string>
+    <string name="data_downloading">数据下载中，请稍候</string>
+    <string name="unit_age">岁</string>
+    <string name="ns_m">0.2-0.42</string>
+    <string name="ns_g">0.14-0.36</string>
+    <string name="upload_all_success">全部上传成功</string>
+    <string name="success_num">成功</string>
+    <string name="faliure_num">失败</string>
+    <string name="unit_t">条</string>
+    <string-array name="uri_ca">
+        <item>4</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="uri_cre">
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="uri_alb">
+        <item>10</item>
+        <item>30</item>
+        <item>80</item>
+        <item>150</item>
+    </string-array>
+    <string name="urine_qianxue">潜血(BLD):</string>
+    <string name="import_success">视频加载完成</string>
+    <string name="net_unavailable">当前网络不可用，上传失败</string>
+
+    <string name="img_main_board">KS-boot</string>
+    <string name="important_update">重要组件升级</string>
+    <string name="update_when_reboot">检测到重要组件更新，将在系统重启后升级,本次升级耗时大约 5 分钟，需经历 2 次重启</string>
+    <string name="update_failed">升级失败，请重启机器后再尝试升级</string>
+    <string name="update_success">升级完成，需重启验证升级</string>
+    <string name="lose_file">缺少升级文件,请检测更新！</string>
+
+    <!-- 快检页面-->
+    <string name="bp_normal">血压正常</string>
+    <string name="bp_high">血压偏高</string>
+    <string name="bp_low">血压偏低</string>
+    <string name="bp_unmeasure">血压未测量</string>
+    <string name="bp_unnormal">血压异常</string>
+
+    <string name="bo_normal">血氧正常</string>
+    <string name="bo_high">血氧偏高</string>
+    <string name="bo_low">血氧偏低</string>
+    <string name="bo_unmeasure">血氧未测量</string>
+    <string name="bo_unnormal">血氧异常</string>
+
+    <string name="blood_red_normal">血红蛋白正常</string>
+    <string name="blood_red_high">血红蛋白偏高</string>
+    <string name="blood_red_low">血红蛋白偏低</string>
+    <string name="blood_red_unmeasure">血红蛋白未测量</string>
+    <string name="blood_red_unnormal">血红蛋白异常</string>
+
+    <string name="blood_sugar_normal">血糖正常</string>
+    <string name="blood_sugar_high">血糖偏高</string>
+    <string name="blood_sugar_low">血糖偏低</string>
+    <string name="blood_sugar_unmeasure">血糖未测量</string>
+
+    <string name="temp_normal">体温正常</string>
+    <string name="temp_higher">体温偏高</string>
+    <string name="temp_lower">体温偏低</string>
+    <string name="temp_unmeasure">体温未测量</string>
+    <string name="temp_unnormal">体温异常</string>
+
+    <string name="ns_normal">尿酸正常</string>
+    <string name="ns_higher">尿酸偏高</string>
+    <string name="ns_lower">尿酸偏低</string>
+    <string name="ns_unmeasure">尿酸未测量</string>
+
+    <string name="td_normal">总胆固醇正常</string>
+    <string name="td_higher">总胆固醇偏高</string>
+    <string name="td_lower">总胆固醇偏低</string>
+    <string name="td_unmeasure">总胆固醇未测量</string>
+
+    <!-- 白细胞-->
+    <string name="wbc_unmeasure">白细胞未测量</string>
+    <string name="wbc_unnormal">白细胞异常</string>
+    <string name="wbc_range">4.0-10.0</string>
+
+    <!-- 糖化血红蛋白-->
+    <string name="hba1c">HbA1c</string>
+    <string name="hba1c_ngsp">HbA1c(NGSP):</string>
+    <string name="hba1c_ifcc">HbA1c(IFCC):</string>
+    <string name="hba1c_eag">HbA1c(eAG):</string>
+    <string name="normal_value">正常参考值:</string>
+    <string name="befor_patient">糖尿病前期:</string>
+
+    <string name="health_waistline_1">腰围</string>
+
+    <!-- 远程心电-->
+    <string name="remote_ecg">远程心电</string>
+    <string name="all_ecg">全部</string>
+    <string name="confirm_ecg">已处理</string>
+    <string name="wait_ecg">待处理</string>
+    <string name="current_and_all">当前第%1$s页,总共%2$s页</string>
+
+    <!-- 糖化血红蛋白-->
+    <string name="suagr_bhd">糖化血红蛋白</string>
+    <string name="ngsp_range">4.3-6.0</string>
+    <string name="ifcc_range">23.5-42.1</string>
+    <string name="eag_range">76.7-125.5</string>
+    <string name="ngsp">NGSP</string>
+    <string name="ifcc">IFCC</string>
+    <string name="eag">eAG</string>
+    <string name="ngsp_table">NGSP(%)</string>
+    <string name="ifcc_table">IFCC;(mmol/mol)</string>
+    <string name="eag_table">eAG(mg/dL)</string>
+    <string name="report_ngsp">HbA1c(NGSP)</string>
+    <string name="report_ifcc">HbA1c(IFCC)</string>
+    <string name="report_eag">HbA1c(eAG)</string>
+    <string name="ngsp_unit">(%)</string>
+    <string name="ifcc_unit">(mg/dL)</string>
+    <string name="eag_unit">(mmol/mol)</string>
+    <string name="report_ngsp_range">3.0-15.0</string>
+    <string name="report_ifcc_range">9.3-140.4</string>
+    <string name="report_eag_range">39.4-383.8</string>
+
+    <!-- BMI-->
+    <string name="bmi_name">BMI</string>
+    <string name="bmi_height">身高</string>
+    <string name="bmi_weight">体重</string>
+    <string name="bmi_height_unit">cm</string>
+    <string name="bmi_weight_unit">kg</string>
+    <string name="bmi_unmeasure">BMI未测量</string>
+    <string name="bmi_report_range">18.5-25</string>
+
+    <string name="ghb_ngsp">HbA1c NGSP</string>
+    <string name="ghb_ifcc">HbA1c IFCC</string>
+    <string name="ghb_eag">eAG</string>
+    <string-array name="uri_value">
+        <item>-</item>
+        <item>+-</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+</item>
+        <item>Normal</item>
+        <item><![CDATA[<=10]]></item>
+        <item><![CDATA[>=150]]></item>
+        <item><![CDATA[<=1.0]]></item>
+        <item><![CDATA[>=10]]></item>
+        <item><![CDATA[<=0.9]]></item>
+        <item><![CDATA[>=26.4]]></item>
+    </string-array>
+    <!--心电专题-->
+    <string name="invalid_data">-?-</string>
+    <string name="colon">:</string>
+    <string name="measure_success">测量成功</string>
+    <string name="lead_layout">导联类型</string>
+    <string name="ecg_checking">测量心电中，请等候 </string>
+    <string name="ecg_getHr_success">恭喜，获取心率成功</string>
+    <string name="get_hr">获取心率</string>
+    <string name="please_access">接入</string>
+    <string name="pole_off">导联脱落</string>
+    <string name="please_lead_access">接入导联</string>
+    <string name="install_electrodes">安装电极</string>
+    <string name="view_report">查看报告</string>
+    <string name="wave_velocity">波速</string>
+    <string name="amplitude">波幅</string>
+    <string name="HR">HR</string>
+    <string name="P">P</string>
+    <string name="pr_en">PR</string>
+    <string name="qrs">QRS</string>
+    <string name="qtQtc">QT/QTC</string>
+    <string name="P_QRS_T">P/QRS/T</string>
+    <string name="rv5Sv1">RV5/SV1</string>
+    <string name="start_measure">启动测量</string>
+    <string name="trend_statistics">趋势统计</string>
+    <string name="wrong_ecg_position">心电传入的位置数量和颜色有误，请传入颜色值两倍的点数</string>
+    <string name="ecg_guide_1">从附件包中取出心电导联线，将接头插入一体机左侧的ECG接口</string>
+    <string name="look_tutorial_video">观看操作视频</string>
+    <string name="chest_probe">胸前导联</string>
+    <string name="body_probe">肢体导联</string>
+    <string name="ecg_c1">红色(C1):胸骨石右缘第四肋间</string>
+    <string name="ecg_c2">黄色(C2):胸骨左缘第四肋间</string>
+    <string name="ecg_c3">绿色(C3):C2和C4边线中点</string>
+    <string name="ecg_c4">棕色(C4):左锁骨中线与第五肋间交点</string>
+    <string name="ecg_c5">黑色(C5):左腋前线与C4保持水平</string>
+    <string name="ecg_c6">紫色(C6):左腋中线与C4保持水平</string>
+    <string name="ecg_r">红色(R):导电面接于右手腕内侧</string>
+    <string name="ecg_l">黄色(L):导电面接于左手腕内侧</string>
+    <string name="ecg_n">黑色(N):导电面接于右脚踝内侧</string>
+    <string name="ecg_f">绿色(F):导电面接于左脚踝内侧</string>
+    <string name="unit_divide">/</string>
+    <string name="ten_results">最近十次-结果统计</string>
+    <string name="dialog_table">趋势表</string>
+    <string name="dialog_pic">趋势图</string>
+    <string name="unit_mmol_mol">mmol/mol</string>
+    <string name="unit_cells">Cells/μL</string>
+    <string name="rule_limit_2_after_point">%.2f</string>
+    <string name="before_meal_with_bracket">(空腹)</string>
+    <string name="after_meal_with_bracket">(餐后)</string>
+    <string name="ecg_report_title">12导联心电图报告</string>
+    <string name="stop_report">关闭报告</string>
+    <string name="unit_ms">ms</string>
+    <string name="unit_mv">mV</string>
+    <string name="unit_limit">°</string>
+    <string name="idcard_colon">身份证:</string>
+    <string name="measure_time_colon">测量时间:</string>
+    <string name="ecg_wave_data">25mm/s&#160;&#160;&#160;&#160;10mm/mV</string>
+    <string name="ecg_wave_info">0.67-150Hz&#160;&#160;AC&#160;50Hz</string>
+    <string name="uri_reference_value">阴性(-)</string>
+    <string name="uri_default_value">-</string>
+    <string name="urine_value_convert_error">转化结果不符合设计，无法获取正常尿常规结果，请检查 ReferenceUtils.valueToString() 或 R.string.uri_value</string>
+    <string name="btn_ecg_setting">心电设置</string>
+    <string name="width_colon">&#160;:&#160;</string>
+    <string name="remote_ecg_text">远程心电:</string>
+    <string name="apply_remote_ecg">点击申请</string>
+    <string name="blank">&#160;</string>
+    <string name="rv5_plus_sv1">RV5+SV1</string>
+    <string name="ecg_measuring_not_action">正在采集心电，请勿进行其他操作</string>
+    <string name="ecg_expert_diagnose">专家诊断结果:</string>
+    <string name="apply_success">申请成功</string>
+    <string name="resolve_time">处理时间:</string>
+    <string name="resolve_doctor">处理医生:</string>
+    <string name="applying">正在申请中...</string>
+    <string name="apply_fail">申请失败</string>
+    <string name="local_ecg_data_has_deleted">本地数据已删除，如需查看心电波形数据，请到后台管理系统查看</string>
+    <string name="loading_remote_ecg_info">正在加载远程心电信息</string>
+
+    <!-- 远程心电提示-->
+    <string name="remote_first_page">已经是第一页</string>
+    <string name="remote_last_page">已经是最后一页</string>
+    <string name="querying">正在查询中...</string>
+    <string name="query_success">查询成功</string>
+    <string name="query_no_data">没有数据</string>
+    <string name="query_fail">查询失败</string>
+
+    <string name="bmi_invalidate">BMI无效，请检查身高和体重值</string>
+    <string name="clear_data">清空数据</string>
+    <string name="data_has_cleared">数据已清空</string>
+    <string name="skin_setting">皮肤设置</string>
+    <string name="change_background">更换主页</string>
+    <string name="change_logo">更换Logo</string>
+    <string name="confirm_change_background">确认更换主页背景？</string>
+    <string name="confirm_change_logo">确认更换Logo图片？</string>
+    <string name="no_local_picture">本地没有相关图片数据</string>
+    <string name="loading_local_data">正在加载本地数据</string>
+    <string name="recover_default">恢复默认</string>
+    <string name="change_success">更换成功</string>
+    <string name="recover_default_background_success">已恢复为默认主页</string>
+    <string name="recover_default_logo_success">已恢复为默认Logo</string>
+    <string name="start_logo">导入开机动画</string>
+    <string name="start_cartoon">导入开机动画</string>
+    <string name="start_music">导入开机音乐</string>
+    <string name="copy_fail">文件拷贝失败</string>
+    <string name="chmod_succeed">开机动画文件拷贝成功</string>
+    <string name="chmod_failed">chmod failed</string>
+    <string name="bootanimation">请选择正确的开机动画文件格式（压缩包.zip格式</string>
+    <string name="bootaudio">请选择正确的开机音乐文件格式（mp3格式）</string>
+    <string name="copy_file">文件拷贝中...</string>
+    <string name="no_found_log">未发现开机动画文件</string>
+    <string name="more_found_log">发现多个开机动画文件</string>
+    <string name="invalid_value">/</string>
+    <string name="sequence">序列号</string>
+    <string name="confirm_upload_all_patient">确认上传全部居民？</string>
+    <string name="urt_default_range">-</string>
+    <string name="loading_picture">正在加载目标文件图片数据</string>
+    <string name="ecg_i">I</string>
+    <string name="ecg_ii">II</string>
+    <string name="ecg_iii">III</string>
+    <string name="ecg_avr">aVR</string>
+    <string name="ecg_avl">aVL</string>
+    <string name="ecg_avf">aVF</string>
+
+    <!-- 首页-->
+    <string name="single_measure">单项测量</string>
+    <string name="main_residents_list">居民列表</string>
+    <string name="main_medical_report">体检报告</string>
+    <string name="main_tele_ecg">远程心电</string>
+    <string name="main_system_setting">系统设置</string>
+    <string name="main_value_str">点击</string>
+    <!-- 厂家维护-->
+    <string name="factory_model_flag">system_application</string>
+    <!-- 用户新增/修改-->
+    <string name="add_person">居民新增</string>
+    <string name="modify_person">居民修改</string>
+    <string name="HealthCard_exist">健康卡已存在</string>
+    <!-- 单测页-->
+    <string name="title_input_hint">输入关键字</string>
+    <string name="unmeasure">未测量</string>
+    <string name="item_unnormal">项异常</string>
+    <string name="item_normal">正常</string>
+    <string name="compare_flag">-</string>
+    <!--体检报告列表-->
+    <string name="select_all">全选</string>
+    <string name="cancel_select_all">全不选</string>
+    <string name="delete">删除</string>
+    <string name="manage">管理</string>
+    <string name="delete_select_measure">确认删除选中的体检报告？</string>
+    <string name="select_first_to_delete">请先点击勾选需要删除的报告</string>
+    <string name="data_has_uploaded">该条数据已经上传</string>
+    <string name="no_measure_report">暂无体检报告，马上去测量吧</string>
+    <string name="to_measure">测量</string>
+    <!-- 数据上传提示-->
+    <string name="measure_data_uploaded">测量记录已全部上传完成</string>
+    <string name="auto_upload_close">auto_upload_flag</string>
+    <string name="et_hint">输入关键字</string>
+    <string name="patient_list_measure">健康测量</string>
+    <string name="patient_list_report">体检报告</string>
+    <string name="patient_list_modify">修改信息</string>
+    <string name="patient_list_age">年龄:</string>
+    <string name="patient_list_type">类型:</string>
+    <string name="patient_list_phone">电话:</string>
+    <string name="patient_list_blood">血型:</string>
+    <string name="patient_list_addr">住址:</string>
+    <string name="patient_list_memo">备注:</string>
+    <string name="type_adult">成人</string>
+    <string name="type_youth">小儿</string>
+    <string name="type_baby">婴幼儿</string>
+    <!--血氧-->
+    <string name="spo2_pls_install_probe">连接一体机</string>
+    <string name="spo2_pls_insert_finger">探头夹住手指</string>
+    <string name="spo2_tutorial_2">探头带线的部分应放置于手背上，指甲正对探头的发射器</string>
+    <string name="spo2_tutorial_1">从附件包中取出血氧探头,将探头插入一体机左侧的SPO2插口</string>
+    <string name="pls_start_measure">请启动测量</string>
+    <string name="stop_measure">停止测量</string>
+    <string name="doing_measure">正在测量中</string>
+    <string name="measure_timeout">测量失败，测量超时</string>
+    <!--体温-->
+    <string name="temp_pls_install_probe">连接额温枪</string>
+    <string name="temp_pls_move_to_head">对准额头中央</string>
+    <string name="irtemp_introduction_1">1.从附件包中找出额温枪，将插头插入一体机左侧的T1插口</string>
+    <string name="temp_introduction_2">2.额温枪对准额头中央，距离3厘米左右，按下测量键</string>
+    <!--血红蛋白-->
+    <string name="hemoglobin_guide_1">1.试纸条如图正面朝上对准接口垂直插入</string>
+    <string name="hemoglobin_guide_2">2.采血后将指尖的血滴轻触试纸条检测区</string>
+    <string name="hemoglobin_guide_3">3.检测完成,推出试纸条</string>
+    <string name="link_device">连接一体机</string>
+    <string name="insert_the_strip">插入试纸条采血</string>
+    <string name="begin_measure">开始检测</string>
+    <!--血液三项-->
+    <string name="glu_guide_1">1.试纸条正面朝显示屏方向插入仪器</string>
+    <string name="glu_guide_2">2.采血，将指尖血轻触试纸条顶端</string>
+    <string name="glu_guide_3">3.检测完成，推出试纸条</string>
+    <string name="connect_the_detector">准备仪器和试纸</string>
+    <string name="blood_test">采血检测</string>
+    <!--居民列表-->
+    <string name="patient_menu_manage">管理</string>
+    <string name="patient_list_all">全选</string>
+    <string name="patient_list_delete">删除</string>
+    <string name="sum_1">共</string>
+    <string name="sum_2">位居民</string>
+    <string name="patient_list_cancel">取消</string>
+    <string name="patient_list_manage">管理</string>
+    <!-- 网络检测-->
+    <string name="net_check">网络检测</string>
+    <string name="start_check_net">开始检测</string>
+    <string name="net_work">1.有线网络</string>
+    <string name="wifi_work">2.无线网络</string>
+    <!-- 单位-->
+    <string name="unit_mmhg">mmHg</string>
+    <!-- 网络检测页面-->
+    <string name="net_unvaliable">网络没有连接，请先连接网络!</string>
+    <string name="net_checking">网络检测中...</string>
+    <string name="net_normal">1.有线网络 正常</string>
+    <string name="net_unnormal">1.有线网络 异常</string>
+    <string name="wifi_normal">2.无线网络 正常</string>
+    <string name="wifi_unnormal">2.无线网络 异常</string>
+
+    <!--居民列表-->
+    <string name="patient_filter">筛选</string>
+    <string name="sex_all">全部</string>
+    <string name="qury_start">开始日期</string>
+    <string name="query_end">结束日期</string>
+    <string name="query_today">今天</string>
+    <string name="query_week">最近一周</string>
+    <string name="query_month">最近一月</string>
+    <string name="query_clear">清空条件</string>
+    <string name="query_list_clear">清空搜索条件</string>
+    <string name="query_commit">筛选</string>
+    <string name="local_video">本地视频</string>
+    <string name="on_line_video">在线视频</string>
+    <string name="loading_online_video">正在加载在线视频</string>
+
+    <string name="unexpected_url">不合法的服务器地址，请确认服务器地址是否正确</string>
+    <string name="update_url_did_not_set">服务器地址未设置，请设置服务器地址</string>
+
+    <!--单项测量 血脂-->
+    <string name="unit_mmol_l">mmol/L</string>
+    <string name="total_cho">总胆固醇</string>
+
+    <!--单项测量 糖化血红蛋白-->
+    <string name="unit_mg_dl">mg/dL</string>
+    <string name="ghb_guide_1">1.将5μL标本置入R1试剂,前后摇动约十次后,静置2分钟</string>
+    <string name="ghb_guide_2">2.等2分钟反应完全后,将 25μL混合液加入层析器</string>
+    <string name="ghb_guide_3">3.等混合液充分吸收后,将 25μL R2试剂加入层析器</string>
+    <string name="ghb_guide_4">4.等R2液充分吸收后,将层析器放入仪器检测</string>
+    <string name="ghb_reference_sickness">糖尿病前期:6.0-6.5%</string>
+    <string name="ghb_reference_normal">正常参考值:4.3-6.0%</string>
+    <string name="ghb_solution_water">配置层析器</string>
+
+
+    <!--单项测量 白细胞-->
+    <string name="wbc">白细胞</string>
+    <string name="unit_index">*10^9/L</string>
+    <string name="wbc_guide_3">3.再轻轻地将试剂片架活动部分推至测量位置</string>
+    <string name="wbc_guide_2">2.将微型试剂片放入试剂片架中</string>
+    <string name="wbc_guide_1">1.用采血针刺破手指,将血滴吸入微型试剂片</string>
+    <string name="link_detector">连接检测仪</string>
+    <string name="reagent_for_blood_sampling">试剂片采集血样</string>
+
+
+    <string name="loading_fail">加载失败</string>
+    <string name="quick_set">快检设置</string>
+    <string name="there">已经存在该检查项了，无需添加</string>
+
+    <!--系统设置-->
+    <string name="btn_exit">退出登录</string>
+    <string name="ip_title_default">软件更新地址设置</string>
+    <string name="ip_address">地址</string>
+    <string name="ip_port">端口</string>
+    <string name="server_title_default">服务器地址设置</string>
+    <string name="auto_update_soft">自动更新软件</string>
+    <string name="auto_upload">自动上传</string>
+    <string name="server_address">服务器地址</string>
+    <string name="server_address_title">服务器地址设置</string>
+    <string name="ip_refresh">软件更新地址</string>
+    <string name="ip_configure">服务器IP地址</string>
+
+    <!--参数配置-->
+    <string-array name="param_config">
+        <item>心电</item>
+        <item>血氧</item>
+        <item>血压</item>
+        <item>体温</item>
+        <item>血糖、尿酸、总胆固醇</item>
+        <item>尿常规11项</item>
+        <item>尿常规14项</item>
+        <item>血红蛋白</item>
+        <item>血脂四项</item>
+        <item>糖化血红蛋白</item>
+        <item>BMI</item>
+        <item>白细胞</item>
+    </string-array>
+
+    <!--设备配置-->
+    <string-array name="device_config">
+        <item>KSM5</item>
+        <item>EmpUi</item>
+        <item>GA7</item>
+        <item>IDA007</item>
+        <item>HTD8819</item>
+        <item>TH809</item>
+        <item>BeneCheckGlu</item>
+        <item>BeneCheck</item>
+        <item>OGM111</item>
+        <item>URIT31</item>
+        <item>MissionU120</item>
+        <item>HemoCueWBC</item>
+        <item>HemoCueHb</item>
+        <item>URIT12</item>
+        <item>MissionHb</item>
+        <item>CCM111</item>
+        <item>BeiWen((usb转串口))</item>
+        <item>UNT5000</item>
+        <item>BeiWen(指定串口)</item>
+        <item>EA-12</item>
+    </string-array>
+
+    <!--厂家维护模式-->
+    <string name="upload_address">上传地址</string>
+    <string name="ip_configure_cloud">云平台IP地址</string>
+    <string name="ip_configure_cloud_title">云平台IP地址设置</string>
+    <string name="cloud_address">云平台地址</string>
+    <string name="cloud_address_title">云平台地址设置</string>
+    <string name="upload_district">上传地区</string>
+    <string name="upload_district_title">上传地区设置</string>
+    <string name="detail_address">上传详细地址</string>
+    <string name="upload_detail_title">上传详细地址设置</string>
+    <string name="organization_name">机构名称</string>
+    <string name="organization_name_title">机构名称设置</string>
+
+    <string name="measurement_manage">测量项管理</string>
+
+    <!--居民下载页-->
+    <string name="patient_download_title">居民下载</string>
+    <string name="et_download_hint">输入关键字</string>
+    <string name="download_subtitle_first">头像/姓名/性别</string>
+    <string name="download_subtitle_type">居民类型</string>
+    <string name="download_subtitle_card">身份证(会员卡)</string>
+    <string name="download_subtitle_all">全选</string>
+    <string name="page_first">首页</string>
+    <string name="page_last">末页</string>
+
+    <!-- 关于页面-->
+    <string name="wait_for_load">正在加载请稍等...</string>
+    <string name="wait_for_delete">正在删除请稍等...</string>
+    <string name="delete_select_please">请先选择用户</string>
+    <!-- 限制数字和字母-->
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_vcode_with_point">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.</string>
+    <string name="card_input">身份证必填</string>
+    <string name="tip_idcard_cant_input">不能输入身份证！</string>
+    <string name="network_setting">网络设置</string>
+    <string name="not_delete">该模块不能被删除</string>
+    <string name="memberShipCard_not_modify">健康卡号不能被修改</string>
+    <string name="set_current_user">请先设置当前居民</string>
+    <string name="patient_query_error">查询失败</string>
+    <string name="updating">补丁包合成中，请耐心等待...</string>
+    <!--打印-->
+    <string name="print_normal_check">【一般检查】</string>
+    <string name="usb_print_gap">--------------------------------</string>
+    <string name="print_urine_routine">【尿常规】</string>
+    <string name="print_blood_red">【血红蛋白】</string>
+    <string name="print_blood_fat">【血脂四项】</string>
+    <string name="print_blood_surge">【糖化血红蛋白】</string>
+    <string name="print_wbc">【白细胞】</string>
+    <string name="print_project_name">项目名称</string>
+    <string name="print_project_result">结果</string>
+    <string name="print_project_unit">单位</string>
+    <string name="print_project_hint">提示</string>
+    <string name="print_project_ref">参考值</string>
+    <string name="not_match_patient">未找到匹配居民</string>
+    <string name="back_to_main">返回首页</string>
+    <string name="upload_again">上传速度过慢，请检查网络或者重新上传</string>
+    <string name="can_not_access_printer">无法访问打印机</string>
+    <string name="request_timeout">请求网络超时</string>
+    <string name="tips_can_not_modify_age">身份证校验通过，年龄不能修改</string>
+    <string name="ea_12">EA-12</string>
+    <string name="unt5000">UNT5000</string>
+    <string name="no_current_patient">暂无当前居民，马上去添加吧</string>
+    <string name="data_loading">数据加载中...</string>
+</resources>

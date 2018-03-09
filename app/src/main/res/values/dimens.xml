@@ -1,0 +1,174 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="layout_bottom">5dp</dimen>
+    <dimen name="ed_width">60dp</dimen>
+    <dimen name="text_right">28dp</dimen>
+    <dimen name="unit_width">80dp</dimen>
+    <dimen name="value_width">60dp</dimen>
+    <dimen name="title_width">85dp</dimen>
+    <dimen name="table_width">152dp</dimen>
+
+    <dimen name="add_patient_title_width">120dp</dimen>
+    <dimen name="add_patient_ll_height">70dp</dimen>
+    <dimen name="space">10dp</dimen>
+    <dimen name="bg_height">180dp</dimen>
+    <dimen name="add_patient_item_name_width">60dp</dimen>
+
+    <dimen name="quick_margin_right">2dp</dimen>
+    <dimen name="quick_margin_left">5dp</dimen>
+    <dimen name="urine_padding">2dp</dimen>
+    <dimen name="about_item_et_width">300dp</dimen>
+    <dimen name="all_width_add">420dp</dimen>
+    <dimen name="all_patient_textsize">20sp</dimen>
+    <dimen name="urine_quick_check_width">60dp</dimen>
+    <dimen name="urine_quick_check_width_other">56dp</dimen>
+
+    <!-- 快检页面-->
+
+    <dimen name="item_width">232dp</dimen>
+    <dimen name="item_height">145dp</dimen>
+    <dimen name="item_height_1">113dp</dimen>
+    <dimen name="item_height_2">95dp</dimen>
+    <dimen name="item_400">290dp</dimen>
+    <dimen name="item_600">435dp</dimen>
+    <dimen name="value_state">24px</dimen>
+    <dimen name="result_show">60px</dimen>
+    <dimen name="unit">18px</dimen>
+    <dimen name="unit_modify">14px</dimen>
+    <dimen name="btn">22px</dimen>
+    <dimen name="btn_modify">18px</dimen>
+    <dimen name="count">36px</dimen>
+    <dimen name="count_modify">24px</dimen>
+
+    <dimen name="ll_width">280dp</dimen>
+    <dimen name="ll_width_modify">180dp</dimen>
+    <dimen name="urine_result_width">101dp</dimen>
+    <dimen name="urine_result_width_1">95dp</dimen>
+
+    <dimen name="urine_text_size">14sp</dimen>
+    <dimen name="urine_text_size_modify">13sp</dimen>
+    <dimen name="urine_margin_left">10dp</dimen>
+    <dimen name="urine_result_width_2">25dp</dimen>
+    <dimen name="cankao_margin">47dp</dimen>
+    <dimen name="urine_item_margin_top">5dp</dimen>
+    <!-- 远程心电页面-->
+    <dimen name="remote_1">24px</dimen>
+    <dimen name="remote_tab_width">150dp</dimen>
+    <dimen name="remote_tab_height">55dp</dimen>
+    <dimen name="remote_item_size">22px</dimen>
+    <dimen name="remote_padding_right">20px</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp15" format="float" type="dimen">15dp</dimen>
+    <dimen name="px2" format="float" type="dimen">2px</dimen>
+    <dimen name="px3" format="float" type="dimen">3px</dimen>
+    <dimen name="px5" format="float" type="dimen">5px</dimen>
+    <dimen name="px8" format="float" type="dimen">8px</dimen>
+    <dimen name="px10" format="float" type="dimen">10px</dimen>
+    <dimen name="px12" format="float" type="dimen">12px</dimen>
+    <dimen name="px14" format="float" type="dimen">14px</dimen>
+    <dimen name="px16" format="float" type="dimen">16px</dimen>
+    <dimen name="px18" format="float" type="dimen">18px</dimen>
+    <dimen name="px20" format="float" type="dimen">20px</dimen>
+    <dimen name="px22" format="float" type="dimen">22px</dimen>
+    <dimen name="px24" format="float" type="dimen">24px</dimen>
+    <dimen name="px30" format="float" type="dimen">30px</dimen>
+    <dimen name="px34" format="float" type="dimen">34px</dimen>
+    <dimen name="px36" format="float" type="dimen">36px</dimen>
+    <dimen name="px40" format="float" type="dimen">40px</dimen>
+    <dimen name="px42" format="float" type="dimen">42px</dimen>
+    <dimen name="px58" format="float" type="dimen">58px</dimen>
+    <dimen name="px60" format="float" type="dimen">60px</dimen>
+    <dimen name="px100" format="float" type="dimen">100px</dimen>
+    <dimen name="px130" format="float" type="dimen">130px</dimen>
+    <dimen name="px150" format="float" type="dimen">150px</dimen>
+    <dimen name="px250" format="float" type="dimen">250px</dimen>
+    <dimen name="px318" format="float" type="dimen">318px</dimen>
+    <dimen name="rounded_angle_radius">4px</dimen>
+    <dimen name="measure_template_tv_margin_top">12px</dimen>
+    <dimen name="ecg_circle_margin_right">12px</dimen>
+    <dimen name="ecg_circle_size">18px</dimen>
+    <dimen name="nibp_guide_pic_height">250px</dimen>
+
+    <!-- 首页-->
+    <dimen name="actionbar_size">18sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="main_item_15">15sp</dimen>
+    <dimen name="main_item_13">13sp</dimen>
+    <dimen name="main_line_margin">15dp</dimen>
+    <dimen name="navigationbar_title_width">220dp</dimen>
+    <dimen name="navigationbar_title_padding">60dp</dimen>
+    <!-- 糖化血红蛋白 -->
+    <dimen name="sugar_bhd_margin_10">10dp</dimen>
+    <dimen name="sugar_bhd_margin_20">20dp</dimen>
+    <!-- 血脂-->
+    <dimen name="blood_fat_margin_10">10dp</dimen>
+    <dimen name="blood_fat_margin_20">20dp</dimen>
+    <!-- 尿常规-->
+    <dimen name="urine_margin_10">10dp</dimen>
+    <dimen name="urine_margin_20">20dp</dimen>
+    <!--用户新增-->
+    <dimen name="user_add_page_width">630dp</dimen>
+    <dimen name="user_add_page_item_height">40dp</dimen>
+    <dimen name="user_add_page_item_width">230dp</dimen>
+    <dimen name="user_add_title_textsize">15sp</dimen>
+
+
+    <!--名字-->
+    <dimen name="measure_name_size">30sp</dimen>
+    <!--测量值-->
+    <dimen name="measure_value_size">60sp</dimen>
+    <!--参考值范围-->
+    <dimen name="refer_value_size">24px</dimen>
+    <!--测量单位-->
+    <dimen name="measure_unit_size">18px</dimen>
+
+    <dimen name="measure_success_size">36sp</dimen>
+
+    <!--布局之间的间隙-->
+    <dimen name="layout_margin">16px</dimen>
+    <dimen name="layout_margin_left">5px</dimen>
+    <dimen name="measure_layout_padding_top" format="float" type="dimen">136px</dimen>
+    <!--测量项的左边距-->
+    <dimen name="margin_left_of_measure_layout">15px</dimen>
+    <dimen name="spo2_wave_height">200dp</dimen>
+
+    <dimen name="measure_value_textsize">54sp</dimen>
+    <!-- 所有按钮统一圆角弧度-->
+    <dimen name="btn_corner">3dp</dimen>
+    <!-- 系统设置页面-->
+    <dimen name="system_left_item_height">80dp</dimen>
+    <dimen name="system_left_item_margin_left">33dp</dimen>
+    <dimen name="system_line_margin">25dp</dimen>
+    <dimen name="system_pic_margin">10dp</dimen>
+
+    <!--单项测量-->
+    <dimen name="check_value_layout_height_2">261dp</dimen>
+    <dimen name="check_tutorial_margin">18dp</dimen>
+    <dimen name="check_tutorial_margin_gap">9dp</dimen>
+    <dimen name="measure_template_layout_width">234dp</dimen>
+    <dimen name="measure_template_drawable_start">10dp</dimen>
+    <dimen name="tutorial_select_text_size">18sp</dimen>
+    <dimen name="tutorial_default_text_size">18sp</dimen>
+    <dimen name="tutorial_lead_text_size">13sp</dimen>
+    <dimen name="measure_template_btn_width">195dp</dimen>
+    <dimen name="measure_template_btn_height">45dp</dimen>
+    <dimen name="measure_template_btn_margin">15dp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+    <dimen name="glu_guide_pic_height">112dp</dimen>
+    <dimen name="ghb_guide_pic_height">75dp</dimen>
+    <dimen name="check_value_layout_height">154dp</dimen>
+    <!-- 尿常规页面 -->
+    <dimen name="urine_value_size">24sp</dimen>
+    <dimen name="urine_name_width">180dp</dimen>
+    <dimen name="urine_name_right_width">200dp</dimen>
+    <dimen name="urine_refer_size">12sp</dimen>
+    <dimen name="urine_value_width">85dp</dimen>
+    <dimen name="urine_line">40dp</dimen>
+    <!-- bmi测量页面-->
+    <dimen name="item_margin">30dp</dimen>
+    <!-- 登陆页面-->
+    <dimen name="login_page_margin_left">35dp</dimen>
+</resources>

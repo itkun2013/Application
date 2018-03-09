@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_video_open.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\anim_video_open.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_image_rotate_right.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\anim_image_rotate_right.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\timepicker_anim_enter_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\anim\\timepicker_anim_enter_bottom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\animation_left_in.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\animation_left_in.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_out.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\animation_right_out.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_image_rotate_left.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\anim_image_rotate_left.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\timepicker_anim_exit_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\anim\\timepicker_anim_exit_bottom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_video_close.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\anim_video_close.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\animation_left_out.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\animation_left_out.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\toast_in.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\toast_in.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\animation_right_in.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\animation_right_in.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\anim\\toast_out.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\anim\\toast_out.xml"
+    }
+]

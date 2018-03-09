@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:flatui="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:materialdesign="http://schemas.android.com/tools"
+              android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!--刷身份证-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_check_idCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/pls_check_idcard"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <TextView
+                        android:id="@+id/tv_patient_name"
+                        android:layout_width="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/patient_name"
+                        android:textSize="20sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/et_patient_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLength="10"
+                        android:minWidth="100dp"
+                        android:singleLine="true"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:textColor="@color/gray"
+                        android:focusableInTouchMode="false"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:id="@+id/tv_patient_idCard"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/patient_idCard"
+                        android:textSize="20sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/et_patient_idCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:inputType="number"
+                        android:maxLength="18"
+                        android:minWidth="250dp"
+                        android:singleLine="true"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:textColor="@color/gray"
+                        android:focusableInTouchMode="false"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:id="@+id/tv_patient_sex"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/patient_sex"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/spn_patient_sex"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:drawSelectorOnTop="true"
+                        android:minWidth="60dp" />
+
+                    <TextView
+                        android:id="@+id/tv_patient_blood"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/patient_blood"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/spn_patient_blood"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:drawSelectorOnTop="true"
+                        android:minWidth="60dp" />
+
+                    <TextView
+                        android:id="@+id/tv_patient_type"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/patient_type"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/spn_patient_type"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:drawSelectorOnTop="true"
+                        android:minWidth="60dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+
+            <!--清除数据-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/btn_clear_data"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"/>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+
+            <!--测量心率-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include layout="@layout/fragment_ecg12_test">
+                </include>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+
+            <!--测量血氧-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include layout="@layout/fragment_spo2_test">
+                </include>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+
+            <!--测量血压-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include layout="@layout/fragment_nibp_test">
+                </include>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <!--测量接触式体温-->
+                    <FrameLayout
+                        android:id="@+id/temp_test"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <include layout="@layout/fragment_temp_test">
+                        </include>
+                    </FrameLayout>
+                    <FrameLayout
+                        android:id="@+id/irtemp_test"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        >
+                        <include layout="@layout/fragment_ir_temp_test">
+                        </include>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/list_item_unselected">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    >
+                    <!--测量白细胞-->
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <include layout="@layout/fragment_bloodglu_test">
+                        </include>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+            <!--测量尿常规-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include layout="@layout/fragment_urine_fourteen_test">
+                </include>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/list_item_unselected">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <!--测量血糖尿酸，总胆固醇-->
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <include layout="@layout/fragment_bloodwbc_test">
+                        </include>
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/list_item_unselected">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    >
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <include layout="@layout/fragment_bloodhgb_test">
+                        </include>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

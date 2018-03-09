@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="10dp">
+
+    <!--测量时间-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/measure_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/measure_time"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/measure_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/measure_time_tv"
+                android:textSize="16sp" />
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/check_wave_btn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:background="@color/float_btn_color"
+                android:text="@string/check_wave"
+                android:textColor="#ededed"
+                android:textSize="30sp"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/print_report_btn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:background="@color/float_btn_color"
+                android:text="@string/print_report"
+                android:textColor="#ededed"
+                android:textSize="30sp"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:visibility="gone"
+                android:id="@+id/print_mode"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:background="#E5E5E5"
+                android:text="@string/mode_two"
+                android:textColor="#ededed"
+                android:textSize="30sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="850dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:background="#d3d3d3"
+                android:paddingTop="10dp" />
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:stretchColumns="2,3,4,5">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ecg_hr_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/ecg_hr"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ecg_hr"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="bpm"
+                        android:textSize="13sp" />
+
+                    <!--屏蔽呼吸率-->
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="呼吸率:"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/ecg_br"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="rpm"
+                        android:textSize="13sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/pr_interval_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/pr_interval"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/pr_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView />
+
+                    <TextView
+                        android:id="@+id/p_qrs_t_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/p_qrs_t"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/p_qrs_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/qrs_interval_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/qrs_interval"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/qrs_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView />
+
+                    <TextView
+                        android:id="@+id/qt_qtc_interval_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/qt_qtc_interval"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/qt_qtc_interval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/rv5_sv1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/rv5_sv1"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rv5_sv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:id="@+id/rv5__sv1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/rv5__sv1"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rv5__sv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/ecg_diagnose_result_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/ecg_diagnose_result"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ecg_diagnose_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="5"
+                        android:textSize="16sp" />
+
+
+                </TableRow>
+                <!--spo2参数-->
+                <TableRow>
+                    <!--spo2Trend-->
+                    <TextView
+                        android:id="@+id/spo2_trend_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/spo2_trend"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/spo2_trend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="%"
+                        android:textSize="13sp" />
+                    <!--spo2Pr-->
+                    <TextView
+                        android:id="@+id/spo2_pr_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/spo2_pr"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/spo2_pr"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="-50dp"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="bpm"
+                        android:layout_marginLeft="-50dp"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <!--nibp参数-->
+                <TableRow>
+                    <!--nibp-->
+                    <TextView
+                        android:id="@+id/nibp_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/nibp"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nibp_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:text="mmHg"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <!--temp参数-->
+                <TableRow>
+                    <!--nibp-->
+                    <TextView
+                        android:id="@+id/temp_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="@string/irtemp_trend"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/temp_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:text="℃"
+                        android:textSize="13sp" />
+
+                </TableRow>
+                <!--bloodglu参数-->
+                <TableRow>
+                    <!--nibp-->
+                    <TextView
+                        android:id="@+id/blood_glu_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="@string/blood_glu_trend"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/blood_glu_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+                </TableRow>
+                <!--bloodwbc参数-->
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/blood_wbc_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="@string/blood_wbc_trend"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/blood_wbc_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:text="10^9/L"
+                        android:textSize="13sp" />
+                </TableRow>
+                <!--bloodhgb参数-->
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/blood_hgb_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="@string/blood_hgb_trend"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/blood_hgb_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/blood_hct_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:text="@string/blood_hct_trend"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/blood_hct_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="3"
+                        android:text="%"
+                        android:textSize="13sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.55"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/urinert"-->
+                <!--/>-->
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="left"
+                android:shrinkColumns="*">
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/urinert_leu_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/urinert_leu"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/urinert_leu_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/urinert_bld_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_bld"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_bld_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/urinert_nit_tv"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_nit"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_nit_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/urinert_ket_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_ket"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_ket_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/urinert_ubg_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_ubg"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_ubg_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/urinert_bil_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/urinert_bil"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/urinert_bil_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/urinert_pro_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_pro"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_pro_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/urinert_glu_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_glu"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_glu_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow android:gravity="fill_horizontal">
+                    <TextView
+                        android:id="@+id/urinert_ph_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_ph"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_ph_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/urinert_asc_tv"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/urinert_asc"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/urinert_asc_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/urinert_sg_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_sg"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_sg_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content" />
+
+                    <!--尿常规标配为11项，暂时屏蔽此项-->
+                    <TextView
+                        android:id="@+id/urinert_alb_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/urinert_alb"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/urinert_alb_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="mg/L"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <!--尿常规标配为11项，暂时屏蔽此项-->
+                <TableRow>
+                    <TextView
+                        android:id="@+id/urinert_ca_tv"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_ca"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_ca_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/urinert_cre_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/urinert_cre"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/urinert_cre_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/uric_acid_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uric_acid_trend"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/uric_acid_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/cholesterol_tv"
+                        android:layout_width="@dimen/title_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cholesterol_trend"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/cholesterol_value"
+                        android:layout_width="@dimen/value_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="@dimen/unit_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="mmol/L"
+                        android:textSize="13sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/check_health_btn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/medical_examination_report"
+                android:textColor="#ededed"
+                android:textSize="30sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--参数-->
+</LinearLayout>

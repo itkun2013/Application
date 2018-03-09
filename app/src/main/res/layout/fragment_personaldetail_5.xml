@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:shrinkColumns="1,2,3,4,5"
+        android:stretchColumns="1,2,3,4,5"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_disease_inherited" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <RadioGroup
+                    android:id="@+id/inherited"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/inherited_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 无"
+                        android:tag="1"
+                        android:textSize="12sp"/>
+                    <RadioButton
+                        android:id="@+id/inherited_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 有"
+                        android:tag="2"
+                        android:textSize="12sp"/>
+                </RadioGroup>
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="疾病名称"/>
+                <EditText
+                    android:id="@+id/inheritedname"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_disease_disability" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <CheckBox
+                                android:id="@+id/disability_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 无"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 视力残疾"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 听力残疾"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4 言语残疾"
+                                android:tag="4"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 肢体残疾"
+                                android:tag="5"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/disability_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6 智力残疾"
+                                android:tag="6"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7 精神残疾"
+                                android:tag="7"
+                                android:textSize="12sp"/>
+                            <CheckBox
+                                android:id="@+id/disability_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8 其他残疾"
+                                android:tag="8"
+                                android:textSize="12sp"/>
+                            <EditText
+                                android:id="@+id/disabilityname"
+                                style="@style/FormEditText"
+                                android:layout_width="fill_parent"/>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_livingEnvironment" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_livingEnvironment_kitchen" />
+                        <RadioGroup
+                            android:id="@+id/kitchen_en"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="8dp"
+                            android:gravity="bottom">
+                            <RadioButton
+                                android:id="@+id/kitchen_en_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 无"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/kitchen_en_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 油烟机"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/kitchen_en_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 换气扇"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/kitchen_en_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4 烟囱"
+                                android:tag="4"
+                                android:textSize="12sp"/>
+                        </RadioGroup>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_livingEnvironment_fuelType" />
+                        <RadioGroup
+                            android:id="@+id/fuel_en"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="8dp"
+                            android:gravity="bottom">
+                            <RadioButton
+                                android:id="@+id/fuel_en_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 液化气"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/fuel_en_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 煤"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/fuel_en_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 天然气"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/fuel_en_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4 沼气"
+                                android:tag="4"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/fuel_en_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 柴火"
+                                android:tag="5"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/fuel_en_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6 其他"
+                                android:tag="6"
+                                android:textSize="12sp"/>
+                        </RadioGroup>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_livingEnvironment_drinkingWater" />
+                        <RadioGroup
+                            android:id="@+id/water_en"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="8dp"
+                            android:gravity="bottom">
+                            <RadioButton
+                                android:id="@+id/water_en_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 自来水"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/water_en_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 经净化过滤的水"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/water_en_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 井水"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/water_en_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4 河湖水"
+                                android:tag="4"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/water_en_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 塘水"
+                                android:tag="5"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/water_en_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6 其他"
+                                android:tag="6"
+                                android:textSize="12sp"/>
+                        </RadioGroup>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_livingEnvironment_toilet" />
+                        <RadioGroup
+                            android:id="@+id/toilet_en"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="8dp"
+                            android:gravity="bottom">
+                            <RadioButton
+                                android:id="@+id/toilet_en_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 卫生厕所"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/toilet_en_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 一格或二格粪池式"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/toilet_en_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 马桶"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/toilet_en_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4 露天粪坑"
+                                android:tag="4"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/toilet_en_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 简易棚厕"
+                                android:tag="5"
+                                android:textSize="12sp"/>
+                        </RadioGroup>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_livingEnvironment_livestock" />
+                        <RadioGroup
+                            android:id="@+id/livestock_en"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="8dp"
+                            android:gravity="bottom">
+                            <RadioButton
+                                android:id="@+id/livestock_en_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 单设"
+                                android:tag="1"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/livestock_en_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 室内"
+                                android:tag="2"
+                                android:textSize="12sp"/>
+                            <RadioButton
+                                android:id="@+id/livestock_en_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3 室外"
+                                android:tag="3"
+                                android:textSize="12sp"/>
+                        </RadioGroup>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="right">
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/pre_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="上一页"
+                materialdesign:text_size="22"  />
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/next_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="保  存"
+                materialdesign:text_size="22"  />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        &lt;!&ndash;残疾情况&ndash;&gt;
+        <LinearLayout
+            android:id="@+id/disability_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_history_disease_disability" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/detail_history_disease_disability_string1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_history_disease_disability"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/detail_history_disease_disability_string2" />
+            <EditText
+                android:id="@+id/disability_other_ed"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:text="①"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="②"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="③"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:text="④"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="⑤"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="⑥"
+                android:textColor="@color/grass_konsung"
+                android:textSize="30sp" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/disability_ed6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textSize="14sp"
+                flatui:fl_fieldStyle="fl_transparent" />
+        </LinearLayout>
+        &lt;!&ndash;生活環境&ndash;&gt;
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingRight="@dimen/text_right"
+                android:text="@string/detail_history_livingEnvironment" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                &lt;!&ndash;1&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    &lt;!&ndash;厨房排风设施&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_livingEnvironment_kitchen" />
+
+                        <Spinner
+                            android:id="@+id/kitchen_sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                    </LinearLayout>
+                    &lt;!&ndash;燃料類型&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_livingEnvironment_fuelType" />
+
+                        <Spinner
+                            android:id="@+id/fuel_sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                &lt;!&ndash;2&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    &lt;!&ndash;飲水&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_livingEnvironment_drinkingWater" />
+
+                        <Spinner
+                            android:id="@+id/water_sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                    </LinearLayout>
+                    &lt;!&ndash;厠所&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_livingEnvironment_toilet" />
+
+                        <Spinner
+                            android:id="@+id/toilet_sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                &lt;!&ndash;3&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    &lt;!&ndash;禽畜欄&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_livingEnvironment_livestock" />
+
+                        <Spinner
+                            android:id="@+id/livestock_sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                    </LinearLayout>
+                    &lt;!&ndash;厕所&ndash;&gt;
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/pre_btn"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/previous_page"
+                android:textColor="#ededed"
+                android:textSize="30sp"
+                materialdesign:rippleSpeed="30" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/next_btn"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+
+                android:background="@color/float_btn_color"
+                android:text="@string/save"
+                android:textColor="#ededed"
+                android:textSize="30sp"
+                materialdesign:rippleSpeed="30" />
+        </LinearLayout>
+    </LinearLayout>-->
+</ScrollView>

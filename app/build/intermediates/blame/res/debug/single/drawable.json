@@ -1,0 +1,830 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_above_measuring.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_above_measuring.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edit_oval.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_edit_oval.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_add_et_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\user_add_et_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_style.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\checkbox_style.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold_left.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold_left.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog_menu.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_dialog_menu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_next.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_btn_next.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tv_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold_right.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold_right.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\result_green.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\result_green.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ks_bg_empty.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ks_bg_empty.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_round_rect_qc3.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_round_rect_qc3.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\close_report_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\close_report_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rili.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ic_rili.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\login_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle_top_width.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle_top_width.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_round_rect_qc1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_round_rect_qc1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_lake_blue_normal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_lake_blue_normal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_settings.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_settings.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\downlaod_checkbox_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\downlaod_checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\progress_bar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle_width_blue.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle_width_blue.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_nor.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_nor.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_dark_blue_pressed.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_dark_blue_pressed.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dash_line.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_dash_line.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ks_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ks_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_local_video_nor.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_local_video_nor.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_shape.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\toast_shape.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ecg_apply_text_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ecg_apply_text_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back01.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\back01.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_net_video_sel.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_net_video_sel.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_solid_round.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_blue_solid_round.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_last.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_last.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\done_background_color_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\drawable\\done_background_color_dark.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remote_item_bg_1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\remote_item_bg_1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_et_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_et_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher_round.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_net_video_nor.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_net_video_nor.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animdraw2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\animdraw2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ecg_spinner_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ecg_spinner_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_brown.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_brown.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_exit.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_exit.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\confirm_save_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\confirm_save_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_seletor.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\delete_seletor.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_rect.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_blue_rect.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_one_hig.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_one_hig.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_item_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_item_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_abnormal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_abnormal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bmi_imput_et_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bmi_imput_et_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_title_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_title_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\resulit_olive.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\resulit_olive.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_black.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_black.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_measure_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_measure_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pickerview_btn.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ip_et.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_ip_et.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_blue_rect.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_white_blue_rect.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\delete_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic_ecg2_float_tips.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\pic_ecg2_float_tips.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_before_dinner.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\select_before_dinner.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_query_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_query_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_text_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_mid_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tab_mid_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigationbar_back_icon_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\navigationbar_back_icon_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_pre.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_btn_pre.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold_top_right.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold_top_right.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mian_blank_btn_click_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\mian_blank_btn_click_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold_bottom.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold_bottom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_above.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_above.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\measure_page_pop_et_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\measure_page_pop_et_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_black_rect.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_black_rect.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_no_data.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_no_data.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_rect_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_white_rect_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_greed.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_greed.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_mid_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_mid_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_login_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_dark_blue_normal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_dark_blue_normal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_username.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\login_username.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_right_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_right_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ip_rect_et.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ip_rect_et.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_resident_repot.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ic_resident_repot.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rack_notice_yellow.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rack_notice_yellow.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog_menu1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_dialog_menu1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\result_blue.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\result_blue.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_resident.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_resident.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dark_black_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_dark_black_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_below.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_below.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_round_rect_qc2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_round_rect_qc2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_et.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_et.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_one_nor.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_one_nor.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remote_search_btn_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\remote_search_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinn_listview_item_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\spinn_listview_item_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listview_selected.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\listview_selected.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_page_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_page_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_sel.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_sel.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_all_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\select_all_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigationbar_title_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\navigationbar_title_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_next.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_next.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_online_video_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_online_video_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_lake_blue_pressed.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_lake_blue_pressed.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report_upload_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\report_upload_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rack_notice_green.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rack_notice_green.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_normal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edittext_normal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_blue_page_first.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_blue_page_first.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remote_item_bg_2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\remote_item_bg_2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_report_item_select.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_report_item_select.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_register_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_register_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ip_dialog.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_ip_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_above_high.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_above_high.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\param_press_shape.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\param_press_shape.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_background.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\side_background.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_no_measure.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_no_measure.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rb_green.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rb_green.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_dark_blue_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_dark_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog_menu2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_dialog_menu2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_pic5.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_pic5.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_blue.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_btn_blue.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_frame.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edittext_frame.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_first.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_first.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_left_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_left_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_left_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tab_left_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ip_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_ip_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\folder.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leak_canary_toast_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\drawable\\leak_canary_toast_background.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_lake_blue_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_lake_blue_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_exit.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_btn_exit.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\param_normal_shape.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\param_normal_shape.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_yellow.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_yellow.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_close_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ic_close_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\username_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\username_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold_top.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold_top.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_purple.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_purple.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\wifi_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_delete.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_delete.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_btn_green.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_btn_green.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quick_bg_box.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\quick_bg_box.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\result_orange.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\result_orange.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_doctor_exit.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_doctor_exit.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\username_drop_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\username_drop_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_modify_not_select_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\user_modify_not_select_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rack_notice_blue.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rack_notice_blue.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bmi_imput_et_bg_2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bmi_imput_et_bg_2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle_width.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle_width.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_all.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_all.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn2_dis.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn2_dis.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_enable_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\check_enable_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_empty.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\checkbox_empty.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_pass.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\login_pass.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle_grey.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle_grey.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_report_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_report_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_drop_list.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_drop_list.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_checked.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_local_video_sel.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_local_video_sel.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listview_select.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\listview_select.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exit_seletor.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\exit_seletor.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_round_head.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_round_head.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg_selector_delete.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tv_bg_selector_delete.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bold.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\edit_bold.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rack_notice_light_green.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rack_notice_light_green.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_video_play_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_video_play_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog_menu3.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_dialog_menu3.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\doc.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\doc.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector_blue.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_selector_blue.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_previous.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_previous.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_resident_measure.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ic_resident_measure.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qc_lake_blue_stroke.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\qc_lake_blue_stroke.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_divider.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\list_divider.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_patient_list_menu.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_patient_list_menu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_public_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_public_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ll_loading_outside.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ll_loading_outside.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\password_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_red.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\circle_red.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog_menu4.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\btn_dialog_menu4.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_right_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tab_right_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_with_shadow.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\background_with_shadow.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_rectangle_all_width.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\rounded_rectangle_all_width.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_normal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_normal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rect_query.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_rect_query.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_patient_list_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_patient_list_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_report_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_report_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back02.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\back02.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ecg_apply_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\ecg_apply_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_setting_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\bg_setting_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_act.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\progress_bar_act.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_bg_selector_de.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable\\tv_bg_selector_de.xml"
+    }
+]

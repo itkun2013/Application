@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#e6e6e6"
+            android:orientation="vertical">
+
+    <com.konsung.defineview.ScaleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="35dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_hospital"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_district"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/x_district_temp"
+                            android:textColor="#333"
+                            android:textSize="23dp"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/x_report"
+                            android:textColor="#333"
+                            android:textSize="23dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_print"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/bt_check_ecg_image"
+                    android:background="@drawable/bg_rect_btn_green"
+                    android:text="@string/x_btn_print"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    />
+
+                <Button
+                    android:id="@+id/bt_check_ecg_image"
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_rect_btn_green"
+                    android:text="@string/x_check_ecg"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#808080"/>
+            </RelativeLayout>
+
+            <!-- 基本信息栏1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/x_report_name"/>
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/x_sex"/>
+
+                    <TextView
+                        android:id="@+id/tv_sex"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/x_measure_time"/>
+
+                    <TextView
+                        android:id="@+id/tv_measure_time"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 基本信息栏2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/x_report_age"/>
+
+                    <TextView
+                        android:id="@+id/tv_age"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <TextView
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/x_report_doctor"/>
+
+                    <TextView
+                        android:id="@+id/tv_doctor"
+                        style="@style/report_text_content_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--心率 hr-->
+            <include layout="@layout/layout_hr_container"/>
+
+            <!--血氧 bo-->
+            <include layout="@layout/layout_bo_container"/>
+
+            <!--血压 bp-->
+            <include layout="@layout/layout_bp_container"/>
+
+            <!--体温 temperature-->
+            <include layout="@layout/layout_temperature_container"/>
+
+            <!--血糖 bs-->
+            <include layout="@layout/layout_bs_container"/>
+
+            <!--尿常规 ur-->
+            <include layout="@layout/layout_report_ur_container"/>
+
+            <!--血红蛋白-->
+            <include layout="@layout/layout_hemoglobin_container"/>
+
+            <!--血脂四项-->
+            <include layout="@layout/layout_lipids_container"/>
+
+            <!-- 糖化血红蛋白-->
+            <include layout="@layout/layout_suagr_blood_container"/>
+
+            <!-- BMI-->
+            <include layout="@layout/layout_bmi_container"/>
+
+            <!-- 白细胞-->
+            <include layout="@layout/layout_wbc_container"/>
+        </LinearLayout>
+    </com.konsung.defineview.ScaleLayout>
+
+</ScrollView>

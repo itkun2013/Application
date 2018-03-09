@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rectangle_btn.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\rectangle_btn.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\style_04.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\style_04.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_second.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\input_second.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_gridview.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\bg_gridview.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\style_02.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\style_02.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_first.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\input_first.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_patient_item1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\bg_patient_item1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_input_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\search_input_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\style_03.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\style_03.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\leak_canary_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\drawable-hdpi-v4\\leak_canary_icon.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_patient_item2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\bg_patient_item2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\style_01.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-hdpi\\style_01.xml"
+    }
+]

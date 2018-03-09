@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:drop="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:layout_marginRight="@dimen/layout_margin"
+                android:layout_marginTop="@dimen/layout_margin">
+
+    <com.konsung.defineview.EcgViewFor12
+        android:id="@+id/all_ecg_wave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/fl_ecg_content"
+        android:layout_width="515dp"
+        android:layout_height="460dp"
+        android:background="@color/menuText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/rl_ecg_measure_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_report_title"
+                style="@style/text_24_black"
+                android:layout_marginBottom="40px"
+                android:layout_marginTop="48px"
+                android:text="@string/measure_success"
+                android:textSize="36px"/>
+
+            <LinearLayout
+                android:id="@+id/ll_ecg_measure_result"
+                android:layout_width="@dimen/px318"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_report_title"
+                android:background="@color/menuText"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="48px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/HR"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_hr"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="48px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/pr_en"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_pr"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="48px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/qrs"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_qrs"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="48px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/rv5_plus_sv1"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_rv5_plus_sv1"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/px318"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_report_title"
+                android:layout_toRightOf="@+id/ll_ecg_measure_result"
+                android:background="@color/menuText"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/qtQtc"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_qt_qtc"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/P_QRS_T"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_p_qrs_t"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/px318"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30px">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/rv5Sv1"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+
+                    <TextView
+                        android:id="@+id/tv_ecg_result_rv5_sv1"
+                        style="@style/text_24_gray"
+                        android:layout_width="160px"
+                        android:gravity="center|left"
+                        android:paddingLeft="5px"
+                        android:text="@string/invalid_data"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_ecg_measure_result"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="48px"
+                android:paddingRight="48px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="110px"
+                        android:gravity="center|left"
+                        android:text="@string/measure_result"/>
+
+                    <TextView
+                        style="@style/text_24_black"
+                        android:layout_width="wrap_content"
+                        android:text="@string/colon"/>
+                </LinearLayout>
+                <!--<item name="android:textColor">#666</item>-->
+                <!--<item name="android:textSize">@dimen/px24</item>-->
+                <!--<item name="android:gravity">center</item>-->
+                <!--<item name="android:singleLine">true</item>-->
+                <!--<item name="android:layout_width">match_parent</item>-->
+                <!--<item name="android:layout_height">wrap_content</item>-->
+                <TextView
+                    android:id="@+id/tv_ecg_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:text="@string/measure_result"
+                    android:textColor="@color/value_text"
+                    android:textSize="@dimen/px24"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <com.konsung.defineview.EcgViewFor12
+            android:id="@+id/ecg_wave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/ll_ecg_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <include layout="@layout/include_measure_value"/>
+
+        <include layout="@layout/include_measure_template_ecg"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

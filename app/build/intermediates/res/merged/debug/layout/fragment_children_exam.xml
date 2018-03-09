@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/layout_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp"
+                android:text="@string/detail_name"/>
+            <TextView
+                style="@style/FormTextView"
+                android:id="@+id/patient_name"
+                android:textColor="#0099CC" />
+            <TextView
+                style="@style/FormTextView"
+                android:text="月（年）龄"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <EditText
+                    android:id="@+id/age"
+                    style="@style/FormEditText"
+                    android:layout_width="50dp"/>
+                <RadioGroup
+                    android:id="@+id/ageType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/ageType_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="月"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/ageType_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="岁"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+            <TextView
+                style="@style/FormTextView"
+                android:text="随访日期" />
+            <com.konsung.defineview.ButtonFlat
+                android:id="@+id/followupDate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/txt_color"
+                android:text="@string/patient_birthday_btn" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="体重(Kg)" />
+            <LinearLayout
+                android:layout_span="5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <EditText
+                    android:id="@+id/childrenWeight"
+                    style="@style/FormEditText"/>
+                <RadioGroup
+                    android:id="@+id/childrenAppraise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <RadioButton
+                        android:id="@+id/childrenAppraise_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 上"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenAppraise_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 中"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenAppraise_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 下"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="身长(cm)" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="5">
+                <EditText
+                    android:id="@+id/childrenHeight"
+                    style="@style/FormEditText"/>
+                <RadioGroup
+                    android:id="@+id/childrenHeightAppraise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp">
+                    <RadioButton
+                        android:id="@+id/childrenHeightAppraise_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 上"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenHeightAppraisee_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 中"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenHeightAppraise_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 下"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="体格发育评价" />
+            <!--1正常 2 低体重 3 消瘦 4 发育迟缓 5 超重-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="5">
+                <RadioGroup
+                    android:id="@+id/childrenBodyAppraise"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/childrenBodyAppraise_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 正常"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenBodyAppraise_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 低体重"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenBodyAppraise_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 消瘦"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenBodyAppraise_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 发育迟缓"
+                        android:tag="4"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/childrenBodyAppraise_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 超重"
+                        android:tag="5"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="头围（cm）" />
+            <EditText
+                android:layout_span="5"
+                android:id="@+id/childrenHeadRound"
+                style="@style/FormEditText"
+                android:layout_width="200dp"/>
+        </TableRow>
+        <TextView
+            android:gravity="center"
+            android:text="体格检查"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="面  色" />
+            <!--1 红润 2 黄染 3 其他-->
+            <RadioGroup
+                android:id="@+id/childrenFaceNo"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_span="5">
+                <RadioButton
+                    android:id="@+id/childrenFaceNo_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 红润"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenFaceNo_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 黄染"
+                    android:tag="2"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenFaceNo_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 其他"
+                    android:tag="3"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="皮  肤" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:layout_span="2"
+                android:id="@+id/childrenSkin"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenSkin_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenSkin_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="颈部包块" />
+            <!--1 有 2 无-->
+            <RadioGroup
+                android:layout_span="2"
+                android:id="@+id/childrenNeck"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenNeck_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 有"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenNeck_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 无"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="前  囟" />
+            <!--1 闭合 2 未闭-->
+            <RadioGroup
+                android:layout_span="5"
+                android:id="@+id/childrenBregmaticClose"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenBregmaticClose_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 闭合"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenBregmaticClose_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 未闭"
+                    android:tag="2"
+                    android:textSize="13sp" />
+                <EditText
+                    android:id="@+id/childrenBregmatic1"
+                    style="@style/FormEditText"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="30dp"
+                    android:text="cm"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="20dp"
+                    android:text="x"/>
+                <EditText
+                    android:id="@+id/childrenBregmatic2"
+                    style="@style/FormEditText"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="30dp"
+                    android:text="cm"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="眼外观" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenEye"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenEye_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenEye_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="耳外观" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenEar"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenEar_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenEar_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="听  力" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenHearing"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenHearing_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 通过"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenHearing_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 未通过"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="出牙/龋齿数（颗）" />
+            <LinearLayout
+                android:layout_span="5">
+                <EditText
+                    android:id="@+id/childrenTooth"
+                    android:inputType="number"
+                    style="@style/FormEditText" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="/"
+                    android:layout_width="20dp"/>
+                <EditText
+                    android:id="@+id/childrenToothDecay"
+                    android:inputType="number"
+                    style="@style/FormEditText" />
+
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="步  态" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenStepState"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenStepState_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenStepState_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="口  腔" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenChildrenMouth"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenChildrenMouth_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenChildrenMouth_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="心  肺" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenHeart"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenHeart_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenHeart_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="腹  部" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenBelly"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenBelly_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenBelly_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="脐  部" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenFunicle"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenFunicle_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenFunicle_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="四  肢" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenLimbs"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenLimbs_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenLimbs_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="可疑佝偻病症状" />
+            <!--1 无 2 夜惊 3 多汗 4 烦躁-->
+            <LinearLayout
+                android:layout_span="5"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/childrenRicketsSymptom_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <CheckBox
+                    android:id="@+id/childrenRicketsSymptom_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 夜惊"
+                    android:tag="2"
+                    android:textSize="13sp" />
+                <CheckBox
+                    android:id="@+id/childrenRicketsSymptom_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 多汗"
+                    android:tag="3"
+                    android:textSize="13sp" />
+                <CheckBox
+                    android:id="@+id/childrenRicketsSymptom_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 烦躁"
+                    android:tag="4"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="可疑佝偻病体征" />
+            <!--1 无 2 颅骨软化 3 方颅 4 枕秃 5 肋串珠 6 肋外翻 7 肋软骨沟 8 鸡胸 9 手镯征 10 “O”型腿 11“X”型腿-->
+            <LinearLayout
+                android:layout_span="5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 无"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 颅骨软化"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 方颅"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 枕秃"
+                        android:tag="4"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 肋串珠"
+                        android:tag="5"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 肋外翻"
+                        android:tag="6"
+                        android:textSize="13sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 肋软骨沟"
+                        android:tag="7"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8 鸡胸"
+                        android:tag="8"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9 手镯征"
+                        android:tag="9"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 O型腿"
+                        android:tag="10"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenRicketsSign_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11 X型腿"
+                        android:tag="11"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="肛门/外生殖器" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenAnus"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenAnus_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未见异常"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenAnus_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 异常"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+            <TextView
+                style="@style/FormTextView"
+                android:text="血红蛋白值" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_span="2">
+                <EditText
+                    android:id="@+id/childrenHemoglobin"
+                    android:inputType="number"
+                    style="@style/FormEditText" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="g/L" />
+            </LinearLayout>
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="户外活动" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_span="5">
+                <EditText
+                    android:id="@+id/childrenOutsideActivity"
+                    style="@style/FormEditText" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="小时/日" />
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="服用维生素D" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_span="5">
+                <EditText
+                    android:id="@+id/childrenVitamin"
+                    style="@style/FormEditText" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="IU/日" />
+            </LinearLayout>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="发育评估" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/childrenGrowthAppraise"
+                android:layout_span="5"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/childrenGrowthAppraise_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 通过"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/childrenGrowthAppraise_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 未通过"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="两次随访间患病情况" />
+            <!--1 未见异常 2 异常-->
+            <RadioGroup
+                android:id="@+id/diseasingWhenFollowup"
+                android:layout_span="5"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/diseasingWhenFollowup_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 未患病"
+                    android:tag="1"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/diseasingWhenFollowup_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 患病"
+                    android:tag="2"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="患病其他" />
+            <LinearLayout
+                android:layout_span="5"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="50dp"
+                    android:text="肺炎" />
+                <EditText
+                    android:id="@+id/pneumoniaTimes"
+                    android:layout_width="60dp"
+                    style="@style/FormEditText"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="40dp"
+                    android:text="次" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="50dp"
+                    android:text="腹泻" />
+                <EditText
+                    android:id="@+id/diarrheaTimes"
+                    android:layout_width="60dp"
+                    style="@style/FormEditText"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="40dp"
+                    android:text="次" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="50dp"
+                    android:text="外伤" />
+                <EditText
+                    android:id="@+id/injuryTimes"
+                    style="@style/FormEditText"
+                    android:layout_width="60dp"/>
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="40dp"
+                    android:text="次" />
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="50dp"
+                    android:text="其他" />
+                <EditText
+                    android:id="@+id/diseaseOther"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="50dp"
+                android:text="其他" />
+            <EditText
+                android:layout_span="5"
+                android:id="@+id/childrenOther"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="转诊" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_span="5">
+                <RadioGroup
+                    android:id="@+id/referralSign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/referralSign2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 无"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/referralSign2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 有"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                </RadioGroup>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="原因"
+                        style="@style/FormTextView" />
+                    <EditText
+                        android:id="@+id/referralReason"
+                        style="@style/FormEditText" />
+                </LinearLayout>
+                <TextView
+                    android:text="机构及科室:"
+                    android:gravity="center|left"
+                    style="@style/FormTextView" />
+                <EditText
+                    android:id="@+id/referralOrgName"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="指   导" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_span="5"
+                android:orientation="vertical">
+                <!--1 喂养指导  2 发育指导 3 防病指导 4 预防伤害指导 5 口腔保健指导-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/childrenGuideCode_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 喂养指导"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenGuideCode_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 发育指导"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenGuideCode_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 防病指导"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/childrenGuideCode_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 预防伤害指导"
+                        android:tag="4"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/childrenGuideCode_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 口腔保健指导"
+                        android:tag="5"
+                        android:textSize="13sp" />
+                    <EditText
+                        android:id="@+id/childrenGuideOther"
+                        style="@style/FormEditText"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="fill_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="中医健康管理" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="5">
+                <!--1. 饮食调养指导 2. 起居调摄指导 3. 摩腹、捏脊 4. 健康教育处方-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/medicineSymptom_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 饮食调养指导"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/medicineSymptom_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 起居调摄指导"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/medicineSymptom_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 摩腹、捏脊"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/medicineSymptom_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 健康教育处方"
+                        android:tag="4"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="下次随访日期"
+                />
+            <com.konsung.defineview.ButtonFlat
+                android:id="@+id/nextFollowUpDate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/txt_color"
+                android:text="@string/patient_birthday_btn"
+                android:layout_span="2" />
+            <TextView
+                style="@style/FormTextView"
+                android:text="随访医生签名" />
+            <EditText
+                android:id="@+id/followUpDoctorName"
+                style="@style/FormEditText"
+                android:layout_span="2"/>
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_span="6">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/save_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="保   存"
+                    materialdesign:text_size="18" />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>

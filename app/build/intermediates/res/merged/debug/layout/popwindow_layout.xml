@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <EditText
+            android:id="@+id/measure_search_et"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="@string/title_input_hint"
+            android:background="@drawable/measure_page_pop_et_bg"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="8dp"
+            android:textColor="#999999"
+            android:textColorHint="#999999"
+            android:textSize="13sp"
+            android:drawableLeft="@drawable/ic_search_mine"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="10dp"
+            />
+        </RelativeLayout>
+    <ListView
+        android:id="@+id/pop_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:divider="@color/head_pic_fill"
+        android:dividerHeight="1dp"
+        />
+
+</LinearLayout>

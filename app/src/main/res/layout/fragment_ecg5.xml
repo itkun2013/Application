@@ -1,0 +1,263 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ecg_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EcgActivity">
+
+    <LinearLayout
+        android:id="@+id/hr_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/hr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minWidth="80dp"
+                android:text="@string/ecg_hr"
+                android:textColor="#FF9933"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ecg_hr_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/mesu_text"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:minWidth="30dp"
+                android:text="-?-"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ecg_notify"
+                android:layout_width="280dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.konsung.floatbuttons.DonutProgress
+                android:id="@+id/donut_progress"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                custom:donut_unfinished_stroke_width="5dp"
+                custom:donut_finished_stroke_width="10dp"
+                custom:donut_progress="20"
+                custom:donut_inner_bottom_text="Loading..."
+                custom:donut_inner_bottom_text_size="10dp"
+                custom:donut_inner_bottom_text_color="#214193"/>
+<!--            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/measure_btn"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/nibp_btn_start"
+                android:textSize="30sp"
+                materialdesign:rippleSpeed="30" />-->
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/measure_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/float_btn_color"
+                android:textColor="#ededed"
+                android:text="@string/nibp_btn_start"
+                android:textSize="30sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/list_item_unselected"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--The Frist Line is ECG_II,It was the test Line-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_ii"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="120dp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--Line 2,it contain ecg_i,iii,avr-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_i"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_iii"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVR"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--Line 3,it's contains ecg_avl,avf,v1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVL"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVF"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_V1"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

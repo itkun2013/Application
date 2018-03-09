@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+
+    <TextView
+        style="@style/report_content_style"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/x_project_name"/>
+
+    <TextView
+        style="@style/report_content_style"
+        android:text="@string/measure_result"/>
+
+    <TextView
+        style="@style/report_content_style"
+        android:text="@string/x_measure_unit"/>
+
+    <TextView
+        style="@style/report_content_style"
+        android:text="@string/x_preference_value"/>
+
+    <TextView
+        style="@style/report_content_style"
+        android:text="@string/x_tip"/>
+</LinearLayout>

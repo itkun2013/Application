@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.konsung.view.MoveLinearLayout
+            android:id="@+id/ll_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/ll_1"
+                android:layout_width="@dimen/ll_width_modify"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"/>
+
+            <LinearLayout
+                android:id="@+id/ll_2"
+                android:layout_width="@dimen/ll_width_modify"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"/>
+
+            <LinearLayout
+                android:id="@+id/ll_3"
+                android:layout_width="@dimen/ll_width_modify"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_4"
+                android:layout_width="@dimen/ll_width_modify"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"/>
+
+            <LinearLayout
+                android:id="@+id/ll_5"
+                android:layout_width="@dimen/ll_width_modify"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/ll_6"
+                    android:layout_width="@dimen/ll_width_modify"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"/>
+
+
+            </LinearLayout>
+        </com.konsung.view.MoveLinearLayout>
+
+        <com.konsung.view.MoveLinearLayout
+            android:id="@+id/ll_root1"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tv_bg_selector_delete"
+                android:drawableLeft="@drawable/ic_operate_add"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="200dp"
+                android:text="@string/new_add" />
+
+            <TextView
+                android:id="@+id/btn_delete"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tv_bg_selector"
+                android:drawableLeft="@drawable/ic_operate_delete"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="200dp"
+                android:text="@string/delete" />
+        </com.konsung.view.MoveLinearLayout>
+    </RelativeLayout>
+
+    <com.konsung.view.MoveRelativeLayout
+        android:id="@+id/rela_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.konsung.view.MoveRelativeLayout>
+
+</FrameLayout>

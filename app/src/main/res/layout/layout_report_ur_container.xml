@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_urt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/x_ur"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <!--白细胞-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_baixibao1"/>
+
+        <TextView
+            android:id="@+id/tv_ur_leu"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_leu_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--亚硝酸盐-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_yaxiaosuanyan"/>
+
+        <TextView
+            android:id="@+id/tv_ur_nit"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_nit_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--尿胆原-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_niaodanyuan"/>
+
+        <TextView
+            android:id="@+id/tv_ur_ubg"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_ubg_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--蛋白质-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_danbaizhi"/>
+
+        <TextView
+            android:id="@+id/tv_ur_pro"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_pro_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--pH值-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_suanjianzhi"/>
+
+        <TextView
+            android:id="@+id/tv_ur_ph"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_ph_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_ph_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--比重-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+
+            style="@style/report_first_item_style"
+            android:text="@string/p_bizhong"/>
+
+        <TextView
+            android:id="@+id/tv_ur_sg"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_sg_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_sg_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--尿钙-->
+    <LinearLayout
+        android:id="@+id/ca_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_ca"/>
+
+        <TextView
+            android:id="@+id/tv_ur_ca"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/health_unit_dl"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_ca_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--潜血-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_qianxue"/>
+
+        <TextView
+            android:id="@+id/tv_ur_bld"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_bld_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--酮体-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_dongti"/>
+
+        <TextView
+            android:id="@+id/tv_ur_ket"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_ket_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--胆红素-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_danhongsu"/>
+
+        <TextView
+            android:id="@+id/tv_ur_bil"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"
+            android:id="@+id/textView"/>
+
+        <ImageView
+            android:id="@+id/iv_bil_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--葡萄糖-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_putaotang"/>
+
+        <TextView
+            android:id="@+id/tv_ur_glu"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_glu_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--维生素C-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+
+            style="@style/report_first_item_style"
+            android:text="@string/p_vc1"/>
+
+        <TextView
+            android:id="@+id/tv_ur_asc"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_asc_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--微量白蛋白-->
+    <LinearLayout
+        android:id="@+id/ma_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_ma"/>
+
+        <TextView
+            android:id="@+id/tv_ur_alb"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_mg"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_alb_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--肌酐-->
+    <LinearLayout
+        android:id="@+id/cr_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/p_cre"/>
+
+        <TextView
+            android:id="@+id/tv_ur_cre"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/health_unit_dl"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_cre_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

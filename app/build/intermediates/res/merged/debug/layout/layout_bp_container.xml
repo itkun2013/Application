@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_nibp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/x_bp"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            
+            style="@style/report_first_item_style"
+            android:paddingRight="18dp"
+            android:text="@string/shrink_pressure"/>
+
+        <TextView
+            android:id="@+id/tv_shrink_pressure"
+            style="@style/report_content_style"
+
+            android:text="@string/_97"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_mmHg"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_shrink_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_shrink_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            
+            style="@style/report_first_item_style"
+            android:paddingRight="18dp"
+            android:text="@string/spread_pressure"/>
+
+        <TextView
+            android:id="@+id/tv_spread"
+            style="@style/report_content_style"
+
+            android:text="@string/_78"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_mmHg"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_spread_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_spread_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="40dp">
+
+        <TextView
+            
+            style="@style/report_first_item_style"
+            android:paddingRight="18dp"
+            android:text="@string/average_pressure"/>
+
+        <TextView
+            android:id="@+id/tv_average_pressure"
+            style="@style/report_content_style"
+
+            android:text="@string/_78"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_mmHg"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_average_pressure_reference"/>
+
+        <ImageView
+            android:id="@+id/iv_average_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--脉率-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:paddingRight="18dp"
+            android:text="@string/pr"/>
+
+        <TextView
+            android:id="@+id/tv_pr"
+            style="@style/report_content_style"
+            android:text="@string/_78"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/x_measure_unit_bpm"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/hr_reference_range"/>
+
+        <ImageView
+            android:id="@+id/iv_pr_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,1134 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adpter_measuredata.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\adpter_measuredata.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spo2_new.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_spo2_new.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uploading_dialog.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\uploading_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_param.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_param.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mapp_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\mapp_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_dialog_waiting.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\video_dialog_waiting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_add_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_configure2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_configure2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodwbc_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodwbc_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_urine_fourteen_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_urine_fourteen_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_listview_area.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\item_listview_area.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hemoglobin.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_hemoglobin.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_template_ecg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_template_ecg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragme_personal_measure_detail.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragme_personal_measure_detail.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_medicine.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_medicine.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_ns.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_ns.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spo2_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_spo2_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_record.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_record.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_web.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_web.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_list_menu.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_list_menu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_display_leak.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\layout\\leak_canary_display_leak.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_public_health_offline.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_public_health_offline.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_download_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_download_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_temp_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_temp_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wbc.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_wbc.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_page_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_page_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_measure_data.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_measure_data.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pop_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_pop_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_total.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_total.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ecg_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_ecg_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_teaching_record.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_teaching_record.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pop_upload.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_pop_upload.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lipids_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_lipids_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hypertension_total.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_hypertension_total.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_immunifaction.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_immunifaction.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_radiogroup.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_value_radiogroup.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg12.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg12.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blood_red.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_blood_red.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_item_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\video_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_launcher.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_progress.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_update_progress.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_medicine_fragment_2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_medicine_fragment_2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personaldetail_2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_personaldetail_2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_holergasia_follow_up.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_holergasia_follow_up.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_elderly.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_elderly.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_maternatal_total.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_maternatal_total.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_spo2_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_uri_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_uri_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bp_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_bp_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_wbc_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_wbc_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_row.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\file_row.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress_data.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_progress_data.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_refresh.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_refresh.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_hgb.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_hgb.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_children_exam.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_children_exam.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodglu.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodglu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_video.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_video.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_all_patient_detail.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_all_patient_detail.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_ecg_report.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_ecg_report.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_spo2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_spo2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg12_quick_check.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg12_quick_check.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ecg_spinner_button.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\ecg_spinner_button.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_temp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_temp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_symptom.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_symptom.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_measure.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_spo2_measure.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_holergasia.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_holergasia.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_urine_14_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_urine_14_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_hr_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_hr_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_urine_11_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_urine_11_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mm_spinner.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\mm_spinner.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bmi.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bmi.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measure_data_by_patient_list_item1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\measure_data_by_patient_list_item1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_temperature_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_temperature_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ir_temp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ir_temp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_supervise.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_supervise.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ecg_setting.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_ecg_setting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_holergasia_information.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_holergasia_information.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\year_label_text_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\year_label_text_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_done_button.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\date_picker_done_button.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_waiting.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_waiting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hemocyte.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_hemocyte.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_list_menu.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_list_menu.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_overlay.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\view_overlay.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_superviseinspection.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_superviseinspection.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_hemoglobin_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_hemoglobin_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_hypertension.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_hypertension.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\actionbar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defineview_edit_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\defineview_edit_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_template2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_template2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodhgb.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodhgb.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg5.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg5.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_view_animator.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\date_picker_view_animator.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flat_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\flat_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_wbc_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_wbc_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bo_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_bo_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_measure_detail.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_measure_detail.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_configure.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_configure.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_children.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_children.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\textview.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\textview.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_all_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_all_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hypertension.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_hypertension.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirm_pop.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\confirm_pop.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_template.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_template.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mm_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\mm_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_item_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popwindow_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_heap_dump_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\layout\\leak_canary_heap_dump_toast.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_net_check_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_net_check_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_urine_fourteen.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_urine_fourteen.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_statistical_data.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_statistical_data.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg_guide.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg_guide.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_lipid.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_lipid.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supervise_inspection_list.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_supervise_inspection_list.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_button.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\spinner_button.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_row.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\layout\\leak_canary_ref_row.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_upload_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_upload_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_report_list.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_report_list.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popwindow_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_suagr_blood_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_suagr_blood_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nibp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_nibp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_record_dialog.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_record_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_medicine_fragment_1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_medicine_fragment_1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_ecg_wave_recordfor12.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_ecg_wave_recordfor12.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_leak_row.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\layout\\leak_canary_leak_row.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_value.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personaldetail_4.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_personaldetail_4.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_remote_ecg_public.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_remote_ecg_public.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_download_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popupwindow_download_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_quick_check.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_quick_check.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ir_temp_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ir_temp_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supervise_info_list.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_supervise_info_list.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bs_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_bs_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\launcher_gridview_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\launcher_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pop_patient1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_pop_patient1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_start_measure_spo2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_start_measure_spo2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\current_measure_result.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\current_measure_result.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_bo.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_bo.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_glu_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_glu_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_estimate.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_estimate.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_remote_ecg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_remote_ecg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_uri.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_uri.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nibp_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_nibp_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout2.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\linear_layout2.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_bp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_bp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measure_data_by_patient_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\measure_data_by_patient_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_factory_protect.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_factory_protect.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personaldetail_5.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_personaldetail_5.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_diabetes.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_diabetes.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bene_trinity.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bene_trinity.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_xuezhi_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_xuezhi_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quick_check_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_quick_check_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_patient_new.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_add_patient_new.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blood_fat.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_blood_fat.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_temp_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_temp_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_children.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_children.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bussiness.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bussiness.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\layout\\pw_time.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_start_measure_ecg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_start_measure_ecg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_patient_query.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_patient_query.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_line_black.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_line_black.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_sugar_bhd_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_sugar_bhd_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_dgc.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_dgc.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_spinner_item_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popwindow_spinner_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_remote_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_remote_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_report_subtitle.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_report_subtitle.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help_pdf.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_help_pdf.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_health_report.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_health_report.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_devices.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_devices.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personaldetail_3.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_personaldetail_3.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_bmi_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_bmi_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_button_view.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\select_button_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_name_pop_window_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_name_pop_window_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_spo2_mesure_success.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_spo2_mesure_success.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_pickerview_topbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_bp_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_bp_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_measure_value_horizontal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\include_measure_value_horizontal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodhgb_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodhgb_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_start_log.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_start_log.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bar_action.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\bar_action.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistical_table_title.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\item_statistical_table_title.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_wbc_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_wbc_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bmi_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_bmi_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fileselect.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fileselect.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_header_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\date_picker_header_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_start_measure_ir_temp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_start_measure_ir_temp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_bp_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_bp_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\linear_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_patient_list_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_patient_list_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_selected_date.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\date_picker_selected_date.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_skin_setting.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_skin_setting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_item.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_diabetes_total.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_diabetes_total.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supervise_inspection.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_supervise_inspection.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ghb_reference.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_ghb_reference.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_ip.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_ip.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_uric_acid.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_uric_acid.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_holergasia_total.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_holergasia_total.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_hemoglobin_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_hemoglobin_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_temp_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_temp_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_medicine_fragment_4.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_medicine_fragment_4.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_new_record_dialog.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\create_new_record_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_measure_data_by_patient.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_measure_data_by_patient.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lipids.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_lipids.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_district.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_district.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_help.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_video_help.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cholesterol.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_cholesterol.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_item_text.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popupwindow_item_text.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg12_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg12_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_elderly_medicine_fragment_3.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_elderly_medicine_fragment_3.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\patient_name_pop_window.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\patient_name_pop_window.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\updatadialog.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\updatadialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_report_ur_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_report_ur_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistical_table.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\item_statistical_table.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_edit_text.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\pop_edit_text.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_bs.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_bs.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodwbc.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodwbc.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_toggle.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\view_toggle.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_page.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\popupwindow_page.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patient_list.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_patient_list.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_top_row.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\layout\\leak_canary_ref_top_row.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_supvervise_info.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_supvervise_info.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_all.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_all.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_important_update.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_important_update.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_of_picture.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\item_list_of_picture.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\linearlayout_container.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\linearlayout_container.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ghb.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ghb.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_ghb_tutorial.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_ghb_tutorial.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_blood_sugar_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_blood_sugar_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_report.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_report.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_get_ecg_wave_recordfor5.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_get_ecg_wave_recordfor5.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qcheck_tp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_qcheck_tp.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_superviseinfo.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_superviseinfo.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\time_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_edit.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_edit.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_blood_red_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_blood_red_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_for_maternal.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\list_item_for_maternal.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6bd2f7e895626056f3a9bd62e0d0efe3677c49b4\\output\\res\\layout\\time_header_label.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_about.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_personaldetail_1.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_personaldetail_1.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patient_download.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_patient_download.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_online_video.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\item_online_video.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pdf_view.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_pdf_view.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_time_picker.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\date_time_picker.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_options.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f6469bf0535b8efe7c8fa65abb503af3867599e2\\output\\res\\layout\\pw_options.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_measure_ecg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\layout_measure_ecg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ecg3.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_ecg3.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodglu_test.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\fragment_bloodglu_test.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_measure.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\activity_measure.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quick_check_spo_layout_modify.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\quick_check_spo_layout_modify.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_start_measure_temp.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\layout\\dialog_start_measure_temp.xml"
+    }
+]

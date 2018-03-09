@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:konsung="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/layout_bottom"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--6-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <!--血型-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_blood_type" />
+
+                <TextView
+                    android:id="@+id/blood_type_sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp" />
+            </LinearLayout>
+            <!--RH-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="120dp"
+
+                    android:layout_height="wrap_content"
+                    android:paddingRight="17dp"
+                    android:text="@string/detail_blood_RH" />
+
+                <Spinner
+                    android:id="@+id/blood_RH_sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--7-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <!--文化程度-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_degree_of_education" />
+
+                <Spinner
+                    android:id="@+id/degreeOfEducation_sp"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp" />
+            </LinearLayout>
+            <!--职业-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="120dp"
+
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"
+                android:text="@string/detail_career" />
+
+            <Spinner
+                android:id="@+id/career_sp"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:minWidth="100dp" />
+        </LinearLayout>
+
+        <!--8-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <!--婚姻状况-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="120dp"
+
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_maritalStatus" />
+
+                <Spinner
+                    android:id="@+id/marital_sp"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--9-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <!--医疗费用支付方式-->
+            <TextView
+                android:layout_width="120dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/detail_payType" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp">
+
+                    <!--                    <Spinner
+                                            android:id="@+id/payType_1"
+                                            android:layout_width="250dp"
+                                            android:layout_height="wrap_content"
+                                            android:drawSelectorOnTop="true"
+                                            android:minWidth="100dp" />-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="@string/detail_paytype_all1"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:id="@+id/pay1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/grass_konsung"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/white"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:id="@+id/pay2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/grass_konsung"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/white"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp">
+
+                        <TextView
+                            android:id="@+id/pay3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/grass_konsung"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="@color/white"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/payType_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+                        <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:paddingLeft="20dp"-->
+                        <!--android:text="①"-->
+                        <!--/>-->
+                        <Spinner
+                            android:id="@+id/payType_sp1"
+                            android:layout_width="400dp"
+                            android:layout_height="wrap_content"
+                            android:drawSelectorOnTop="true"
+                            android:minWidth="100dp" />
+                        <!--<com.cengalabs.flatui.views.FlatEditText-->
+                        <!--android:id="@+id/payType_ed1"-->
+                        <!--android:layout_width="80dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:inputType="number"-->
+                        <!--android:maxLength="1"-->
+                        <!--android:singleLine="true"-->
+                        <!--flatui:fl_fieldStyle="fl_transparent" />-->
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/payType_other1"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:visibility="gone"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <com.konsung.defineview.ButtonFloatSmall
+                            android:id="@+id/payType_add1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@color/float_btn_color"
+                            android:visibility="visible"
+                            konsung:iconDrawable="@drawable/ic_action_new" />
+                    </LinearLayout>
+                    <!--<LinearLayout-->
+                    <!--android:id="@+id/payType_ll2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:paddingBottom="5dp"-->
+
+                    <!--android:layout_height="wrap_content">-->
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:paddingLeft="20dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="②"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+                    <!--<Spinner-->
+                    <!--android:id="@+id/payType_sp2"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawSelectorOnTop="true"-->
+                    <!--android:minWidth="100dp" />-->
+                    <!--<TextView-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="wrap_content" />-->
+                    <!--<com.cengalabs.flatui.views.FlatEditText-->
+                    <!--android:id="@+id/payType_other2"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:visibility="gone"-->
+
+                    <!--android:singleLine="true"-->
+                    <!--flatui:fl_fieldStyle="fl_transparent" />-->
+                    <!--<com.gc.materialdesign.views.ButtonFloatSmall-->
+                    <!--android:id="@+id/payType_add2"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@color/float_btn_color"-->
+                    <!--android:visibility="visible"-->
+                    <!--materialdesign:iconDrawable="@drawable/ic_action_new"-->
+                    <!--android:layout_height="wrap_content"/>-->
+                    <!--</LinearLayout>-->
+                    <!--<LinearLayout-->
+                    <!--android:id="@+id/payType_ll3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingBottom="5dp"-->
+
+                    <!--android:orientation="horizontal"-->
+                    <!-->-->
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:paddingLeft="20dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="③"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+                    <!--<Spinner-->
+                    <!--android:id="@+id/payType_sp3"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawSelectorOnTop="true"-->
+                    <!--android:minWidth="100dp" />-->
+                    <!--<TextView-->
+                    <!--android:layout_width="20dp"-->
+                    <!--android:layout_height="wrap_content" />-->
+                    <!--<com.cengalabs.flatui.views.FlatEditText-->
+                    <!--android:id="@+id/payType_other3"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:singleLine="true"-->
+                    <!--flatui:fl_fieldStyle="fl_transparent" />-->
+
+                    <!--</LinearLayout>-->
+
+
+                </LinearLayout>
+
+                <!--                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="5dp">
+
+                                    <Spinner
+                                        android:id="@+id/payType_2"
+                                        android:layout_width="250dp"
+                                        android:layout_height="wrap_content"
+                                        android:drawSelectorOnTop="true"
+                                        android:minWidth="100dp"
+                                        android:visibility="gone" />
+
+                                    <com.cengalabs.flatui.views.FlatEditText
+                                        android:id="@+id/payType_other2"
+                                        android:layout_width="250dp"
+                                        android:layout_height="wrap_content"
+                                        android:singleLine="true"
+                                        android:visibility="gone"
+                                        flatui:fl_fieldStyle="fl_transparent" />
+                                    <com.gc.materialdesign.views.ButtonFloatSmall
+                                        android:id="@+id/add_pay2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:visibility="gone"
+                                        materialdesign:iconDrawable="@drawable/ic_action_new"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="5dp">
+
+                                    <Spinner
+                                        android:id="@+id/payType_3"
+                                        android:layout_width="250dp"
+                                        android:layout_height="wrap_content"
+                                        android:drawSelectorOnTop="true"
+                                        android:minWidth="100dp"
+                                        android:visibility="gone" />
+
+                                    <com.cengalabs.flatui.views.FlatEditText
+                                        android:id="@+id/payType_other3"
+                                        android:layout_width="250dp"
+                                        android:layout_height="wrap_content"
+                                        android:singleLine="true"
+                                        android:visibility="gone"
+                                        flatui:fl_fieldStyle="fl_transparent" />
+                                </LinearLayout>-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/pre_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/previous_page"
+                android:textColor="#ededed"
+                android:textSize="30sp"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/next_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/save"
+                android:textColor="#ededed"
+                android:textSize="30sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

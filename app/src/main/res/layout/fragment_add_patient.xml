@@ -1,0 +1,480 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_patient_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/layout_bottom"
+    android:paddingLeft="@dimen/layout_bottom"
+    android:paddingRight="@dimen/layout_bottom"
+    android:paddingTop="15dp"
+    tools:context="com.konsung.fragment.AddPatientFragment">
+
+    <TextView
+        android:id="@+id/tv_brush_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/pls_check_idcard"
+        android:textSize="40sp"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_alertMsg"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_check_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal">
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/commit_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/confirm"
+                android:textSize="18sp"
+                android:visibility="invisible"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/change_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/change_way_for_select"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_patient_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:id="@+id/ll_patient_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--姓名-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/patient_name_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/patient_name"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_name_et"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="10"
+                    android:minWidth="250dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:id="@+id/name_hint"
+                    android:layout_width="@dimen/space"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:id="@+id/patient_idCard_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/patient_idCard"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_idCard_et"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789xX"
+                    android:inputType="number"
+                    android:maxLength="18"
+                    android:minWidth="250dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:id="@+id/id_hint"
+                    android:layout_width="@dimen/space"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textColor="#ff0000"
+                    />
+            </LinearLayout>
+
+            <!--血型-->
+            <LinearLayout
+                android:id="@+id/patient_blood_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp">
+
+                <TextView
+                    android:id="@+id/patient_blood_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/patient_blood"
+                    android:textSize="20sp"/>
+
+                <Spinner
+                    android:id="@+id/patient_blood_sp"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp"/>
+
+                <TextView
+                    android:layout_width="@dimen/space"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:id="@+id/patient_type_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/patient_type"
+                    android:textSize="20sp"/>
+
+                <Spinner
+                    android:id="@+id/patient_type_sp"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp"/>
+            </LinearLayout>
+
+            <!--性别-->
+            <LinearLayout
+                android:id="@+id/patient_sex_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp">
+
+                <TextView
+                    android:id="@+id/patient_sex_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/patient_sex"
+                    android:textSize="20sp"/>
+
+                <Spinner
+                    android:id="@+id/patient_sex_sp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:minWidth="100dp"/>
+
+                <TextView
+                    android:layout_width="@dimen/space"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:id="@+id/patient_age_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/patient_age"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_age_et"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/unit_age"/>
+            </LinearLayout>
+
+            <!--年龄-->
+            <LinearLayout
+                android:id="@+id/patient_age_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/patient_weight_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/patient_weight"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_weight_et"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/health_unit_kg"/>
+
+                <TextView
+                    android:layout_width="@dimen/space"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:id="@+id/patient_height_tv"
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/patient_height"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_height_et"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/health_unit_cm"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/waist"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_waist"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789."
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/health_unit_cm"/>
+
+                <TextView
+                    android:layout_width="11dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/hipline"
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/patient_hipline"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789."
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/health_unit_cm"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/add_patient_ll_height"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp">
+
+                <TextView
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="联系方式："
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_patient_telephone"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:digits="0123456789"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="15"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/health_unit_cm"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:layout_width="11dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff0000"/>
+
+                <TextView
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="固话："
+                    android:textSize="20sp"
+                    android:visibility="gone"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_patient_phone"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="100dp">
+
+                <TextView
+                    android:layout_width="@dimen/add_patient_title_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="备注："
+                    android:textSize="20sp"/>
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_patient_remark"
+                    android:layout_width="638dp"
+                    android:layout_height="70dp"
+                    android:imeOptions="actionNext"
+                    android:gravity="left"
+                    android:maxLength="150"
+                    flatui:fl_fieldStyle="fl_transparent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/buttons_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/save_btn"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="@string/save"
+                android:textSize="30sp"/>
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/back_btn"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/save_btn"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_back"
+                android:text="@string/back"
+                android:textSize="30sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

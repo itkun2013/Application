@@ -1,0 +1,164 @@
+<LinearLayout android:id="@+id/get_ecg_data_fragment"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.konsung.fragment.GetMeasureDataByPatientFragment">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--姓名-->
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/p_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="52dp"
+            android:gravity="center"
+            android:text="@string/patient_name"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minWidth="80dp"
+            android:paddingLeft="@dimen/text_right"
+            android:paddingRight="@dimen/text_right"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="@string/patient_sex"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_sex_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minWidth="40dp"
+            android:paddingLeft="@dimen/text_right"
+            android:paddingRight="@dimen/text_right"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="@string/idcard"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_idcard_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minWidth="80dp"
+            android:paddingLeft="@dimen/text_right"
+            android:paddingRight="@dimen/text_right"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#669a9a9a"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/serial"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/check_doctor"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/check_time"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/updata_state"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/operator"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/loading"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:id="@+id/get_measure_data_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+            <include
+                layout="@layout/layout_page_container"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

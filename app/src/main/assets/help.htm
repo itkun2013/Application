@@ -1,0 +1,3560 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>1 ECG信息</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"标题 1 Char1";
+	margin-top:12.0pt;
+	margin-right:10.5pt;
+	margin-bottom:12.0pt;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:normal;}
+h2
+	{mso-style-link:"标题 2 Char";
+	margin-top:12.0pt;
+	margin-right:10.5pt;
+	margin-bottom:12.0pt;
+	margin-left:28.8pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-28.8pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h3
+	{mso-style-link:"标题 3 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:26.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.0pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:normal;}
+h4
+	{mso-style-link:"标题 4 Char";
+	margin-top:0cm;
+	margin-right:10.5pt;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:normal;}
+h5
+	{margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:14.5pt;
+	margin-left:50.4pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-50.4pt;
+	line-height:156%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+h6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:57.6pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-57.6pt;
+	page-break-after:avoid;
+	font-size:26.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:64.8pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-64.8pt;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-weight:bold;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:72.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-72.0pt;
+	line-height:133%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"标题 9 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.2pt;
+	margin-left:79.2pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-79.2pt;
+	line-height:133%;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Cambria","serif";}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex6, li.MsoIndex6, div.MsoIndex6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex7, li.MsoIndex7, div.MsoIndex7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex8, li.MsoIndex8, div.MsoIndex8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoIndex9, li.MsoIndex9, div.MsoIndex9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:80.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:125%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.5pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.0pt;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:31.5pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.0pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:52.5pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:63.0pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:73.5pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{mso-style-name:"正文缩进\,正文（首行缩进两字）";
+	mso-style-link:"正文缩进 Char\,正文（首行缩进两字） Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-link:"脚注文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"批注文字 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	layout-grid-mode:char;
+	border:none;
+	padding:0cm;
+	font-size:10.5pt;
+	font-family:黑体;
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoTof, li.MsoTof, div.MsoTof
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoEnvelopeAddress, li.MsoEnvelopeAddress, div.MsoEnvelopeAddress
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	layout-grid-mode:char;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoEnvelopeReturn, li.MsoEnvelopeReturn, div.MsoEnvelopeReturn
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	font-family:"Cambria","serif";}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{mso-style-link:"尾注文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoToa, li.MsoToa, div.MsoToa
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoMacroText, li.MsoMacroText, div.MsoMacroText
+	{mso-style-link:"宏文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Courier New";}
+p.MsoToaHeading, li.MsoToaHeading, div.MsoToaHeading
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListCxSpFirst, li.MsoListCxSpFirst, div.MsoListCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListCxSpMiddle, li.MsoListCxSpMiddle, div.MsoListCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListCxSpLast, li.MsoListCxSpLast, div.MsoListCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0cm;
+	line-height:15.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.0pt;
+	line-height:15.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList2CxSpFirst, li.MsoList2CxSpFirst, div.MsoList2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList2CxSpMiddle, li.MsoList2CxSpMiddle, div.MsoList2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList2CxSpLast, li.MsoList2CxSpLast, div.MsoList2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList3CxSpFirst, li.MsoList3CxSpFirst, div.MsoList3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList3CxSpMiddle, li.MsoList3CxSpMiddle, div.MsoList3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList3CxSpLast, li.MsoList3CxSpLast, div.MsoList3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList4, li.MsoList4, div.MsoList4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList4CxSpFirst, li.MsoList4CxSpFirst, div.MsoList4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList4CxSpMiddle, li.MsoList4CxSpMiddle, div.MsoList4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList4CxSpLast, li.MsoList4CxSpLast, div.MsoList4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList5, li.MsoList5, div.MsoList5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList5CxSpFirst, li.MsoList5CxSpFirst, div.MsoList5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList5CxSpMiddle, li.MsoList5CxSpMiddle, div.MsoList5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoList5CxSpLast, li.MsoList5CxSpLast, div.MsoList5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet2CxSpFirst, li.MsoListBullet2CxSpFirst, div.MsoListBullet2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet2CxSpMiddle, li.MsoListBullet2CxSpMiddle, div.MsoListBullet2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet2CxSpLast, li.MsoListBullet2CxSpLast, div.MsoListBullet2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet3, li.MsoListBullet3, div.MsoListBullet3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet3CxSpFirst, li.MsoListBullet3CxSpFirst, div.MsoListBullet3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet3CxSpMiddle, li.MsoListBullet3CxSpMiddle, div.MsoListBullet3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet3CxSpLast, li.MsoListBullet3CxSpLast, div.MsoListBullet3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet4, li.MsoListBullet4, div.MsoListBullet4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet4CxSpFirst, li.MsoListBullet4CxSpFirst, div.MsoListBullet4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet4CxSpMiddle, li.MsoListBullet4CxSpMiddle, div.MsoListBullet4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet4CxSpLast, li.MsoListBullet4CxSpLast, div.MsoListBullet4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet5, li.MsoListBullet5, div.MsoListBullet5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet5CxSpFirst, li.MsoListBullet5CxSpFirst, div.MsoListBullet5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet5CxSpMiddle, li.MsoListBullet5CxSpMiddle, div.MsoListBullet5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListBullet5CxSpLast, li.MsoListBullet5CxSpLast, div.MsoListBullet5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:45.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.0pt;
+	line-height:15.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber3CxSpFirst, li.MsoListNumber3CxSpFirst, div.MsoListNumber3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber3CxSpMiddle, li.MsoListNumber3CxSpMiddle, div.MsoListNumber3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber3CxSpLast, li.MsoListNumber3CxSpLast, div.MsoListNumber3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber4, li.MsoListNumber4, div.MsoListNumber4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber4CxSpFirst, li.MsoListNumber4CxSpFirst, div.MsoListNumber4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber4CxSpMiddle, li.MsoListNumber4CxSpMiddle, div.MsoListNumber4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber4CxSpLast, li.MsoListNumber4CxSpLast, div.MsoListNumber4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:81.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber5, li.MsoListNumber5, div.MsoListNumber5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber5CxSpFirst, li.MsoListNumber5CxSpFirst, div.MsoListNumber5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber5CxSpMiddle, li.MsoListNumber5CxSpMiddle, div.MsoListNumber5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListNumber5CxSpLast, li.MsoListNumber5CxSpLast, div.MsoListNumber5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:102.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"标题 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.MsoClosing, li.MsoClosing, div.MsoClosing
+	{mso-style-link:"结束语 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{mso-style-link:"签名 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-name:"正文文本\,正文文字";
+	mso-style-link:"正文文本 Char\,正文文字 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"正文文本缩进 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoListContinue, li.MsoListContinue, div.MsoListContinue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinueCxSpFirst, li.MsoListContinueCxSpFirst, div.MsoListContinueCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinueCxSpMiddle, li.MsoListContinueCxSpMiddle, div.MsoListContinueCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinueCxSpLast, li.MsoListContinueCxSpLast, div.MsoListContinueCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue2CxSpFirst, li.MsoListContinue2CxSpFirst, div.MsoListContinue2CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue2CxSpMiddle, li.MsoListContinue2CxSpMiddle, div.MsoListContinue2CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue2CxSpLast, li.MsoListContinue2CxSpLast, div.MsoListContinue2CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue3, li.MsoListContinue3, div.MsoListContinue3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:63.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue3CxSpFirst, li.MsoListContinue3CxSpFirst, div.MsoListContinue3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:63.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue3CxSpMiddle, li.MsoListContinue3CxSpMiddle, div.MsoListContinue3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:63.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue3CxSpLast, li.MsoListContinue3CxSpLast, div.MsoListContinue3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:63.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue4, li.MsoListContinue4, div.MsoListContinue4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:84.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue4CxSpFirst, li.MsoListContinue4CxSpFirst, div.MsoListContinue4CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue4CxSpMiddle, li.MsoListContinue4CxSpMiddle, div.MsoListContinue4CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue4CxSpLast, li.MsoListContinue4CxSpLast, div.MsoListContinue4CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:84.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue5, li.MsoListContinue5, div.MsoListContinue5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:105.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue5CxSpFirst, li.MsoListContinue5CxSpFirst, div.MsoListContinue5CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:105.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue5CxSpMiddle, li.MsoListContinue5CxSpMiddle, div.MsoListContinue5CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:105.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListContinue5CxSpLast, li.MsoListContinue5CxSpLast, div.MsoListContinue5CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:105.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoMessageHeader, li.MsoMessageHeader, div.MsoMessageHeader
+	{mso-style-link:"信息标题 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:54.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-54.0pt;
+	background:#CCCCCC;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"副标题 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:130%;
+	font-size:16.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.MsoSalutation, li.MsoSalutation, div.MsoSalutation
+	{mso-style-link:"称呼 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyTextFirstIndent, li.MsoBodyTextFirstIndent, div.MsoBodyTextFirstIndent
+	{mso-style-link:"正文首行缩进 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoBodyTextFirstIndent2, li.MsoBodyTextFirstIndent2, div.MsoBodyTextFirstIndent2
+	{mso-style-link:"正文首行缩进 2 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoNoteHeading, li.MsoNoteHeading, div.MsoNoteHeading
+	{mso-style-link:"注释标题 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-link:"正文文本 3 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:8.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0cm;
+	margin-right:72.0pt;
+	margin-bottom:6.0pt;
+	margin-left:72.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"文档结构图 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	background:navy;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:宋体;
+	color:black;}
+p.MsoAutoSig, li.MsoAutoSig, div.MsoAutoSig
+	{mso-style-link:"电子邮件签名 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:宋体;}
+address
+	{mso-style-link:"HTML 地址 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-style:italic;}
+pre
+	{mso-style-link:"HTML 预设格式 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:9.0pt;
+	font-family:"Times New Roman","serif";}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoRMPane, li.MsoRMPane, div.MsoRMPane
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"引用 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"明显引用 Char";
+	margin-top:10.0pt;
+	margin-right:46.8pt;
+	margin-bottom:14.0pt;
+	margin-left:46.8pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	border:none;
+	padding:0cm;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:10.5pt;
+	margin-bottom:12.0pt;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.1Char1
+	{mso-style-name:"标题 1 Char1";
+	mso-style-link:"标题 1";
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-link:"标题 4";
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.1, li.1, div.1
+	{mso-style-name:正文1;
+	mso-style-link:"正文1 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.1Char
+	{mso-style-name:"正文1 Char";
+	mso-style-link:正文1;
+	font-family:宋体;}
+p.2CharChar, li.2CharChar, div.2CharChar
+	{mso-style-name:"正文2 Char Char";
+	mso-style-link:"正文2 Char Char Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:25.95pt;
+	font-size:12.0pt;
+	font-family:宋体;}
+p.4, li.4, div.4
+	{mso-style-name:正文4;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.4pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-14.0pt;
+	font-size:10.5pt;
+	font-family:"Arial","sans-serif";}
+p.a, li.a, div.a
+	{mso-style-name:图;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.5pt;
+	font-family:"Arial","sans-serif";}
+p.10, li.10, div.10
+	{mso-style-name:样式1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:112%;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.a0, li.a0, div.a0
+	{mso-style-name:图表;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.5pt;
+	font-family:"Arial","sans-serif";}
+p.2, li.2, div.2
+	{mso-style-name:样式2;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+p.15905, li.15905, div.15905
+	{mso-style-name:"样式 正文_提示标题 + 左侧\:  1\.59 厘米 段前\: 0\.5 行";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.a1, li.a1, div.a1
+	{mso-style-name:黑色;
+	mso-style-link:"黑色 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:21.0pt;
+	line-height:112%;
+	layout-grid-mode:char;
+	word-break:break-all;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Char
+	{mso-style-name:"黑色 Char";
+	mso-style-link:黑色;}
+p.a2, li.a2, div.a2
+	{mso-style-name:正文_提示;
+	mso-style-link:"正文_提示 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Char0
+	{mso-style-name:"正文_提示 Char";
+	mso-style-link:正文_提示;
+	font-family:黑体;}
+p.a3, li.a3, div.a3
+	{mso-style-name:正文_提示标题;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:49.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.a4, li.a4, div.a4
+	{mso-style-name:正文项目符号;
+	mso-style-link:"正文项目符号 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:23.7pt;
+	line-height:112%;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Char1
+	{mso-style-name:"正文项目符号 Char";
+	mso-style-link:正文项目符号;
+	font-weight:bold;}
+p.a5, li.a5, div.a5
+	{mso-style-name:正文_表格;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.20, li.20, div.20
+	{mso-style-name:正文符号2;
+	mso-style-link:"正文符号2 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:41.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:23.7pt;
+	line-height:112%;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"正文符号2 Char";
+	mso-style-link:正文符号2;
+	font-weight:bold;}
+p.a6, li.a6, div.a6
+	{mso-style-name:"样式 宋体 黑色";
+	mso-style-link:"样式 宋体 黑色 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:51.45pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:宋体;
+	color:black;}
+span.Char2
+	{mso-style-name:"样式 宋体 黑色 Char";
+	mso-style-link:"样式 宋体 黑色";
+	font-family:宋体;
+	color:black;}
+span.21
+	{mso-style-name:"样式 黑色2";
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.11, li.11, div.11
+	{mso-style-name:"样式 正文项目编号 + \(符号\) 宋体1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:黑体;
+	color:black;}
+p.400, li.400, div.400
+	{mso-style-name:"样式 标题 4 + 段前\: 0 磅 段后\: 0 磅";
+	mso-style-link:"样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 Char";
+	margin-top:0cm;
+	margin-right:10.5pt;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	line-height:112%;
+	page-break-after:avoid;
+	font-size:15.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.400Char
+	{mso-style-name:"样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 Char";
+	mso-style-link:"样式 标题 4 + 段前\: 0 磅 段后\: 0 磅";
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.a7, li.a7, div.a7
+	{mso-style-name:正文项目编号;
+	mso-style-link:"正文项目编号 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:21.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.0pt;
+	font-size:12.0pt;
+	font-family:黑体;
+	color:black;}
+span.Char3
+	{mso-style-name:"正文项目编号 Char";
+	mso-style-link:正文项目编号;
+	font-family:黑体;
+	color:black;}
+p.a8, li.a8, div.a8
+	{mso-style-name:正文_图;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:31.2pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.a9, li.a9, div.a9
+	{mso-style-name:"正文_提示 + 黑体 黑色";
+	mso-style-link:"正文_提示 + 黑体 黑色 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:.05pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.Char4
+	{mso-style-name:"正文_提示 + 黑体 黑色 Char";
+	mso-style-link:"正文_提示 + 黑体 黑色";
+	font-family:黑体;
+	color:black;}
+p.22542, li.22542, div.22542
+	{mso-style-name:"样式 正文项目编号 + 左侧\:  2\.25 厘米 悬挂缩进\: 4\.2 字符";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:41.85pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-17.85pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.206, li.206, div.206
+	{mso-style-name:"样式 标题 2 + 三号 段前\: 0 磅 段后\: 6 磅";
+	margin-top:12.0pt;
+	margin-right:10.5pt;
+	margin-bottom:12.0pt;
+	margin-left:28.8pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-28.8pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.12
+	{mso-style-name:"样式 黑色1";
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.22, li.22, div.22
+	{mso-style-name:正文2;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:18.0pt;
+	font-size:14.0pt;
+	font-family:宋体;
+	font-weight:bold;}
+p.210, li.210, div.210
+	{mso-style-name:正文21;
+	mso-style-link:"正文2 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:110%;
+	font-size:10.5pt;
+	font-family:黑体;}
+span.2Char0
+	{mso-style-name:"正文2 Char";
+	mso-style-link:正文21;
+	font-family:黑体;}
+p.3, li.3, div.3
+	{mso-style-name:正文3;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:24.0pt;
+	font-size:12.0pt;
+	font-family:黑体;
+	color:black;}
+p.30, li.30, div.30
+	{mso-style-name:3;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:blue;}
+p.5, li.5, div.5
+	{mso-style-name:"标题 5+黑体中文";
+	margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:14.5pt;
+	margin-left:50.4pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-50.4pt;
+	line-height:157%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.50, li.50, div.50
+	{mso-style-name:"标题 5 + 四 黑色";
+	margin-top:0cm;
+	margin-right:10.5pt;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.Normal915915, li.Normal915915, div.Normal915915
+	{mso-style-name:"样式 Normal + 小二 加粗 段前\: 9\.15 磅 段后\: 9\.15 磅";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:18.0pt;
+	font-size:18.0pt;
+	font-family:宋体;}
+p.Normal11051105, li.Normal11051105, div.Normal11051105
+	{mso-style-name:"样式 Normal + 小二 加粗 段前\: 11\.05 磅 段后\: 11\.05 磅";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:18.0pt;
+	font-family:宋体;}
+p.3434, li.3434, div.3434
+	{mso-style-name:"正文项目符号 + 段前\: 3\.4 磅 段后\: 3\.4 磅";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.aa, li.aa, div.aa
+	{mso-style-name:"样式 正文项目符号 + 加粗";
+	mso-style-link:"样式 正文项目符号 + 加粗 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:23.7pt;
+	line-height:112%;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Char5
+	{mso-style-name:"样式 正文项目符号 + 加粗 Char";
+	mso-style-link:"样式 正文项目符号 + 加粗";
+	font-weight:bold;}
+p.ab, li.ab, div.ab
+	{mso-style-name:"样式 正文_提示 + 黑色";
+	mso-style-link:"样式 正文_提示 + 黑色 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:-.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.7pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+span.Char6
+	{mso-style-name:"样式 正文_提示 + 黑色 Char";
+	mso-style-link:"样式 正文_提示 + 黑色";
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.ac, li.ac, div.ac
+	{mso-style-name:"样式 正文_表格 + 黑色";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ad, li.ad, div.ad
+	{mso-style-name:"样式 正文_表格 + 黑色 居中";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.40, li.40, div.40
+	{mso-style-name:"标题 4 + 非加粗 黑色";
+	mso-style-link:"标题 4 + 非加粗 黑色 Char";
+	margin-top:0cm;
+	margin-right:10.5pt;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	line-height:157%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.4Char0
+	{mso-style-name:"标题 4 + 非加粗 黑色 Char";
+	mso-style-link:"标题 4 + 非加粗 黑色";
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.ae
+	{mso-style-name:"样式 黑色";
+	font-family:宋体;
+	color:black;}
+span.af
+	{mso-style-name:"样式 加粗 黑色";
+	font-family:宋体;
+	color:black;
+	font-weight:bold;}
+p.06301115, li.06301115, div.06301115
+	{mso-style-name:"样式 黑色 左侧\:  0\.63 厘米 首行缩进\:  0\.11 厘米 行距\: 1\.5 倍行距";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:26.55pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.07515, li.07515, div.07515
+	{mso-style-name:"样式 黑色 左侧\:  0\.75 厘米 行距\: 1\.5 倍行距";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:26.55pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.615, li.615, div.615
+	{mso-style-name:"样式 黑色 段后\: 6 磅 行距\: 1\.5 倍行距";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.6151, li.6151, div.6151
+	{mso-style-name:"样式 黑色 段后\: 6 磅 行距\: 1\.5 倍行距1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.6, li.6, div.6
+	{mso-style-name:"样式 黑色 段后\: 6 磅";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.61, li.61, div.61
+	{mso-style-name:"样式 黑色 段后\: 6 磅1";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.af0, li.af0, div.af0
+	{mso-style-name:"样式 正文项目编号 + \(符号\) 宋体";
+	mso-style-link:"样式 正文项目编号 + \(符号\) 宋体 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:29.85pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:1.35pt;
+	font-size:12.0pt;
+	font-family:黑体;
+	color:black;}
+span.Char7
+	{mso-style-name:"样式 正文项目编号 + \(符号\) 宋体 Char";
+	mso-style-link:"样式 正文项目编号 + \(符号\) 宋体";
+	font-family:黑体;
+	color:black;}
+p.23, li.23, div.23
+	{mso-style-name:2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:31.2pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.2068, li.2068, div.2068
+	{mso-style-name:"样式 标题 2 + 两端对齐 左侧\:  0 厘米 悬挂缩进\: 6\.8 字符 段前\: 自动 段后\: 自动 行距\: 多倍行\.\.\.";
+	margin-right:10.5pt;
+	margin-left:34.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-34.0pt;
+	line-height:172%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.60, li.60, div.60
+	{mso-style-name:"样式 正文缩进 + 段后\: 6 磅";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.af1, li.af1, div.af1
+	{mso-style-name:"样式 征文 黑色";
+	mso-style-link:"样式 征文 黑色 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.5pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.Char8
+	{mso-style-name:"样式 征文 黑色 Char";
+	mso-style-link:"样式 征文 黑色";
+	color:black;}
+p.af2, li.af2, div.af2
+	{mso-style-name:"样式 正文_提示标题 + 非加粗";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:-.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.7pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:黑体;
+	color:black;}
+p.2060, li.2060, div.2060
+	{mso-style-name:"样式 标题 2 + 小三 段前\: 0 磅 段后\: 6 磅";
+	margin-top:12.0pt;
+	margin-right:10.5pt;
+	margin-bottom:12.0pt;
+	margin-left:39.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.4000, li.4000, div.4000
+	{mso-style-name:"标题 4 + 小四 非加粗 段前\: 0 磅 段后\: 0 磅 + 宋体";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.0, li.0, div.0
+	{mso-style-name:"样式 正文项目符号 + 段后\: 0 磅";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:106.05pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:23.7pt;
+	line-height:112%;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.24, li.24, div.24
+	{mso-style-name:正文项目符号2;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:51.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:23.7pt;
+	line-height:112%;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.4001, li.4001, div.4001
+	{mso-style-name:"样式 样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 + 非加粗";
+	mso-style-link:"样式 样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 + 非加粗 Char";
+	margin-top:0cm;
+	margin-right:10.5pt;
+	margin-bottom:6.0pt;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	line-height:112%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.400Char0
+	{mso-style-name:"样式 样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 + 非加粗 Char";
+	mso-style-link:"样式 样式 标题 4 + 段前\: 0 磅 段后\: 0 磅 + 非加粗";
+	font-family:"Arial","sans-serif";
+	color:black;}
+p.af3, li.af3, div.af3
+	{mso-style-name:注意;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.159050, li.159050, div.159050
+	{mso-style-name:"样式 正文_提示标题 + 加粗 左侧\:  1\.59 厘米 段前\: 0\.5 行";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.159051, li.159051, div.159051
+	{mso-style-name:"样式 正文_提示标题 + 左侧\:  1\.59 厘米 段前\: 0\.5 行1";
+	margin-top:8.5pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:103.75pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-77.2pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:bold;}
+p.343405, li.343405, div.343405
+	{mso-style-name:"样式 正文项目符号 + 段前\: 3\.4 磅 段后\: 3\.4 磅 + 段前\: 0\.5 行";
+	margin-top:8.5pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:51.1pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-21.0pt;
+	line-height:112%;
+	layout-grid-mode:char;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.13, li.13, div.13
+	{mso-style-name:1;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:31.2pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.22542083, li.22542083, div.22542083
+	{mso-style-name:"样式 样式 正文项目编号 + 左侧\:  2\.25 厘米 悬挂缩进\: 4\.2 字符 + 左侧\:  0\.83 厘米 首行缩进\:  \.\.\.";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:2.0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-31.2pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.B, li.B, div.B
+	{mso-style-name:正文B;
+	margin-top:0cm;
+	margin-right:-43.3pt;
+	margin-bottom:0cm;
+	margin-left:108.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.Af4, li.Af4, div.Af4
+	{mso-style-name:正文A;
+	margin-top:0cm;
+	margin-right:-43.3pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:30.0pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.Af5, li.Af5, div.Af5
+	{mso-style-name:标题A;
+	margin-top:0cm;
+	margin-right:-43.3pt;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-style:italic;}
+p.af6, li.af6, div.af6
+	{mso-style-name:"样式 小四";
+	mso-style-link:"样式 小四 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:24.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.Char9
+	{mso-style-name:"样式 小四 Char";
+	mso-style-link:"样式 小四";
+	font-family:宋体;
+	color:black;}
+p.af7, li.af7, div.af7
+	{mso-style-name:"样式 宋体 小四";
+	mso-style-link:"样式 宋体 小四 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:24.0pt;
+	line-height:18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.Chara
+	{mso-style-name:"样式 宋体 小四 Char";
+	mso-style-link:"样式 宋体 小四";
+	font-family:宋体;
+	color:black;}
+p.31, li.31, div.31
+	{mso-style-name:样式3;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-10.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.20202113187, li.20202113187, div.20202113187
+	{mso-style-name:"样式 正文2 + 段前\: 0\.2 行 段后\: 0\.2 行 行距\: 多倍行距 1\.13 字行 首行缩进\:  1\.87 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:24.8pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+span.af8
+	{mso-style-name:"样式 宋体";
+	font-family:"Times New Roman","serif";}
+p.af9, li.af9, div.af9
+	{mso-style-name:"样式 正文_提示 + 自动设置";
+	mso-style-link:"样式 正文_提示 + 自动设置 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:41.5pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-41.5pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.Charb
+	{mso-style-name:"样式 正文_提示 + 自动设置 Char";
+	mso-style-link:"样式 正文_提示 + 自动设置";
+	font-family:"Arial","sans-serif";}
+p.afa, li.afa, div.afa
+	{mso-style-name:"样式 正文_提示 + 黑体 黑色 + 自动设置";
+	mso-style-link:"样式 正文_提示 + 黑体 黑色 + 自动设置 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.7pt;
+	line-height:112%;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+span.Charc
+	{mso-style-name:"样式 正文_提示 + 黑体 黑色 + 自动设置 Char";
+	mso-style-link:"样式 正文_提示 + 黑体 黑色 + 自动设置";
+	font-family:"Arial","sans-serif";
+	color:black;}
+span.Chard
+	{mso-style-name:"正文缩进 Char\,正文（首行缩进两字） Char";
+	mso-style-link:"正文缩进\,正文（首行缩进两字）";
+	font-family:宋体;}
+p.CharChar1Char, li.CharChar1Char, div.CharChar1Char
+	{mso-style-name:"Char Char1 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.1Char0
+	{mso-style-name:"标题 1 Char";
+	font-family:宋体;
+	font-weight:bold;}
+span.2CharCharChar
+	{mso-style-name:"正文2 Char Char Char";
+	mso-style-link:"正文2 Char Char";
+	font-family:宋体;}
+span.HTMLChar
+	{mso-style-name:"HTML 地址 Char";
+	mso-style-link:"HTML 地址";
+	font-style:italic;}
+span.HTMLChar0
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-link:"HTML 预设格式";
+	font-family:"Courier New";}
+span.Chare
+	{mso-style-name:"标题 Char";
+	mso-style-link:标题;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.9Char
+	{mso-style-name:"标题 9 Char";
+	mso-style-link:"标题 9";
+	font-family:"Cambria","serif";}
+span.Charf
+	{mso-style-name:"称呼 Char";
+	mso-style-link:称呼;}
+span.Charf0
+	{mso-style-name:"电子邮件签名 Char";
+	mso-style-link:电子邮件签名;}
+span.Charf1
+	{mso-style-name:"副标题 Char";
+	mso-style-link:副标题;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.Charf2
+	{mso-style-name:"宏文本 Char";
+	mso-style-link:宏文本;
+	font-family:"Courier New";}
+span.Charf3
+	{mso-style-name:"脚注文本 Char";
+	mso-style-link:脚注文本;}
+span.Charf4
+	{mso-style-name:"结束语 Char";
+	mso-style-link:结束语;}
+span.Charf5
+	{mso-style-name:"明显引用 Char";
+	mso-style-link:明显引用;
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.Charf6
+	{mso-style-name:"签名 Char";
+	mso-style-link:签名;}
+span.Charf7
+	{mso-style-name:"尾注文本 Char";
+	mso-style-link:尾注文本;}
+span.Charf8
+	{mso-style-name:"信息标题 Char";
+	mso-style-link:信息标题;
+	font-family:"Cambria","serif";
+	background:#CCCCCC;}
+span.Charf9
+	{mso-style-name:"引用 Char";
+	mso-style-link:引用;
+	color:black;
+	font-style:italic;}
+span.Charfa
+	{mso-style-name:"正文文本 Char\,正文文字 Char";
+	mso-style-link:"正文文本\,正文文字";
+	color:black;}
+span.Charfb
+	{mso-style-name:"正文首行缩进 Char";
+	mso-style-link:正文首行缩进;
+	color:black;}
+span.Charfc
+	{mso-style-name:"正文文本缩进 Char";
+	mso-style-link:正文文本缩进;
+	color:black;}
+span.2Char1
+	{mso-style-name:"正文首行缩进 2 Char";
+	mso-style-link:"正文首行缩进 2";
+	color:black;}
+span.3Char
+	{mso-style-name:"正文文本 3 Char";
+	mso-style-link:"正文文本 3";}
+span.Charfd
+	{mso-style-name:"注释标题 Char";
+	mso-style-link:注释标题;}
+span.2Char2
+	{mso-style-name:"标题 2 Char";
+	mso-style-link:"标题 2";
+	font-family:"Arial","sans-serif";}
+span.Charfe
+	{mso-style-name:"批注文字 Char";
+	mso-style-link:批注文字;}
+p.afb, li.afb, div.afb
+	{mso-style-name:段;
+	mso-style-link:"段 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	text-autospace:none;
+	font-size:10.5pt;
+	font-family:宋体;}
+span.Charff
+	{mso-style-name:"段 Char";
+	mso-style-link:段;
+	font-family:宋体;}
+span.Charff0
+	{mso-style-name:"文档结构图 Char";
+	mso-style-link:文档结构图;
+	background:navy;}
+span.Charff1
+	{mso-style-name:"页眉 Char";
+	mso-style-link:页眉;
+	font-family:黑体;
+	color:black;}
+span.Charff2
+	{mso-style-name:"页脚 Char";
+	mso-style-link:页脚;
+	color:black;}
+p.afc, li.afc, div.afc
+	{mso-style-name:二级条标题;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0cm;
+	font-size:10.5pt;
+	font-family:黑体;}
+p.afd, li.afd, div.afd
+	{mso-style-name:前言、引言标题;
+	margin-top:32.0pt;
+	margin-right:0cm;
+	margin-bottom:28.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:0cm;
+	background:white;
+	font-size:16.0pt;
+	font-family:黑体;}
+p.afe, li.afe, div.afe
+	{mso-style-name:章标题;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0cm;
+	font-size:10.5pt;
+	font-family:黑体;}
+p.aff, li.aff, div.aff
+	{mso-style-name:一级条标题;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:0cm;
+	font-size:10.5pt;
+	font-family:黑体;}
+span.3Char0
+	{mso-style-name:"标题 3 Char";
+	mso-style-link:"标题 3";
+	font-family:"Arial","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 62.35pt 62.35pt 62.35pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 62.35pt 62.35pt 62.35pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:21.0cm 842.0pt;
+	margin:70.9pt 62.35pt 62.35pt 62.35pt;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+
+<div class=WordSection1>
+
+<h1><a name="_Toc239215928"></a><a name="_Toc427736844"><span lang=EN-US>1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:宋体'>产品介绍</span></a></h1>
+
+<h2><a name="_Toc427736845"><span lang=EN-US>1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>测量仪主机</span></a></h2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>正面图</span></h3>
+
+<p class=MsoNormalIndent align=center style='text-align:center;text-indent:
+0cm'><span lang=EN-US><img width=331 height=248 id="图片 59"
+src="help/image001.jpg"></span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>1</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='font-family:宋体'>前置摄像头</span></p>
+  </td>
+  <td width=64 valign=top style='width:48.2pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>2</span></p>
+  </td>
+  <td width=124 valign=top style='width:93.3pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='font-family:宋体'>指示灯</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>3</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='font-family:宋体'>返回键</span></p>
+  </td>
+  <td width=64 valign=top style='width:48.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>4</span></p>
+  </td>
+  <td width=124 valign=top style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US>Home</span><span style='font-family:宋体'>键</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>5</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='font-family:宋体'>最近使用程序键</span></p>
+  </td>
+  <td width=64 valign=top style='width:48.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=124 valign=top style='width:93.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormalIndent><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal align=left style='text-align:left'><b><span lang=EN-US
+style='font-family:宋体'>&nbsp;</span></b></p>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>侧面图</span></h3>
+
+<p class=MsoNormal align=center style='margin-left:-14.15pt;text-align:center'><span
+lang=EN-US style='font-family:宋体'><img width=65 height=372 id="图片 61"
+src="help/image002.png"><img width=78 height=356 id="图片 62"
+src="help/image003.png"></span></p>
+
+<p class=MsoNormal align=center style='margin-left:-14.15pt;text-align:center'><span
+lang=EN-US style='font-family:宋体'><img width=363 height=104 id="图片 66"
+src="help/image004.jpg"></span></p>
+
+<p class=MsoNormal align=center style='margin-left:-14.15pt;text-align:center'><span
+lang=EN-US style='font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-left:-14.15pt;text-align:center'><span
+lang=EN-US style='font-family:宋体'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='margin-left:-14.15pt;text-align:center'><span
+lang=EN-US style='font-family:宋体'><img width=363 height=117 id="图片 67"
+src="help/image005.jpg"></span></p>
+
+<b><span lang=EN-US style='font-size:10.5pt;line-height:112%;font-family:宋体'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal align=left style='margin-bottom:6.0pt;text-align:left;
+text-indent:128.05pt;line-height:112%'><span lang=EN-US style='line-height:
+112%;font-family:黑体'>&nbsp;</span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>1</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-family:宋体'>试纸插口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>2</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US style='line-height:
+  112%'>ECG</span><span style='line-height:112%;font-family:宋体'>接口</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>3</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>SpO<sub>2</sub></span><span
+  style='font-family:宋体'>接口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>4</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US style='line-height:
+  112%'>TEMP</span><span style='line-height:112%;font-family:宋体'>接口</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>5</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>NIBP</span><span style='font-family:宋体'>接口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>6</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>SIM</span><span
+  style='font-family:宋体'>卡槽</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>7</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>TF</span><span style='font-family:宋体'>卡</span><span
+  lang=EN-US>(Micro SD</span><span style='font-family:宋体'>卡</span><span
+  lang=EN-US>)</span><span style='font-family:宋体'>插槽</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>8</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>耳机接口</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>9</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>USB</span><span style='font-family:宋体'>接口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>10</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>指纹接口</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>11</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-family:宋体'>电源插口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>12</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>拨钮</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>13</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US>MIC</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>14</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>音量增加</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>15</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-family:宋体'>音量减少</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>16</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>开关机键</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=54 valign=top style='width:40.85pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>17</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-family:宋体'>底座接口</span></p>
+  </td>
+  <td width=55 valign=top style='width:41.1pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>18</span></p>
+  </td>
+  <td width=134 valign=top style='width:100.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span style='line-height:112%;
+  font-family:宋体'>扬声器口</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>背面图</span></h3>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+style='font-size:9.0pt'><img width=363 height=260 id="图片 63"
+src="help/image006.png"></span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=45 valign=top style='width:33.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>1</span></p>
+  </td>
+  <td width=123 valign=top style='width:92.15pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormalIndent style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;text-indent:0cm;line-height:112%'><span
+  style='line-height:112%;font-family:宋体'>后置摄像头</span></p>
+  </td>
+  <td width=38 valign=top style='width:1.0cm;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  2.4pt;margin-left:0cm;line-height:112%'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=172 valign=top style='width:128.75pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormalIndent style='margin-top:2.4pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-indent:0cm;line-height:112%'><span lang=EN-US
+  style='background:yellow'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormalIndent style='margin-bottom:6.0pt;text-indent:0cm;line-height:
+112%'><span lang=EN-US style='font-size:9.0pt;line-height:112%'>&nbsp;</span></p>
+
+<h1><a name="_Toc427736847"><span lang=EN-US>2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>基本操作</span></a></h1>
+
+<h2><a name="_Toc427736848"><span lang=EN-US>2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>病人接入</span></a></h2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>手动接入</span></h3>
+
+<p class=MsoListParagraph style='margin-left:39.6pt;text-indent:-21.0pt;
+line-height:115%'><span lang=EN-US style='line-height:115%;font-family:"Arial","sans-serif"'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:115%;font-family:宋体'>点击健康测量，进入测量界面；</span></p>
+
+<p class=MsoListParagraph style='margin-left:39.6pt;text-indent:-21.0pt;
+line-height:115%'><span lang=EN-US style='line-height:115%;font-family:"Arial","sans-serif"'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:115%;font-family:宋体'>点击“请登录病人”标签；</span></p>
+
+<p class=MsoListParagraph style='margin-left:39.6pt;text-indent:-21.0pt;
+line-height:115%'><span lang=EN-US style='line-height:115%;font-family:"Arial","sans-serif"'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:115%;font-family:宋体'>点击“新增用户”按钮，输入姓名和身份证号，选择性别，然后点击“保存”按钮，从而录入病人信息。</span></p>
+
+<p class=MsoListParagraph style='margin-left:39.6pt;text-indent:-21.0pt;
+line-height:115%'><span lang=EN-US style='line-height:115%;font-family:"Arial","sans-serif"'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:115%;font-family:宋体'>确定录入病人后，点击“设置为当前用户”标签，将录入的病人设置为当前用户；</span></p>
+
+<p class=MsoListParagraph style='margin-left:39.6pt;text-indent:-21.0pt;
+line-height:115%'><span lang=EN-US style='line-height:115%;font-family:"Arial","sans-serif"'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:115%;font-family:宋体'>返回进入测量界面。</span></p>
+
+<h2><a name="_Toc427736849"><span lang=EN-US>2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>心电测量</span></a></h2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><a name="_Toc239215931"></a><a name="_Toc398201729"></a><a
+name="_Toc239215940"><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>心电导联</span></a></h3>
+
+<p class=MsoNormalIndent><span style='font-family:宋体'>心电测量采用标准</span><span
+lang=EN-US>5</span><span style='font-family:宋体'>导联；</span></p>
+
+<p class=MsoNormalIndent><span style='font-family:宋体'>下表中分别罗列出了欧洲及美国标准中的导联名称。（在欧洲标准中用</span><span
+lang=EN-US>R,L,F,N,C,</span><span style='font-family:宋体'>表示各导联，而美国标准中则用</span><span
+lang=EN-US>RA,LA,LL,RL,V,</span><span style='font-family:宋体'>）。</span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr style='height:18.0pt'>
+  <td width=177 colspan=2 style='width:132.8pt;border:solid windowtext 1.0pt;
+  background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  lang=EN-US style='line-height:112%;color:black'>AHA</span></b><b><span
+  style='line-height:112%;font-family:宋体;color:black'>型（美国标准）</span></b></p>
+  </td>
+  <td width=269 colspan=2 style='width:202.0pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  lang=EN-US style='line-height:112%;color:black'>IEC</span></b><b><span
+  style='line-height:112%;font-family:宋体;color:black'>型（欧洲标准）</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  style='line-height:112%;font-family:宋体;color:black'>导联名称</span></b></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#D9D9D9;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  style='line-height:112%;font-family:宋体;color:black'>颜色</span></b></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  style='line-height:112%;font-family:宋体;color:black'>导联名称</span></b></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#D9D9D9;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><b><span
+  style='line-height:112%;font-family:宋体;color:black'>颜色</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>RA</span></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>白色</span></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>R</span></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>红色</span></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>LA</span></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>黑色</span></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>L</span></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>黄色</span></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>LL</span></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>红色</span></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>F</span></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>绿色</span></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>RL</span></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>绿色</span></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>N</span></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>黑色</span></p>
+  </td>
+ </tr>
+ <tr style='height:18.0pt'>
+  <td width=111 style='width:83.2pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>V</span></p>
+  </td>
+  <td width=66 style='width:49.6pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>棕色</span></p>
+  </td>
+  <td width=132 style='width:99.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  lang=EN-US style='line-height:112%;color:black'>C</span></p>
+  </td>
+  <td width=137 style='width:103.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:18.0pt'>
+  <p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+  style='line-height:112%;font-family:宋体;color:black'>白色</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:0cm;text-indent:0cm'><a
+name="_Toc398201730"><span lang=EN-US>&nbsp;</span></a></p>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>心电测量准备</span></h3>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:45.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Arial","sans-serif"'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:宋体'>皮肤处理</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:45.0pt;text-indent:0cm'><span
+style='font-family:宋体'>皮肤是不良导体，因此要获得电极和皮肤的良好接触，患者的皮肤准备十分重要。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:66.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>选择皮肤无破损，无任何异常的部位。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:66.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>必要时，在电极安放处剃除体毛。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:66.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>用肥皂和水彻底洗净皮肤。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:66.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>干擦皮肤以增加组织的毛细血管血流，并除去皮肤屑和油脂。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:66.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>根据您所选的导联位置方案抹上导电膏。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:45.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Arial","sans-serif"'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:宋体'>导联的电极安放</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:45.0pt;text-indent:0cm'><span
+style='font-family:宋体;color:black'>电极安放位置如图所示：</span></p>
+
+<p class=MsoBodyTextFirstIndent2 align=center style='margin-left:0cm;
+text-align:center;text-indent:0cm'><span lang=EN-US><img width=298 height=571
+id="图片 22" src="help/image007.png"></span></p>
+
+<h2><a name="_Toc427736850"><span lang=EN-US>2.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>SpO2</span></a><span style='font-family:宋体'>测量</span></h2>
+
+</div>
+
+<span lang=EN-US style='font-size:14.0pt;line-height:150%;font-family:"Arial","sans-serif";
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>测量步骤</span></h3>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:41.85pt;text-indent:-17.85pt;line-height:112%'><span lang=EN-US
+style='line-height:112%;font-family:"Arial","sans-serif"'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:112%;font-family:宋体'>打开测量仪。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:41.85pt;text-indent:-17.85pt;line-height:112%'><span lang=EN-US
+style='line-height:112%;font-family:"Arial","sans-serif"'>2)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:112%;font-family:宋体'>把传感器的插头端插入仪器上对应的血氧插座孔内。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:41.85pt;text-indent:-17.85pt;line-height:112%'><span lang=EN-US
+style='line-height:112%;font-family:"Arial","sans-serif"'>3)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:112%;font-family:宋体'>把传感器贴在患者手指的适当位置上。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:41.85pt;text-indent:-17.85pt;line-height:112%'><span lang=EN-US
+style='line-height:112%;font-family:"Arial","sans-serif"'>4)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='line-height:112%;font-family:宋体'>点击“启动测量”按钮。</span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:112%'><span lang=EN-US style='font-size:9.0pt;line-height:112%'><img
+width=232 height=91 id="图片 42" src="help/image008.png" alt=5></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:112%'><span style='font-size:9.0pt;line-height:112%;font-family:
+宋体'>传感器的安放</span></p>
+
+<h2><a name="_Toc427736851"><span lang=EN-US>2.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>NIBP</span></a><span style='font-family:宋体'>测量</span></h2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>测量步骤</span></h3>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span class=21><span
+lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif";
+color:windowtext'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span class=21><span style='line-height:112%;font-family:
+宋体;color:windowtext'>将充气管插入测量仪血压袖套接口，接通仪器电源。</span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span class=21><span
+lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif";
+color:windowtext'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span class=21><span style='line-height:112%;font-family:
+宋体;color:windowtext'>按照下面的方法，在患者上臂或大腿上系上血压袖带，见下图</span></span><span
+style='line-height:112%;font-family:宋体'>。</span></p>
+
+<p class=20 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:42.0pt'><span style='font-family:宋体'>－</span> <span
+style='font-family:宋体'>确认袖带已完全放气。</span></p>
+
+<p class=20 style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:42.0pt'><span style='font-family:宋体'>－</span> <span
+style='font-family:宋体'>患者使用尺寸适当的袖带（</span><span style='font-family:宋体'>关于袖带大小的选择，请参照</span><i><span
+lang=EN-US>NIBP</span></i><i><span style='font-family:宋体'>附件</span></i><span
+style='font-family:宋体'>章节。</span><span style='font-family:宋体'>），保证记号φ正好位于动脉上。确认袖带缠绕肢体不是太紧，否则可能引起肢体远端变色甚至缺血。</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+style='font-size:9.0pt'><img width=333 height=242 id="图片 43"
+src="help/image009.png" alt=cuff2></span></p>
+
+<p class=MsoCaption align=center style='margin-bottom:6.0pt;text-align:center;
+line-height:112%'><span style='font-size:10.5pt;line-height:112%;font-family:
+宋体'>使用袖带</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+style='line-height:112%;font-family:黑体'>注意：</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:112%'><span
+style='line-height:112%;font-family:黑体'>袖带宽度应是肢体周径的</span><span lang=EN-US
+style='line-height:112%'>40%</span><span style='line-height:112%;font-family:
+黑体'>，或者是上臂长度的</span><span lang=EN-US style='line-height:112%'>2/3</span><span
+style='line-height:112%;font-family:黑体'>。袖带的充气部分长度应足够环绕肢体的</span><span
+lang=EN-US style='line-height:112%'>50% ~ 80%</span><span style='line-height:
+112%;font-family:黑体'>。尺寸不合适的袖带会产生错误的读数。如袖带尺寸有问题，则要使用合适的袖带以减少错误。</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span class=21><span
+lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif";
+color:windowtext'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span class=21><span style='line-height:112%;font-family:
+宋体;color:windowtext'>将袖带和充气管连接。</span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span class=21><span
+lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif";
+color:windowtext'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span class=21><span style='line-height:112%;font-family:
+宋体;color:windowtext'>确认病人类型是否正确，对应正确成人、小儿。</span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span class=21><span
+lang=EN-US style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif";
+color:windowtext'>5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><span class=21><span style='line-height:112%;font-family:
+宋体;color:windowtext'>启动测量：按下测量界面的“启动测量”按钮，启动一次血压测量。</span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:52.75pt;text-indent:-21.0pt;line-height:112%'><span lang=EN-US
+style='font-size:12.0pt;line-height:112%;font-family:"Arial","sans-serif"'>6)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+class=21><span style='line-height:112%;font-family:宋体;color:windowtext'>停止测量：在测量过程中，按下测量界面的“停止测量”按钮，可以停止测量。或者一次测量结束，测量自动停止。</span></span></p>
+
+<h2><a name="_Toc427736852"><span lang=EN-US>2.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>TEMP</span></a><span style='font-family:宋体'>测量</span></h2>
+
+<h3 style='margin-top:12.0pt;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+26.5pt'><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>体温仪的操作说明</span></h3>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>测量准备</span></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:56.3pt;margin-bottom:.0001pt;text-indent:-21.0pt;line-height:
+150%;layout-grid-mode:char'><span lang=EN-US style='line-height:150%;
+font-family:"Arial","sans-serif"'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='line-height:150%;font-family:宋体'>每次</span><span
+style='line-height:150%;font-family:"Batang","serif"'>量</span><span
+style='line-height:150%;font-family:宋体'>测前请先确认额温</span><span style='line-height:
+150%;font-family:宋体'>探头是干净、无损伤，且受测者额头亦应保持清洁，如汗水、灰尘、疤痕等应先</span><span
+style='line-height:150%;font-family:"Batang","serif"'>行</span><span
+style='line-height:150%;font-family:宋体'>擦拭干净或避开。</span></p>
+
+<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:56.3pt;margin-bottom:.0001pt;text-indent:-21.0pt;line-height:
+150%;layout-grid-mode:char'><span lang=EN-US style='line-height:150%;
+font-family:"Arial","sans-serif"'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='line-height:150%;font-family:宋体'>连接额温探头和测量仪主机。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>测量步骤</span></p>
+
+<p class=MsoListParagraph style='margin-top:0cm;margin-right:27.0pt;margin-bottom:
+0cm;margin-left:56.4pt;margin-bottom:.0001pt;text-indent:-21.0pt;line-height:
+150%;layout-grid-mode:char'><span lang=EN-US style='line-height:150%;
+font-family:"Arial","sans-serif"'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><img width=19 height=19 src="help/image010.jpg" align=left
+hspace=12 alt=power><span style='line-height:150%;font-family:宋体'>按下</span><span
+style='line-height:150%;font-family:"Arial Narrow","sans-serif"'> </span><span
+style='line-height:150%;font-family:宋体'>开关键开机，<b>额温模式为预设模式。</b>看到额温枪屏幕上</span><span
+style='line-height:150%;font-family:"Arial Narrow","sans-serif"'> </span><span
+lang=EN-US style='font-size:9.0pt;line-height:150%'><img width=21 height=21
+id="图片 52" src="help/image011.jpg" alt="forehead icon"></span><span
+lang=EN-US style='line-height:150%;font-family:"Arial Narrow","sans-serif"'> </span><span
+style='line-height:150%;font-family:宋体'>符号，并听到</span><span lang=EN-US
+style='line-height:150%;font-family:"Arial Narrow","sans-serif"'>2</span><span
+style='line-height:150%;font-family:宋体'>声哔响后，表示额温枪已完成温差校正功能，您可以开始测</span><span
+style='line-height:150%;font-family:"Batang","serif"'>量</span><span
+style='line-height:150%;font-family:宋体'>体温</span><span style='line-height:150%;
+font-family:宋体'>。</span></p>
+
+<p class=MsoListParagraph style='margin-top:0cm;margin-right:27.0pt;margin-bottom:
+0cm;margin-left:56.4pt;margin-bottom:.0001pt;text-indent:-21.0pt;line-height:
+150%;layout-grid-mode:char'><span lang=EN-US style='line-height:150%;
+font-family:"Arial","sans-serif"'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='line-height:150%;font-family:宋体'>握住额温枪距离额头中央</span><span
+lang=EN-US style='line-height:150%;font-family:"Arial Narrow","sans-serif"'>1</span><span
+style='line-height:150%;font-family:宋体'>至</span><span lang=EN-US
+style='line-height:150%;font-family:"Arial Narrow","sans-serif"'>3</span><span
+style='line-height:150%;font-family:宋体'>公分，按下测量测按键，</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:27.0pt;margin-bottom:
+0cm;margin-left:35.4pt;margin-bottom:.0001pt;text-indent:18.6pt;line-height:
+150%;layout-grid-mode:char'><span style='line-height:150%;font-family:宋体'>会听到一声短哔音，表示量测体温之动作已经完成，量测时间约</span><span
+lang=EN-US style='line-height:150%;font-family:"Arial Narrow","sans-serif"'>1</span><span
+style='line-height:150%;font-family:宋体'>秒钟。</span></p>
+
+<p class=MsoListParagraph style='margin-top:0cm;margin-right:27.0pt;margin-bottom:
+0cm;margin-left:56.4pt;margin-bottom:.0001pt;text-indent:-21.0pt;line-height:
+150%;layout-grid-mode:char'><span lang=EN-US style='line-height:150%;
+font-family:"Arial","sans-serif"'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='line-height:150%;font-family:宋体'>测量结果显示在测量仪上。</span></p>
+
+<p class=MsoBodyTextFirstIndent2 style='margin-left:42.0pt;text-indent:-21.0pt'><span
+lang=EN-US style='font-family:"Arial","sans-serif"'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>关机</span></p>
+
+<p class=MsoNormal style='margin-top:3.0pt;text-indent:24.65pt;line-height:
+150%;layout-grid-mode:char'><span style='line-height:150%;font-family:宋体'>额温探头由电池供电，一分钟未操作，额温探头会自动待机状态，显示最后一次测量数据。</span></p>
+
+<p class=MsoNormalIndent><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;line-height:112%;font-family:宋体'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<h1><a name="_Toc427736853"><span lang=EN-US>3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>数据采集</span></a></h1>
+
+<h2><a name="_Toc427736854"><span lang=EN-US>3.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>概述</span></a></h2>
+
+<p class=MsoNormalIndent><span style='font-family:宋体'>便携多参数测量仪，采集病人数据，保存在本地。每个病人接入，并测量完成后，会自动完成数据存储。</span></p>
+
+<h2><a name="_Toc427736855"><span lang=EN-US>3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>数据采集</span></a></h2>
+
+<p class=MsoNormalIndent><span style='font-family:宋体'>便携多参数测量仪会自动保存一个病人的最后测量结果。当新接入一个病人，在测量过程中，测量仪记录被测人员的心率、血氧、脉率、血压和体温。没测量的项目为空，测量项目以最后一次数据为准。再下一个病人接入之前，或接入新病人操作完成，前一个病人数据会被保存为最终数据，计入数据库。</span></p>
+
+<h2><a name="_Toc427736856"><span lang=EN-US>3.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:宋体'>数据回顾</span></a></h2>
+
+<p class=MsoNormalIndent><span style='font-family:宋体'>测量界面，点击右上角的病人信息，即可进入病人列表。在病人列表中选择相应的病人后，即可看到该病人的测量数据。</span></p>
+
+</div>
+
+</body>
+
+</html>

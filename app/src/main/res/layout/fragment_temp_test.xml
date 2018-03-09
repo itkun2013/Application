@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:orientation="vertical"
+            tools:context=".TempActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_test"
+        android:textSize="20sp"
+        android:textColor="#0000ff"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--temp t1趋势值-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temp_trend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minWidth="80dp"
+                android:text="@string/irtemp_trend"
+                android:textColor="#FF9933"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="39.0"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="36.0"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/temp_t1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="℃"
+                android:textSize="15sp"/>
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:visibility="gone"
+           android:layout_gravity="center"
+           >
+           <TextView
+               android:id="@+id/temp_notify"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:text="@string/wait_for_check"
+               android:textSize="20sp" />
+           <ProgressBar
+               android:id="@+id/temp_progress_bar"
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="180dp"
+               android:layout_height="wrap_content"
+               android:visibility="gone"
+               android:layout_below="@id/temp_notify"
+               android:max="180" />
+
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:visibility="gone"
+               android:paddingTop="10dp"
+               >
+               <com.konsung.defineview.ImageTextButton
+                   android:id="@+id/measure_btn_temp"
+                   android:layout_width="100dp"
+                   android:layout_height="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="20dp"
+                   android:text="@string/nibp_btn_start"
+                   materialdesign:text_size="18" />
+           </RelativeLayout>
+       </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

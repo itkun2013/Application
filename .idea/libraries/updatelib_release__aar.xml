@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="updatelib-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/bc8aad5bd468da4b2f4fb6000ef7504c105b729a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/bc8aad5bd468da4b2f4fb6000ef7504c105b729a/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

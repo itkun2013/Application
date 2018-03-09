@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#e6e6e6"
+    android:gravity="right|center_vertical"
+    tools:showIn="@layout/fragment_pop_upload">
+
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn_first"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btn_previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/btn_previous"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/edittext_normal"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/btn_next"
+        android:paddingRight="10dp"/>
+
+    <Button
+        android:id="@+id/btn_last"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/btn_last"
+        android:paddingRight="10dp"/>
+   <TextView
+       android:gravity="center_vertical"
+       android:layout_marginLeft="10dp"
+       android:textSize="18sp"
+       android:id="@+id/tv_page"
+       android:layout_width="118dp"
+       android:layout_height="40dp"/>
+</LinearLayout>

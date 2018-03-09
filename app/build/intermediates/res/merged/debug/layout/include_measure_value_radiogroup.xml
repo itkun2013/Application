@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/value_layout_style">
+
+    <TextView
+        android:id="@+id/tv_measure_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px58"
+        android:layout_marginStart="@dimen/px58"
+        android:clickable="true"
+        android:text="aa"
+        android:textColor="@color/measure_name_text_color"
+        android:textSize="@dimen/measure_name_size"/>
+
+
+    <ImageView
+        android:id="@+id/iv_glu_flag"
+        android:layout_width="@dimen/px36"
+        android:layout_height="@dimen/px36"
+        android:layout_marginLeft="@dimen/margin_left_of_measure_layout"
+        android:layout_marginStart="@dimen/margin_left_of_measure_layout"
+        android:layout_marginTop="@dimen/px10"
+        android:clickable="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_measure_name"
+        android:layout_marginLeft="@dimen/margin_left_of_measure_layout"
+        android:layout_marginStart="@dimen/margin_left_of_measure_layout"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_refer_value"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_measure_max"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="aaaaa"
+                android:textColor="@color/measureMax"
+                android:textSize="@dimen/refer_value_size"/>
+
+            <TextView
+                android:id="@+id/tv_measure_min"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="aaaaa"
+                android:textColor="@color/measureMax"
+                android:textSize="@dimen/refer_value_size"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_measure_value"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:text="99999"
+            android:textColor="@color/measure_name_text_color"
+            android:textSize="@dimen/measure_value_size"/>
+
+        <TextView
+            android:id="@+id/tv_measure_unit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:text="aaaaaaa"
+            android:textColor="@color/measureMax"
+            android:textSize="@dimen/measure_unit_size"/>
+    </LinearLayout>
+
+</RelativeLayout>

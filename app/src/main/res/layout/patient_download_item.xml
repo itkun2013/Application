@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:minHeight="68dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <LinearLayout
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="38dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.konsung.defineview.CircleImageView
+                android:id="@+id/iv_pic"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/pic_default_avatar"
+                app:civ_border_color="@color/actionbar_bg_color"
+                app:civ_border_width="1.5dp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/style_patient_list_content"
+                android:layout_width="wrap_content"
+                android:maxLength="5"
+                android:textColor="#333"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_sex"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/ic_male" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_age"
+            style="@style/style_patient_list_content"
+            android:layout_width="68dp"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:text="25岁" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/style_patient_list_content"
+            android:layout_width="68dp"
+            android:gravity="center"
+            android:text="成人" />
+
+        <TextView
+            android:id="@+id/tv_idcard"
+            style="@style/style_patient_list_content"
+            android:layout_width="196dp"
+            android:gravity="center"
+            android:text="513030199301014321"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            style="@style/MyCheckBox"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="20dp"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <View
+        android:background="#f0f0f0"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="800dp"
+			  android:background="@color/sand_light"
+			  android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/time_ll"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="40dp">
+		<!--测量时间-->
+		<TextView
+			android:id="@+id/measure_time_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/measure_time"
+			android:textSize="20sp" />
+
+		<TextView
+			android:id="@+id/measure_time"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_toRightOf="@id/measure_time_tv"
+			android:textSize="20sp"
+			android:text="-?-"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/ecg_ll"
+		android:layout_below="@+id/time_ll"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:id="@+id/hr_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/ecg_hr"
+			android:textSize="20sp" />
+
+		<TextView
+			android:id="@+id/ecg_hr"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="-?-"
+			android:textSize="16sp" />
+	</LinearLayout>
+
+	<!--SPO2-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/ecg_ll"
+		android:id="@+id/spo2_ll"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:id="@+id/spo2_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/spo2_trend"
+			android:textSize="20sp" />
+
+		<TextView
+			android:id="@+id/spo2_trend"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textSize="20sp"
+			android:text="-?-"/>
+
+		<TextView
+			android:id="@+id/spo2_pr_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/spo2_pr"
+			android:layout_marginLeft="80dp"
+			android:textSize="20sp"/>
+
+		<TextView
+			android:id="@+id/spo2_pr"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textSize="20sp"
+			android:text="-?-"/>
+	</LinearLayout>
+
+
+	<!--NIBP-->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/spo2_ll"
+		android:id="@+id/nibp_ll"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp">
+		<TextView
+			android:id="@+id/nibp_tv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/spo2_tv"
+			android:text="@string/nibp"
+			android:textSize="20sp" />
+
+		<TextView
+			android:id="@+id/nibp_trend"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textSize="20sp"
+			android:text="-?-/-?-"/>
+	</LinearLayout>
+
+	<com.konsung.defineview.ImageTextButton
+		android:id="@+id/save_current_measure"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/finish_measure_saved"
+		android:textSize="16sp"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

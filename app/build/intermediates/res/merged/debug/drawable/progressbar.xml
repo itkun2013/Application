@@ -1,0 +1,35 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+
+        <shape>
+            <gradient
+                android:angle="0"
+                android:centerColor="#ceced8"
+                android:centerY="0.75"
+                android:endColor="#ceced8"
+                android:startColor="#ceced8" />
+            <corners android:radius="9dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+
+        <!--<clip>-->
+
+        <!--<shape>-->
+
+        <!--<gradient-->
+        <!--android:angle="0"-->
+        <!--android:endColor="@color/grass_konsung_2"-->
+        <!--android:startColor="@color/grass_konsung_2" />-->
+        <!--<corners-->
+        <!--android:radius="9dp"-->
+        <!--/>-->
+        <!--</shape>-->
+        <!--</clip>-->
+        <scale
+            android:drawable="@drawable/progress_bar_act"
+            android:scaleWidth="100%" />
+    </item>
+
+</layer-list>

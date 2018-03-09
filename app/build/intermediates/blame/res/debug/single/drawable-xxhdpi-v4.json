@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\unselect_before_dinner.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\unselect_before_dinner.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\select_after_dinner.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\select_after_dinner.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\remote_ecg_background.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\remote_ecg_background.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\reboot_btn_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\reboot_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\disreboot_btn_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\disreboot_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\unselect_after_dinner.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\unselect_after_dinner.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ks_btn_bg_muldel.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\ks_btn_bg_muldel.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ks_btn_bg_empty.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\ks_btn_bg_empty.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_close.jpg",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\btn_close.jpg"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_selector_orange.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\btn_selector_orange.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\username_drop_selector.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\username_drop_selector.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\leak_canary_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\drawable-xxhdpi-v4\\leak_canary_icon.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_selector_blue.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\btn_selector_blue.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ks_btn_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xxhdpi\\ks_btn_bg.xml"
+    }
+]

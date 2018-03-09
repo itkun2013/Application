@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/item_width"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/bg_white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_above">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/qc_uri"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="结果"
+                android:textColor="@color/white"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="30dp"
+                />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="center"
+                android:text="@string/qc_uri_reference"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/urine_margin_20"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/bg_below"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_leu"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_leu"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+        </LinearLayout>
+
+
+        <!--nit-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_nit"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_nit"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--ubg-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_ubg"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_ubg"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--pro-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_pro"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_pro"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+
+        <!--PH-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_ph"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_ph"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/qc_uri_reference_ph"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--sg-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_sg"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_sg"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_sg_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/urine_margin_20"
+                />
+        </LinearLayout>
+
+        <!--ca-->
+        <LinearLayout
+            android:id="@+id/ca_layout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_ca"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_ca"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+        </LinearLayout>
+        <!--bld-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_bld"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_bld"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--ket-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_ket"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_ket"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--bil-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_bil"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_bil"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+        </LinearLayout>
+
+        <!--glu-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_name_glu"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_glu"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+
+        <!--vc-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_asc"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_asc"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+        </LinearLayout>
+
+
+
+        <!--微量白蛋白-->
+        <LinearLayout
+            android:id="@+id/ma_layout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_alb"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_alb"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginTop="10dp"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+        <!--CRE-->
+        <LinearLayout
+            android:id="@+id/cr_layout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/urine_padding"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/urine_item_margin_top"
+            >
+
+            <TextView
+                android:layout_width="@dimen/urine_result_width"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_uri_cr"
+                android:textSize="@dimen/urine_text_size_modify"/>
+
+            <TextView
+                android:id="@+id/tv_cr"
+                android:layout_width="@dimen/urine_result_width_2"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:layout_marginLeft="@dimen/urine_margin_left"
+                />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/uri_default_reference"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/cankao_margin"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

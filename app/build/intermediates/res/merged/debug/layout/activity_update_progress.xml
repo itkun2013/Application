@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_progress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.konsung.activity.UpdateProgressActivity">
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="560dp"
+            android:progressDrawable="@drawable/progress_bar"
+            android:progress="0"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:text="0%"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/progress_tx"
+            android:layout_width="560dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="560dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/progress_tx"
+        android:textColor="#333333"
+        android:text="正在升级，请稍后..."
+        />
+</RelativeLayout>

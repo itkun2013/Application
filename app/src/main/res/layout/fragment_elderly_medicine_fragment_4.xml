@@ -1,0 +1,1643 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/layout_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="平和质"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="评分"/>
+            <EditText
+                android:id="@+id/harmony"
+                style="@style/FormEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/q1"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q1_1"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q1_2"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q1_3"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q1_4"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_4"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q1_5"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_5"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/q2"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q2_1"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q2_2"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q2_3"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q2_4"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_4"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q2_5"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_5"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/q4"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q4_1"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q4_2"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q4_3"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q4_4"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_4"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q4_5"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_5"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/q5"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q5_1"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q5_2"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q5_3"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q5_4"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_4"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q5_5"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_5"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/q13"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/q13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/q13_1"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q13_2"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q13_3"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q13_4"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_4"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+
+                <RadioButton
+                    android:id="@+id/q13_5"
+                    android:textStyle="normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type1_5"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090"/>
+
+
+        <!--气虚质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="气虚质"/>
+                <EditText
+                    android:id="@+id/qiAsthenia"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/qiAstheniaTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/qtcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/qtcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+            style="@style/FormTextView"
+            android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/qguide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/qguide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/qguide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/qguide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/qguide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/qguide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/qguide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--阳虚质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="阳虚质"/>
+                <EditText
+                    android:id="@+id/yangAsthenia"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/yangTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/yangTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/yangTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/yangguide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yangguide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yangguide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yangguide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yangguide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/yangguide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/yangguide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--阴虚质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="阴虚质"/>
+                <EditText
+                    android:id="@+id/yinAsthenia"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/yinTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/yinTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/yinTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/yinguide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yinguide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yinguide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yinguide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/yinguide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/yinguide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/yinguide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--痰湿质-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="痰湿质"/>
+                <EditText
+                    android:id="@+id/phlegmDampness"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/phTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/phTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/phTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/phguide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/phguide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/phguide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/phguide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/phguide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/phguide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/phguide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--湿热质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="湿热质"/>
+                <EditText
+                    android:id="@+id/dampHeat"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/dampTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/dampTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/dampTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/dampGuide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/dampGuide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/dampGuide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/dampGuide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/dampGuide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/dampGuide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/dampGuide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--血瘀质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="血瘀质"/>
+                <EditText
+                    android:id="@+id/bloodStasis"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/bloodTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/bloodTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/bloodTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/bloodGuide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/bloodGuide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/bloodGuide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/bloodGuide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/bloodGuide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/bloodGuide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/bloodGuide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!-- 气郁质-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="气郁质"/>
+                <EditText
+                    android:id="@+id/stagnation"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/staTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/staTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/staTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/staGuide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/staGuide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/staGuide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/staGuide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/staGuide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/staGuide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/staGuide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--特禀质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="特禀质"/>
+                <EditText
+                    android:id="@+id/allergic"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/aTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/aTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/aTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/aGuide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/aGuide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/aGuide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/aGuide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/aGuide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/aGuide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/aGuide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+        <!--平和质-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="平和质"/>
+                <EditText
+                    android:id="@+id/harmony1"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="体质辨识" />
+            <RadioGroup
+                android:id="@+id/haTcm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/haTcm_1"
+                    android:tag="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <RadioButton
+                    android:id="@+id/haTcm_2"
+                    android:tag="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flag_2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="保健指导" />
+
+            <CheckBox
+                android:id="@+id/haGuide_1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_1"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/haGuide_2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_2"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/haGuide_3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_3"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/haGuide_4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_4"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+            <CheckBox
+                android:id="@+id/haGuide_5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_5"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/FormTextView" />
+            <CheckBox
+                android:id="@+id/haGuide_6"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_6"
+                android:textSize="12sp"
+                android:textStyle="normal"/>
+
+            <EditText
+                android:id="@+id/haGuide_other"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/pre_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="上一页"
+                materialdesign:text_size="22" />
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/next_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="保  存"
+                materialdesign:text_size="22" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

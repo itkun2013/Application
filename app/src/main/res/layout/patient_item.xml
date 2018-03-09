@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:minHeight="108dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/bg_item_patient"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:minHeight="120dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <com.konsung.defineview.CircleImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pic_default_avatar"
+            app:civ_border_color="@color/actionbar_bg_color"
+            app:civ_border_width="1.5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/style_patient_list_content"
+                    android:layout_width="wrap_content"
+                    android:text="dlx"
+                    android:textColor="#333"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_sex"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="2dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/ic_male_mine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    style="@style/style_patient_list_content"
+                    android:layout_width="wrap_content"
+                    android:text="25岁" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    style="@style/style_patient_list_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:minWidth="80dp"
+                    android:text="成人" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_idcard"
+                style="@style/style_patient_list_content"
+                android:layout_width="wrap_content"
+                android:text="513030199301014321"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_side_menu_pointer" />
+
+    <com.konsung.defineview.CircleImageView
+        android:id="@+id/iv_check"
+        android:layout_centerVertical="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_round_head"
+        android:padding="8dp"
+        android:src="@drawable/ic_select"
+        app:civ_border_color="#FF875E"
+        app:civ_border_width="1.5dp"
+        app:civ_circle_background_color="#000"
+        app:civ_fill_color="#000" />
+
+    <View
+        android:background="#f0f0f0"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>

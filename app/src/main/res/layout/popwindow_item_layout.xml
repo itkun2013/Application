@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/spinn_listview_item_bg"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="15dp"
+    android:id="@+id/item_ll"
+    >
+    <com.konsung.defineview.CircleImageView
+        android:id="@+id/measure_head_pic"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:civ_border_width="1dp"
+        android:src="#f0f0f0"
+        app:civ_border_color="@color/actionbar_bg_color"
+        app:civ_fill_color="#000"
+        />
+    <TextView
+        android:id="@+id/measure_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text=""
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="6dp"
+        android:singleLine="true"
+        android:maxEms="4"
+        android:ellipsize="end"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:paddingTop="20dp"
+        >
+        <TextView
+            android:id="@+id/measure_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="男"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/measure_patient_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="成人"
+            android:gravity="center"
+            />
+        </LinearLayout>
+</RelativeLayout>

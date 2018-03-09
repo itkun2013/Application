@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/followup_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评估时间"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/followup_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/darker_blue"
+            android:layout_toRightOf="@id/followup_time"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+        <!--姓名-->
+        <TextView
+            android:id="@+id/tv_p_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darker_blue"
+            android:textSize="16sp" />
+        <!--性别-->
+        <TextView
+            android:id="@+id/p_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="40dp"
+
+            android:textSize="16sp" />
+        <!--身份证-->
+        <TextView
+            android:id="@+id/p_idcard_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/p_sex"
+            android:text="@string/patient_idCard"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/p_idcard"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:maxLength="18"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="14sp" />
+        <!--出生日期-->
+        <TextView
+            android:id="@+id/p_birthday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/patient_birthday"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/p_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

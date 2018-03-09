@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="554px"
+              android:layout_height="400px"
+              android:layout_gravity="center"
+              android:background="@drawable/rounded_rectangle"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="74px"
+        android:background="@drawable/bg_pic5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10px"
+            android:text="@string/nibp_setting"
+            android:textColor="@color/text_color6"
+            android:textSize="24px"/>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_alignParentRight="true"
+            android:layout_margin="13px"
+            android:background="@drawable/ic_close_selector"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_calibrate"
+        style="@style/btn_nibp_setting"
+        android:layout_marginTop="46px"
+        android:text="@string/nibp_calibrate"/>
+
+    <Button
+        android:id="@+id/btn_leak"
+        style="@style/btn_nibp_setting"
+        android:text="@string/nibp_leak_test"
+        />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="300px"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14px"
+        android:background="@drawable/rectangle_btn"
+        android:gravity="center"
+        android:text="@string/nibp_reset"
+        android:textColor="@color/nibp_text_color"
+        android:textSize="24px"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_stop_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="@color/measure_success_text_color"
+            android:textSize="@dimen/px22"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="@color/measure_success_text_color"
+            android:textSize="@dimen/px22"/>
+
+        <TextView
+            android:id="@+id/tv_cuff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/measure_success_text_color"
+            android:textSize="@dimen/px22"/>
+    </LinearLayout>
+</LinearLayout>

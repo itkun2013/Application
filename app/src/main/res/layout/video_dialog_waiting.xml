@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="180dp"
+    android:layout_marginTop="150dp"
+    android:visibility="gone"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/transparency"
+    android:id="@+id/ll_video_container"
+    >
+
+    <ProgressBar
+        android:id="@+id/pb_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:indeterminateDrawable="@drawable/animdraw2"
+        android:indeterminateDuration="1500"/>
+    <TextView
+        android:id="@+id/tv_video_msg"
+        android:textColor="@color/normal_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

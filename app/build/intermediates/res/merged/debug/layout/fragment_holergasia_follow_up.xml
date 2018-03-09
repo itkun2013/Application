@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/layout_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:shrinkColumns="1,2,3"
+        android:stretchColumns="1,2,3"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/name" />
+            <TextView
+                android:id="@+id/name"
+                style="@style/FormTextView"
+                android:textColor="#0099CC"/>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/holergasiaInfoNumber"/>
+            <TextView
+                android:id="@+id/holergasiaInfoNumber"
+                style="@style/FormTextView"
+                android:textColor="#0099CC"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/followUpDate" />
+            <com.konsung.defineview.ButtonFlat
+                android:id="@+id/followUpDate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/txt_color"
+                android:gravity="left"
+                android:layout_marginLeft="50dp"
+                android:text="@string/patient_birthday_btn" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="危险性" />
+            <RadioGroup
+                android:id="@+id/dangerRatingCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="0(0级)"
+                    android:tag="0"/>
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1(1级)"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2(2级)"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3(3级)"
+                    android:tag="3"/>
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="4(4级)"
+                    android:tag="4"/>
+                <RadioButton
+                    android:id="@+id/dangerRatingCode_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="5(5级)"
+                    android:tag="5"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/nowSymptom"
+                android:layout_height="fill_parent" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_span="3">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <!--1 幻觉 2 交流困难 3 猜疑 4 喜怒无常  5 行为怪异  6 兴奋话多 7 伤人毁物 8 悲观厌世  9 无故外走 10 自语自笑  11 孤僻懒散 12 其他-->
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_1"
+                        android:tag="1"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_2"
+                        android:tag="2"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_3"
+                        android:tag="3"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_4"
+                        android:tag="4"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_5"
+                        android:tag="5"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <!--1 幻觉 2 交流困难 3 猜疑 4 喜怒无常  5 行为怪异  6 兴奋话多 7 伤人毁物 8 悲观厌世  9 无故外走 10 自语自笑  11 孤僻懒散 12 其他-->
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_6"
+                        android:tag="6"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_7"
+                        android:tag="7"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_8"
+                        android:tag="8"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_9"
+                        android:tag="9"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_10"
+                        android:tag="10"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_11"
+                        android:tag="11"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <CheckBox
+                        android:id="@+id/nowSymptomCode_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/historyMasterSymptomCode_12"
+                        android:tag="12"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                    <EditText
+                        android:id="@+id/nowSymptomName"
+                        style="@style/FormEditText"
+                        android:layout_width="fill_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/insight"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/insightCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                 <!--1 自知力完全    2 自知力不全    3 自知力缺失 -->
+                <RadioButton
+                    android:id="@+id/insightCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 自知力完全"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/insightCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 自知力不全"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/insightCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 自知力缺失"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/sleep"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/sleepCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/sleepCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/sleepCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/sleepCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/food"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/foodCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/foodCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/foodCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/foodCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TextView
+            android:gravity="center"
+            android:text="社会功能情况"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/life"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/lifeCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/lifeCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/lifeCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/lifeCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/housework"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/houseworkCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/houseworkCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/houseworkCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/houseworkCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/work"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/workCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差  9 此项不适用-->
+                <RadioButton
+                    android:id="@+id/workCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/workCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/workCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+                <RadioButton
+                    android:id="@+id/workCode_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="9 此项不适用"
+                    android:tag="9"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/study"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/studyCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/studyCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/studyCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/studyCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/interpersonal"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/interpersonalCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 良好    2 一般    3 较差 -->
+                <RadioButton
+                    android:id="@+id/interpersonalCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="1 良好"
+                    android:tag="1"/>
+                <RadioButton
+                    android:id="@+id/interpersonalCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="2 一般"
+                    android:tag="2"/>
+                <RadioButton
+                    android:id="@+id/interpersonalCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="3 较差"
+                    android:tag="3"/>
+            </RadioGroup>
+        </TableRow>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/socialImpact"
+                android:layout_height="fill_parent" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_span="3">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mildTrouble"/>
+                    <EditText
+                        android:id="@+id/mildTroubleTime"
+                        android:inputType="number"
+                        style="@style/FormEditText"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/times"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/trouble"/>
+                    <EditText
+                        android:id="@+id/troubleTime"
+                        android:inputType="number"
+                        style="@style/FormEditText"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/times"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="肇祸"/>
+                    <EditText
+                        android:id="@+id/disasterTime"
+                        android:inputType="number"
+                        style="@style/FormEditText"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/times"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/autolesion"/>
+                    <EditText
+                        android:id="@+id/autolesionTime"
+                        android:inputType="number"
+                        style="@style/FormEditText"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/times"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suicide"/>
+                    <EditText
+                        android:id="@+id/suicideTime"
+                        android:inputType="number"
+                        style="@style/FormEditText"/>
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/times"/>
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/closeLock"
+                android:layout_height="fill_parent" />
+            <RadioGroup
+                android:id="@+id/closeLockCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <RadioButton
+                    android:id="@+id/closeLockCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/closeLockCode_1"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/closeLockCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/closeLockCode_2"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/closeLockCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/closeLockCode_3"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="住院情况"
+                android:layout_height="fill_parent"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:orientation="vertical">
+                <RadioGroup
+                    android:id="@+id/inCode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--0 从未住院  1 目前正在住院  2 既往住院，现未住院 -->
+                    <RadioButton
+                        android:id="@+id/inCode_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="0 从未住院"
+                        android:tag="0"
+                        android:textSize="13sp"/>
+                    <RadioButton
+                        android:id="@+id/inCode_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="1 目前正在住院"
+                        android:tag="1"
+                        android:textSize="13sp"/>
+                    <RadioButton
+                        android:id="@+id/inCode_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="2 既往住院，现未住院"
+                        android:tag="2"
+                        android:textSize="13sp"/>
+                </RadioGroup>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lastLeaveHosDate"/>
+                    <com.konsung.defineview.ButtonFlat
+                        android:id="@+id/lastLeaveHosDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@color/txt_color"
+                        android:gravity="left"
+                        android:layout_marginLeft="50dp"
+                        android:text="@string/patient_birthday_btn" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="实验室检查"/>
+            <RadioGroup
+                android:id="@+id/examFlagCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/examFlagCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/examFlagCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="2 有"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <EditText
+                    android:id="@+id/examName"
+                    style="@style/FormEditText"
+                    android:layout_width="200dp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="服药依赖性"/>
+            <!--1 规律  2 间断  3 不服药-->
+            <RadioGroup
+                android:id="@+id/medicaCompCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/medicaCompCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="1 规律"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicaCompCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="2 间断"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicaCompCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="3 不服药"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="药物不良反应"/>
+            <RadioGroup
+                android:id="@+id/adrFlagCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/adrFlagCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/adrFlagCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="2 有"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <EditText
+                    android:id="@+id/adrName"
+                    style="@style/FormEditText"
+                    android:layout_width="200dp" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="治疗效果"/>
+            <RadioGroup
+                android:id="@+id/cureEffectCode"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="horizontal">
+                <!--1 痊愈  2 好转   3 无变化   4 加重-->
+                <RadioButton
+                    android:id="@+id/cureEffectCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="1 痊愈"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/cureEffectCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="2 好转"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/cureEffectCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="3 无变化"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/cureEffectCode_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="4 加重"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="是否转诊" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <RadioGroup
+                    android:id="@+id/referralCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/referralSign2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 无"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/referralSign2_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 有"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                </RadioGroup>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="原因"
+                        style="@style/FormTextView" />
+                    <EditText
+                        android:id="@+id/referralReason"
+                        style="@style/FormEditText" />
+                </LinearLayout>
+                <TextView
+                    android:text="机构及科室:"
+                    android:gravity="center|left"
+                    style="@style/FormTextView" />
+                <EditText
+                    android:id="@+id/referralOrgName"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="康复措施" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <!--1 生活劳动能力 2 职业训练 3 学习能力 4 社会交往 5 其他-->
+                <CheckBox
+                    android:id="@+id/recoveryCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="1 生活劳动能力"
+                    android:tag="1"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/recoveryCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="2 职业训练"
+                    android:tag="2"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/recoveryCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="3 学习能力"
+                    android:tag="3"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/recoveryCode_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="4 社会交往"
+                    android:tag="4"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <CheckBox
+                    android:id="@+id/recoveryCode_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="5 其他"
+                    android:tag="5"
+                    android:textSize="13sp"
+                    android:textStyle="normal"/>
+                <EditText
+                    android:id="@+id/recoveryName"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="本次随访分类" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_span="3">
+                <RadioGroup
+                    android:id="@+id/followUpClassesCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <!--1 不稳定  2 基本稳定  3 稳定 0 未访到      -->
+                    <RadioButton
+                        android:id="@+id/followUpClassesCode_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 不稳定"
+                        android:tag="1"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/followUpClassesCode_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 基本稳定"
+                        android:tag="2"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/followUpClassesCode_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 稳定"
+                        android:tag="3"
+                        android:textSize="13sp" />
+                    <RadioButton
+                        android:id="@+id/followUpClassesCode_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 未访到"
+                        android:tag="0"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/nextFollowUpDate" />
+            <com.konsung.defineview.ButtonFlat
+                android:id="@+id/nextFollowUpDate"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/txt_color"
+                android:gravity="left"
+                android:layout_marginLeft="50dp"
+                android:text="@string/patient_birthday_btn" />
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/followUpDoctorName"/>
+            <EditText
+                android:id="@+id/followUpDoctorName"
+                style="@style/FormEditText"/>
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:layout_marginTop="20dp"
+                android:gravity="right">
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/save_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="保    存"
+                    materialdesign:text_size="22" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7f000000">
+
+    <LinearLayout
+        android:layout_width="846px"
+        android:layout_height="570px"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_rectangle"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="74px"
+            android:background="@drawable/bg_pic5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10px"
+                android:text="@string/ten_results"
+                android:textColor="@color/text_color6"
+                android:textSize="24px"/>
+
+            <Button
+                android:id="@+id/btn_dialogClose"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_alignParentRight="true"
+                android:layout_margin="13px"
+                android:background="@drawable/ic_close_selector"/>
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_dialogContent"
+            android:layout_width="806px"
+            android:layout_height="410px"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/px20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_dialogTable"
+                android:layout_width="120px"
+                android:layout_height="48px"
+                android:background="@drawable/btn_dialog_menu2"
+                android:drawableLeft="@drawable/ic_trend_table_sel"
+                android:gravity="center"
+                android:padding="@dimen/px8"
+                android:text="@string/dialog_table"
+                android:textColor="@color/measure_name_text_color"
+                android:textSize="18px"/>
+
+            <TextView
+                android:id="@+id/tv_link"
+                android:layout_width="1px"
+                android:layout_height="48px"
+                android:background="@color/measure_name_text_color"/>
+
+            <Button
+                android:id="@+id/btn_dialogPic"
+                android:layout_width="120px"
+                android:layout_height="48px"
+                android:background="@drawable/btn_dialog_menu3"
+                android:drawableLeft="@drawable/ic_trend_chart_nor"
+                android:gravity="center"
+                android:padding="@dimen/px8"
+                android:text="@string/dialog_pic"
+                android:textColor="@color/gray"
+                android:textSize="18px"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

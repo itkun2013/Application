@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:id="@+id/item_ll"
+    android:background="@drawable/spinn_listview_item_bg"
+    >
+    <TextView
+        android:id="@+id/spinner_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="成人"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        />
+</LinearLayout>

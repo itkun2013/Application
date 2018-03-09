@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/item_width"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/bg_white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/bg_above">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/qc_lipid"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/p_unit_mmol"
+                android:textColor="@color/white"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="left"
+                android:text="@string/qc_uri_reference"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/bg_below"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <!--总胆固醇-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="left"
+                android:text="@string/chol"/>
+
+            <TextView
+                android:id="@+id/tv_chol_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/lipids_chol_range"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+        </LinearLayout>
+        <!--甘油三酯-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="left"
+                android:text="@string/trig"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:id="@+id/tv_trig_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/lipids_trig_range"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+        </LinearLayout>
+        <!--高密度脂蛋白-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="left"
+                android:text="@string/hdl"/>
+
+            <TextView
+                android:id="@+id/tv_hdl_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/lipids_hdl_range"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+        </LinearLayout>
+        <!--低密度脂蛋白-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:gravity="left"
+                android:text="@string/ldl"/>
+
+            <TextView
+                android:id="@+id/tv_ldl_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/default_value"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/urine_text_size_modify"
+                android:text="@string/lipids_ldl_range"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/blood_fat_margin_10"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

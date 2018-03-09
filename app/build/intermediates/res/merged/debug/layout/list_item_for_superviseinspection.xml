@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+            style="@style/FormTextView"
+            android:id="@+id/num"
+            android:background="@drawable/edit_bold"
+            android:layout_width="60dp"/>
+        <TextView
+            style="@style/FormTextView"
+            android:id="@+id/superviseInspectionDate"
+            android:layout_width="@dimen/table_width"
+            android:background="@drawable/edit_bold_left"/>
+        <TextView
+            style="@style/FormTextView"
+            android:id="@+id/superviseInspectionAdd"
+            android:layout_width="@dimen/table_width"
+            android:background="@drawable/edit_bold_left"/>
+        <TextView
+            style="@style/FormTextView"
+            android:id="@+id/superviseInspectionCont"
+            android:layout_width="@dimen/table_width"
+            android:background="@drawable/edit_bold_left"/>
+        <TextView
+            android:id="@+id/superviseInspectionEmpName"
+            style="@style/FormTextView"
+            android:layout_width="@dimen/table_width"
+            android:background="@drawable/edit_bold_left"/>
+
+</LinearLayout>

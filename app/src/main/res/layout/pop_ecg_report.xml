@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_report_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/menuText"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/px5"
+              android:paddingLeft="@dimen/px20"
+              android:paddingRight="@dimen/px20"
+              android:paddingTop="@dimen/px10">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ecg_report_title"
+            android:textColor="@color/report_text_color"
+            android:textSize="@dimen/px30"/>
+
+        <Button
+            android:id="@+id/btn_stop_report"
+            android:layout_width="@dimen/px130"
+            android:layout_height="@dimen/px40"
+            android:layout_gravity="end"
+            android:background="@drawable/close_report_selector"
+            android:text="@string/stop_report"
+            android:textColor="@color/menuText"
+            android:textSize="@dimen/px20"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_report_name"
+            style="@style/report_text_style"
+            android:text="姓名"
+            android:textSize="@dimen/px20"/>
+
+        <TextView
+            android:id="@+id/tv_report_sex"
+            style="@style/report_text_style"
+            android:text="性别"/>
+
+        <TextView
+            android:id="@+id/tv_report_age"
+            style="@style/report_text_style"
+            android:text="年龄"/>
+
+        <TextView
+            android:id="@+id/tv_report_idcard"
+            style="@style/report_text_style"
+            android:text="ID"/>
+
+        <TextView
+            android:id="@+id/tv_report_phone"
+            style="@style/report_text_style"/>
+
+        <TextView
+            android:id="@+id/tv_report_measure_time"
+            style="@style/report_text_style"
+            android:text="测量时间"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="463.5dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_local_data"
+                    android:layout_width="463.5dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <LinearLayout
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/px10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/HR"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_hr"
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/pr_en"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_pr"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/qrs"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_qrs"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/qtQtc"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_qtqtc"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/P_QRS_T"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_pQrsT"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/rv5Sv1"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_rv5Sv1"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="RV5+SV1"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_report_rv5_plus_sv1"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/px10"
+                        android:paddingTop="@dimen/px10">
+
+                        <TextView
+                            style="@style/text_18_black"
+                            android:text="@string/ecg_diagnose_result"/>
+
+                        <TextView
+                            android:id="@+id/tv_report_result"
+                            style="@style/text_18_black"
+                            android:layout_marginTop="@dimen/px10"
+                            android:paddingRight="@dimen/px10"
+                            android:singleLine="false"
+                            android:text="@string/invalid_data"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_no_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/local_ecg_data_has_deleted"
+                    android:textColor="#e55d3d"
+                    android:textSize="@dimen/px18"
+                    android:visibility="invisible"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/value_default"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_not_resolve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="289.5dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/px10"
+                            android:paddingTop="@dimen/px10">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/ecg_expert_diagnose"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/right_line"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/value_default"/>
+
+                    <RelativeLayout
+                        android:id="@+id/right_part"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/px10"
+                        android:paddingTop="@dimen/px10">
+
+                        <TextView
+                            style="@style/text_18_black"
+                            android:text="@string/remote_ecg_text"/>
+
+                        <Button
+                            android:id="@+id/btn_apply"
+                            android:layout_width="112.5dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ecg_apply_selector"
+                            android:gravity="center"
+                            android:padding="@dimen/px3"
+                            android:text="@string/apply_remote_ecg"
+                            android:textColor="@drawable/ecg_apply_text_selector"
+                            android:textSize="@dimen/px20"/>
+
+                        <LinearLayout
+                            android:id="@+id/ll_apply_success"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/ic_succeed"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="@string/apply_success"
+                                android:textColor="@color/normal_color"
+                                android:textSize="@dimen/px20"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_apply_time"
+                            style="@style/text_18_black"
+                            android:layout_below="@+id/ll_apply_success"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_resolved"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/px10">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/HR"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_hr"
+                                style="@style/text_18_black"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/pr_en"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_pr"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/qrs"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_qrs"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/qtQtc"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_qtqtc"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/P_QRS_T"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_pQrsT"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/rv5Sv1"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_rv5Sv1"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="RV5+SV1"/>
+
+                            <TextView
+                                style="@style/text_18_black"
+                                android:text="@string/width_colon"/>
+
+                            <TextView
+                                android:id="@+id/tv_expert_rv5_plus_sv1"
+                                style="@style/text_18_black"
+                                android:text="@string/invalid_data"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tv_remote_ecg_result"
+                            style="@style/text_18_black"
+                            android:layout_below="@+id/tv_expert"
+                            android:paddingRight="@dimen/px10"
+                            android:singleLine="false"
+                            android:maxLines="3"
+                            android:ellipsize="end"
+                            />
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_resolve_time"-->
+                            <!--style="@style/text_18_black"-->
+                            <!--android:layout_alignParentBottom="true"-->
+                            <!--android:paddingBottom="@dimen/px10"/>-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/tv_doctor_sign"-->
+                            <!--style="@style/text_18_black"-->
+                            <!--android:layout_alignParentBottom="true"-->
+                            <!--android:layout_alignParentRight="true"-->
+                            <!--android:paddingBottom="@dimen/px10"-->
+                            <!--android:paddingRight="@dimen/px10"/>-->
+                        <TextView
+                            android:id="@+id/tv_resolve_time"
+                            style="@style/text_18_black"
+                            android:layout_alignParentBottom="true" />
+
+                        <TextView
+                            android:id="@+id/tv_doctor_sign"
+                            style="@style/text_18_black"
+                            android:layout_above="@+id/tv_resolve_time"
+                            android:paddingBottom="@dimen/px5"/>
+
+                        <TextView
+                            android:id="@+id/tv_expert"
+                            style="@style/text_18_black"
+                            android:paddingTop="@dimen/px10"
+                            android:text="@string/ecg_expert_diagnose"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/value_default"/>
+
+        <FrameLayout
+            android:id="@+id/fl_report_ecg_wave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/iv_ecg_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

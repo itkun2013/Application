@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="5dp"
+              android:layout_weight="1"
+              android:background="@drawable/bg_round_rect_qc1"
+              android:orientation="vertical"
+              android:paddingBottom="5dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="5dp"
+              android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/health_hemoglobin"
+            android:textColor="@color/quick_measure_text_color_1"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/p_unit_mmol"
+            android:textColor="@color/quick_measure_text_color_1"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hgb_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="15"
+                android:textColor="#666"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/hgb_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11"
+                android:textColor="#666"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_xhdb_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/alarm_high"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/tv_hgb_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/default_value"
+                android:textColor="@color/quick_measure_text_color_1"
+                android:textSize="35sp"
+                android:layout_toLeftOf="@+id/iv_xhdb_icon"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/red_blood"
+            android:textColor="@color/quick_measure_text_color_1"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/p_unit_percentage"
+            android:textColor="@color/quick_measure_text_color_1"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/htc_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="50"
+                android:textColor="#666"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/htc_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:textColor="#666"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iv_hxb_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/alarm_high"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/tv_htc_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/default_value"
+                android:textColor="@color/quick_measure_text_color_1"
+                android:textSize="35sp"
+                android:layout_toLeftOf="@+id/iv_hxb_icon"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

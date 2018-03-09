@@ -1,0 +1,412 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/rl_search"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_edit_oval">
+
+                <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_search" />
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:imeOptions="actionDone"
+                    android:hint="@string/et_hint"
+                    android:maxLength="18"
+                    android:textColorHint="#909090"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_conainer"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/rl_search"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_weight="1"
+                    android:id="@+id/lv_patient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_list_clear"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="32dp"
+                   android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_white_blue_rect"
+                    android:text="@string/query_list_clear"
+                    android:textColor="@color/patient_query_selector"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_delete_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/lv_conainer"
+                android:visibility="gone"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#ebebeb" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:id="@+id/tv_all"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_all_bg"
+                        android:gravity="center"
+                        android:text="@string/patient_list_all"
+                        android:textColor="#666"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_delete"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_all_bg"
+                        android:gravity="center"
+                        android:text="@string/patient_list_delete"
+                        android:textColor="#666"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_sum"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/lv_conainer"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textColor="#ccc"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="650dp"
+            android:layout_height="386dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="43dp"
+            android:background="@drawable/bg_resident"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp">
+
+                <ImageView
+                    android:id="@+id/iv_pic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/pic_default_avatar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="90dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp">
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="#333"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/iv_sex"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="6dp"
+                            android:padding="2dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#666"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_modify"
+                    android:layout_width="72dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_patient_list_btn"
+                    android:gravity="center"
+                    android:text="@string/patient_list_modify"
+                    android:textColor="@color/main_app_color"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="24dp">
+
+                <RelativeLayout
+                    android:layout_width="127dp"
+                    android:layout_height="49dp">
+
+                    <Button
+                        android:id="@+id/btn_measure"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_measure_btn"
+                        android:paddingRight="20dp"
+                        android:text="@string/patient_list_measure"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_resident_measure" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="127dp"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="15dp">
+
+                    <Button
+                        android:id="@+id/btn_report"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_report_btn"
+                        android:paddingRight="20dp"
+                        android:text="@string/patient_list_report"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_resident_repot" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_age" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    style="@style/patient_list_info"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_type" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    style="@style/patient_list_info"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_phone" />
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    style="@style/patient_list_info"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_blood" />
+
+                <TextView
+                    android:id="@+id/tv_blood"
+                    style="@style/patient_list_info"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_addr" />
+
+                <TextView
+                    android:id="@+id/tv_addr"
+                    style="@style/patient_list_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/patient_list_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/patient_list_memo" />
+
+                <TextView
+                    android:id="@+id/tv_memo"
+                    style="@style/patient_list_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="144dp"
+            android:src="@drawable/pic_blank" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/no_current_patient"
+            android:textColor="#666"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="84dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_patient_list_btn"
+                android:text="@string/add"
+                android:textColor="@color/main_app_color"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_download"
+                android:layout_width="84dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_patient_list_btn"
+                android:text="@string/download"
+                android:textColor="@color/main_app_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

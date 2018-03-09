@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击背景-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!--色值-->
+            <solid android:color="#35bcac"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/main_app_color"/>
+        </shape>
+    </item>
+</selector>

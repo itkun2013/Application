@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".fragment.GetEcgWaveRecordFor5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:background="@color/grass_light"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ECG记录"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--The Frist Line is ECG_II,It was the test Line-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_ii"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="120dp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--Line 2,it contain ecg_i,iii,avr-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_i"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_iii"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVR"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--Line 3,it's contains ecg_avl,avf,v1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVL"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_AVF"
+                        android:layout_width="220dp"
+
+                        android:layout_height="120dp" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000000">
+
+                    <com.konsung.defineview.WaveFormEcg
+                        android:id="@+id/wave_V1"
+                        android:layout_width="220dp"
+                        android:layout_height="120dp" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

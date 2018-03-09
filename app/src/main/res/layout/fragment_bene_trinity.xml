@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_value"
+        android:layout_width="960px"
+        android:layout_height="348px"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/rounded_rectangle"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="479px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/relative_before_glu"
+                layout="@layout/include_measure_value_radiogroup"/>
+
+            <include
+                android:id="@+id/relative_after_glu"
+                layout="@layout/include_measure_value_radiogroup"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/px20"
+            android:paddingTop="@dimen/px20"
+            android:src="@drawable/breakline_vertical"/>
+
+        <LinearLayout
+            android:layout_width="480px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/relative_ua"
+                layout="@layout/include_measure_value_horizontal"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px2"
+                android:paddingLeft="@dimen/px10"
+                android:paddingRight="@dimen/px10"
+                android:src="@drawable/breakline_horizontal"/>
+
+            <include
+                android:id="@+id/relative_total_cho"
+                layout="@layout/include_measure_value_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="960px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_value"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_contain"
+            android:layout_width="640px"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:background="#fff">
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_measure_template"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="other">#fff00f</drawable>
+    <drawable name="blue">#0000FF</drawable>
+    <color name="green">#00FF00</color>
+    <color name="thumbColor">#66aaaaaa</color>
+    <drawable name="gray">#9a9a9a</drawable>
+    <color name="nibp_color">#3351b1</color>
+    <color name="green_normal">#4db133</color>
+    <color name="spo_color">#1abec0</color>
+    <color name="spo_pr_color">#ff7800</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pr_color">#ff7800</color>
+    <!-- 快检页面字体颜色-->
+     <color name="quick_measure_text_color_1">#1abec0</color>
+     <color name="quicl_measure_text_color_2">#333333</color>
+    <color name="quicl_measure_text_color_3">#999999</color>
+    <color name="quicl_measure_text_color_4">#666666</color>
+    <color name="quicl_measure_text_color_5">#4ea9ae</color>
+    <color name="view_bg">#EDEDED</color>
+
+    <color name="video_bg_normal">#cccccc</color>
+    <color name="video_bg_press">#57bcc2</color>
+    <color name="overlay">#330000</color>
+    <color name="divide_line">#e5e5e5</color>
+    <color name="et_hint_color">#cccccc</color>
+
+    <!-- 远程心电-->
+    <color name="remote_color_1">#3bd1bf</color>
+    <color name="remote_devider_color">#bbb9ba</color>
+    <color name="remote_devider">#ededed</color>
+    <color name="color_grey">#666666</color>
+    <color name="color_line1">#999999</color>
+    <color name="color_line2">#57bcc2</color>
+
+    <!-- 导航栏-->
+    <color name="title_text_normal">#3bd1bf</color>
+    <color name="title_text_pressed">#33b8a8</color>
+    <!-- 糖化-->
+    <color name="measure_item_color">#333333</color>
+    <color name="range_color">#666666</color>
+    <!-- 首页-->
+    <color name="actionbar_color">#fff</color>
+    <color name="head_pic_fill">#f0f0f0</color>
+    <color name="first_page_grey">#e6e6e6</color>
+    <color name="main_item_color_1">#666666</color>
+    <color name="main_item_color_2">#999999</color>
+    <!-- 用户新增页-->
+    <color name="user_add_title_color">#666666</color>
+    <color name="measure_unnormal_color">#ff875e</color>
+    <!--居民列表-->
+    <color name="main_app_color">#3bd1bf</color>
+
+    <color name="float_btn_color">#4DB133</color>
+    <color name="txt_color">#454545</color>
+    <color name="line_color">#7CFC00</color>
+    <color name="grass_konsung">#4DB133</color>
+    <color name="grass_konsung_disable">#CCCCCC</color>
+    <color name="main_txt">#1abec0</color>
+
+    <color name="gray">#9a9a9a</color>
+    <color name="hint_text">#bfbfbf</color>
+    <color name="mesu_text">#696969</color>
+    <color name="list_item_selected">#ff8cb18d</color>
+    <color name="list_item_unselected">#4DB133</color>
+    <color name="username">#bfbfbf</color>
+    <color name="grass_konsung_1">#57bcc2</color>
+    <color name="grass_konsung_2">#4ca4a8</color>
+    <color name="grass_light">#a8e3ce</color>
+    <color name="actionbar_bg_color">#3bd1bf</color>
+    <integer-array name="konsung">
+        <item>@color/actionbar_bg_color</item>
+        <item>@color/actionbar_bg_color</item>
+        <item>@color/actionbar_bg_color</item>
+        <item>@color/grass_light</item>
+    </integer-array>
+    <color name="grass_konsung_1_for_title">#6657bcc2</color>
+    <color name="health_report_text_color">#333333</color>
+
+    <!-- 快速检测页面色值-->
+    <color name="normal_color">#3bd1bf</color>
+    <color name="high_color">#ff875e</color>
+    <color name="range_value_color">#666666</color>
+    <color name="white_color">#ffffff</color>
+    <color name="all_color">#fafafa</color>
+    <color name="measuring">#ef6485</color>
+    <color name="divider">#e6e6e6</color>
+
+    <color name="menuText">#fff</color>
+    <color name="value_text">#666666</color>
+    <color name="measureMax">#666666</color>
+
+    <color name="background1">#e6e6e6</color>
+    <color name="line">#cccccc</color>
+    <color name="line2">#bfbfc0</color>
+    <color name="value_default">#808080</color>
+    <color name="background_nor">#333333</color>
+    <color name="chart_color">#f8a20f</color>
+    <color name="background">#fff</color>
+    <color name="transparency">#00000000</color>
+    <color name="video_exit_color">#4d666666</color>
+    <color name="video_background_color">#00000000</color>
+
+    /**心电**/
+    <color name="measure_name_text_color">#3bd1bf</color>
+    <color name="measure_value_text_color">#3bd1bf</color>
+    <color name="measure_tips_text_color">#1abec0</color>
+    <color name="measure_success_text_color">#333333</color>
+    <color name="report_text_color">#323333</color>
+    <color name="ecg_line_red">#e50014</color>
+    <color name="ecg_line_yellow">#fef200</color>
+    <color name="ecg_line_greed">#039846</color>
+    <color name="ecg_line_brown">#6a2f07</color>
+    <color name="ecg_line_black">#000</color>
+    <color name="ecg_line_purple">#6715e3</color>
+    <color name="ecg_text_color">#333333</color>
+    <color name="ecg_guide_text">#fff</color>
+    <color name="ecg_guide_text_background">#99ffffff</color>
+    <color name="error_value_color">#ff875e</color>
+    <color name="ecg_guide_text_black">#333333</color>
+    <color name="text_color6">#1fbba6</color>
+    <color name="text_color7">#0faaf7</color>
+    <color name="text_color8">#91ba20</color>
+    <color name="spo2_bg_color">#000</color>
+    <color name="progress_circle">#cccccc</color>
+    <color name="progress_color">#1abec0</color>
+    <color name="button_press">#35bcac</color>
+
+    <color name="nibp_btn_normal_stroke_color">#1abec0</color>
+    <color name="nibp_btn_unable_stroke_color">#cccccc</color>
+    <color name="nibp_btn_click_corner_color">#4d1abec0</color>
+
+    <!-- 所有按钮统一颜色 正常/按压后-->
+    <color name="btn_normal">#3bd1bf</color>
+    <color name="btn_pressed">#33b8a8</color>
+
+    <!-- 系统设置text值-->
+    <color name="system_left_text_color">#666666</color>
+</resources>

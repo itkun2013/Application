@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!--<TextView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingTop="12dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/qc_lipid"-->
+            <!--android:textColor="#4db133"-->
+            <!--android:textSize="15sp"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:gravity="left"
+                android:text="@string/qc_lipid"
+                android:textColor="@color/quick_measure_text_color_1"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:gravity="center"
+                android:text="@string/p_unit_mmol"
+                android:textColor="@color/quick_measure_text_color_1"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="18dp"
+                android:gravity="left"
+                android:text="@string/qc_uri_reference"
+                android:textColor="@color/quicl_measure_text_color_2"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/qc_uri_sign"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+        <!--总胆固醇-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/qc_uri_leu"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="@string/chol"/>
+
+            <TextView
+                android:id="@+id/tv_chol_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/default_value"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:text="@string/lipids_chol_range"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_chol_alarm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/iv_tc_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:src="@drawable/alarm_high"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <!--甘油三酯-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/qc_uri_leu"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="@string/trig"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:id="@+id/tv_trig_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/default_value"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:text="@string/lipids_trig_range"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_trig_alarm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/iv_tg_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:src="@drawable/alarm_high"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <!--高密度脂蛋白-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/qc_uri_leu"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="@string/hdl"/>
+
+            <TextView
+                android:id="@+id/tv_hdl_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/default_value"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:text="@string/lipids_hdl_range"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_hdl_alarm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/iv_hdl_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:src="@drawable/alarm_high"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <!--低密度脂蛋白-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/qc_uri_leu"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:text="@string/ldl"/>
+
+            <TextView
+                android:id="@+id/tv_ldl_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/default_value"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="13dp"
+                android:text="@string/lipids_ldl_range"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/tv_ldl_alarm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/iv_ldl_icon"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:src="@drawable/alarm_high"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</merge>

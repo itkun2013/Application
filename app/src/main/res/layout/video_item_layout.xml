@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="166dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            >
+
+            <ImageView
+                android:id="@+id/pic_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:scaleType="center"
+                />
+
+            <View
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@color/overlay"
+                />
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_video_play_selector"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/value_text"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+</LinearLayout>

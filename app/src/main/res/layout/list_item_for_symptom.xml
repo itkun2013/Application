@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:konsung="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp">
+
+    <Spinner
+        android:id="@+id/other_sp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:minWidth="100dp" />
+
+
+    <com.cengalabs.flatui.views.FlatEditText
+        android:id="@+id/other_ed"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:minWidth="80dp"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:visibility="gone"
+        flatui:fl_fieldStyle="fl_transparent" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <com.konsung.defineview.ButtonFloatSmall
+        android:id="@+id/other_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/float_btn_color"
+        android:visibility="visible"
+        konsung:iconDrawable="@drawable/ic_action_new" />
+</LinearLayout>
+

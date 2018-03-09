@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        style="@style/FormTextView"
+        android:background="@drawable/edit_bold"
+        android:id="@+id/num"
+        android:layout_width="60dp"/>
+    <TextView
+        style="@style/FormTextView"
+        android:layout_width="@dimen/table_width"
+        android:id="@+id/discoverDate"
+        android:background="@drawable/edit_bold_left"/>
+    <TextView
+        style="@style/FormTextView"
+        android:id="@+id/infoClassesName"
+        android:layout_width="@dimen/table_width"
+        android:background="@drawable/edit_bold_left"/>
+    <TextView
+        style="@style/FormTextView"
+        android:id="@+id/reportDate"
+        android:layout_width="@dimen/table_width"
+        android:background="@drawable/edit_bold_left"/>
+    <TextView
+        style="@style/FormTextView"
+        android:id="@+id/reportEmpName"
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/table_width"
+        android:background="@drawable/edit_bold_left"/>
+</LinearLayout>
+

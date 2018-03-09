@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:shrinkColumns="1,2,3,4,5"
+        android:stretchColumns="1,2,3,4,5">
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_name" />
+
+            <TextView
+                android:id="@+id/patient_name"
+                style="@style/FormTextView"
+                android:textColor="#0099CC" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_sex" />
+
+            <TextView
+                android:id="@+id/sex_sp"
+                style="@style/FormTextView"
+                android:textColor="#0099CC" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_birthday" />
+
+            <TextView
+                android:id="@+id/birthday"
+                style="@style/FormTextView"
+                android:textColor="#0099CC" />
+        </TableRow>
+
+
+        <TableRow android:paddingLeft="10dp">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_idcard" />
+
+            <TextView
+                android:id="@+id/patient_idCard_et"
+                style="@style/FormTextView"
+                android:layout_span="2"
+                android:textColor="#0099CC" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_workAddress" />
+
+            <EditText
+                android:id="@+id/patient_address"
+                style="@style/FormEditText"
+                android:layout_span="2" />
+        </TableRow>
+
+        <TableRow android:paddingLeft="10dp">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_personalPhone" />
+
+            <EditText
+                android:id="@+id/patient_personPhone"
+                style="@style/FormEditText" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_connectUserName" />
+
+            <EditText
+                android:id="@+id/connectUserName"
+                style="@style/FormEditText" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_connectUserNums" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_span="2"
+                android:id="@+id/connectUserNums"
+                style="@style/FormEditText" />
+        </TableRow>
+
+        <TableRow android:paddingLeft="10dp">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="备注" />
+
+            <EditText
+                android:id="@+id/et_patient_remark"
+                android:layout_span="5"
+                style="@style/FormEditText" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp">
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_live_type" />
+
+            <RadioGroup
+                android:id="@+id/live_type_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_span="2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="1 户籍"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="2"
+                    android:text="2 非户籍"
+                    android:textSize="13sp" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_nation" />
+
+            <RadioGroup
+                android:id="@+id/nation_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_span="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="1 汉族"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="2"
+                    android:text="2 少数民族"
+                    android:textSize="13sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/nation_ed"
+                style="@style/FormEditText" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_blood_type" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/blood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/blood_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="1"
+                        android:text="1 A型"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/blood_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="2"
+                        android:text="2 B型"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/blood_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="3"
+                        android:text="3 O型"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/blood_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="4"
+                        android:text="4 AB型"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/blood_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="5"
+                        android:text="5 不详"
+                        android:textSize="13sp" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/FormTextView"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical|left"
+                        android:text="@string/detail_blood_RH" />
+
+                    <RadioGroup
+                        android:id="@+id/bloodrh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/bloodrh_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="1"
+                            android:text="1 否"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/bloodrh_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="2"
+                            android:text="2 是"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/bloodrh_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tag="3"
+                            android:text="3 不详"
+                            android:textSize="13sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_degree_of_education" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_span="5"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/education_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="1"
+                        android:text="1 文盲及半文盲"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/education_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="2"
+                        android:text="2 小学"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/education_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="3"
+                        android:text="3 初中"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/education_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="4"
+                        android:text="4 高中/技校/中专"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/education_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="5"
+                        android:text="5 大学专科及以上"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/education_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="6"
+                        android:text="6 不详"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_career" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/carrer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/carrer_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="1"
+                        android:text="1 国家机关、党群组织、企业、事业单位负责人"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="2"
+                        android:text="2 专业技术人员"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="3"
+                        android:text="3 办事人员和有关人员"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="4"
+                        android:text="4 商业、服务业人员"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="5"
+                        android:text="5 农、林、牧、渔、水利业生产人员"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="6"
+                        android:text="6 生产、运输设备操作人员及有关人员"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="7"
+                        android:text="7 军人"
+                        android:textSize="13sp" />
+
+                    <RadioButton
+                        android:id="@+id/carrer_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="8"
+                        android:text="8 不便分类的其他从业人员"
+                        android:textSize="13sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_maritalStatus" />
+
+            <RadioGroup
+                android:id="@+id/marriage"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_span="5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/marriage_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="1"
+                    android:text="1 未婚"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/marriage_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="2"
+                    android:text="2 已婚"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/marriage_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="3"
+                    android:text="3 丧偶"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/marriage_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="4"
+                    android:text="4 离婚"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/marriage_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="5"
+                    android:text="5 未说明的婚姻状况"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_payType" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/payType_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="1"
+                        android:text="1 城镇职工基本医疗保险"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="2"
+                        android:text="2 城镇居民基本医疗保险"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="3"
+                        android:text="3 新型农村合作医疗"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/payType_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="4"
+                        android:text="4 贫困救助"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="5"
+                        android:text="5 商业医疗保险"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="6"
+                        android:text="6 全公费"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="7"
+                        android:text="7 全自费"
+                        android:textSize="13sp" />
+
+                    <CheckBox
+                        android:id="@+id/payType_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="8"
+                        android:text="8 其他"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/payTypeother"
+                        style="@style/FormEditText"
+                        android:layout_width="fill_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="right">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/next_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="下一页"
+                    materialdesign:text_size="22" />
+            </LinearLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</ScrollView>

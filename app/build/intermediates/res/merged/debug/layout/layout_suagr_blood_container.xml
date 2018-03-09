@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_sugar_hgb"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/suagr_bhd"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <!--NGSP-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/report_ngsp"/>
+
+        <TextView
+            android:id="@+id/tv_ngsp_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/per_cent"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/ngsp_range"/>
+
+        <ImageView
+            android:id="@+id/iv_ngsp_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--ifcc-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/report_ifcc"/>
+
+        <TextView
+            android:id="@+id/tv_ifcc_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/unit_mmol_mol"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/ifcc_range"/>
+
+        <ImageView
+            android:id="@+id/iv_ifcc_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--eAG-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/report_eag"/>
+
+        <TextView
+            android:id="@+id/tv_eag_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/health_unit_dl"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/eag_range"/>
+
+        <ImageView
+            android:id="@+id/iv_eag_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

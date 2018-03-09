@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击背景-->
+    <item android:state_pressed="true">
+        <shape>
+            <!--描边-->
+            <stroke android:width="@dimen/px2"
+                    android:color="#55bbbf"/>
+            <!--色值-->
+            <solid android:color="@color/button_press"/>
+            <!--圆角-->
+            <corners android:radius="6px"/>
+        </shape>
+    </item>
+    <!--默认背景-->
+    <item>
+        <shape>
+            <stroke android:width="@dimen/px2"
+                    android:color="#55bbbf"/>
+            <solid android:color="@color/actionbar_bg_color"/>
+            <corners android:radius="6px"/>
+        </shape>
+    </item>
+</selector>  

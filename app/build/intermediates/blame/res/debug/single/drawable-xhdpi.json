@@ -1,0 +1,862 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_network_test_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_network_test_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_urt.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_urt.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bf_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bf_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\switch_off.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\switch_off.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_skin_setting_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_skin_setting_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_ecg1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_ecg1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_app_setting_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_app_setting_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\top_logo.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\top_logo.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hgb3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hgb3.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_spo2_1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_spo2_1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\float_button_shadow1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\float_button_shadow1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_default_avatar.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_default_avatar.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_temp1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_temp1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_p_next.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_p_next.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_bp.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_bp.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_glu2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_glu2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_female_mine.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_female_mine.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\breakline_horizontal.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\breakline_horizontal.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_app_setting.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_app_setting.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\select_none.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\select_none.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\glu_pointer.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\glu_pointer.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ico_upload.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ico_upload.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_bp1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_bp1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_wbc2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_wbc2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_network_test.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_network_test.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_done.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_done.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_nav_filtrate.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_nav_filtrate.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_finished.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_finished.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_blank.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_blank.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_playing.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_playing.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_about.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_about.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drop_dpwn_list.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_drop_dpwn_list.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_video_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_video_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_nav_drop_down.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_nav_drop_down.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_ecg_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_ecg_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_picture_selected.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_picture_selected.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_cloes.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_cloes.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_step1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_step1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_skin_setting.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_skin_setting.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn2_nor.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn2_nor.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_settings.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\bg_settings.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_wbc3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_wbc3.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_maintain.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_maintain.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hgb1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hgb1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_nav_added.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_nav_added.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_hba1c.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_hba1c.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_upgrade.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_upgrade.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn5_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn5_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hba1c3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hba1c3.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_video.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_video.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_glu.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_glu.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_wbc_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_wbc_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_choose_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_choose_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_logo_white.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_logo_white.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_default_avatar_normal.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_default_avatar_normal.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_spo_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_spo_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_spo.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_spo.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_hgb.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_hgb.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_page_report.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_page_report.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn2_hig.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn2_hig.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_report_upload.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_report_upload.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bp_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bp_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_operate_delete.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_operate_delete.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_search_mine.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_search_mine.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_spo.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_spo.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_choose.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_choose.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_video_play_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_video_play_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\switch_on.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\switch_on.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hba1c4.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hba1c4.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_upload.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_upload.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_maintenance.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_maintenance.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_ecg2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_ecg2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_p_next_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_p_next_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dialog_background.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\dialog_background.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_step2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_step2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_operate_add.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_operate_add.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_bp_tag.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_bp_tag.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_report_upload_dis.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_report_upload_dis.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bp.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bp.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_male_mine.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_male_mine.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hgb2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hgb2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_hgb.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_hgb.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_white.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\bg_white.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_download.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_download.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn4.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn4.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_urt_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_urt_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\select_all.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\select_all.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_video.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_video.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_middle_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_middle_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\desk_logo.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\desk_logo.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ll_loading_outside_blue.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ll_loading_outside_blue.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_trend_table_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_trend_table_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_trend_table_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_trend_table_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_trend_chart_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_trend_chart_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_nav_back.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_nav_back.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_page_resident.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_page_resident.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_middle_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_middle_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\radio_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\radio_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_password_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_password_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\radio_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\radio_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_calendar.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_bg_page.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_bg_page.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_trend_chart_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_trend_chart_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bmi.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bmi.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_glu3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_glu3.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pre_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_pre_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_about_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_about_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_hba1c_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_hba1c_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_export.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_export.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_new.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_new.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_ecg.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_ecg.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_glu.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_glu.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_maintenance_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_maintenance_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_nav_download.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_nav_download.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn1_nor.9.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn1_nor.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_import_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_import_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_temp.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_temp.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_step3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_step3.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_export_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_export_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_video_training.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_video_training.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_temp2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_temp2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_right_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_right_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn1_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn1_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hba1c2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hba1c2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn3_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn3_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\download.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\download.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\breakline_vertical.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\breakline_vertical.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_left_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_left_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_bf.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_bf.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bmi_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bmi_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_rt.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_rt.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_female.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_female.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ll_loading_outside.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ll_loading_outside.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\all_upload.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\all_upload.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_ecg.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_ecg.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_completed.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_completed.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_bf.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_bf.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_left_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_left_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_page_remote_ecg.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_page_remote_ecg.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\add.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\add.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_temp_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_temp_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_tab_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn_tab_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_urt.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_urt.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ico_person_logout.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ico_person_logout.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_import.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_settings_import.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab_right_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\tab_right_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clean.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_clean.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_tab_nor.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn_tab_nor.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_select.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_select.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_wbc.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_wbc.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pre.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_pre.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drop_dpwn_list_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_drop_dpwn_list_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_low.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_low.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_hgb_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_hgb_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_wbc1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_wbc1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_select_none.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_select_none.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_glu1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_glu1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn4_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn4_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_temp.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_temp.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_bp2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_bp2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_success.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_success.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_spo2_2.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_spo2_2.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_video_play_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_video_play_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_report_upload_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_report_upload_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_top.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_top.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_page_system_settings.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_page_system_settings.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_male.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_male.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_side_menu_pointer.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_side_menu_pointer.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pic_hba1c1.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\pic_hba1c1.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_measure_glu_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_measure_glu_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_search.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_username_sel.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_username_sel.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\d1f8c0cbc3739dd3f95181874ee4cf7bb0746966\\output\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_cloes_hig.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\ic_cloes_hig.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_login.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\bg_login.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn3.png",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-xhdpi\\btn3.png"
+    }
+]

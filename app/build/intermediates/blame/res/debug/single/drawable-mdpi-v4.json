@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\user_add_tv_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-mdpi\\user_add_tv_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\check_update_btn_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-mdpi\\check_update_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\leak_canary_icon.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\163d3cea01b5fceb9a80fd3e76369f32808d1229\\output\\res\\drawable-mdpi-v4\\leak_canary_icon.png"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cancel_upload_bg.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-mdpi\\cancel_upload_bg.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\video_overlay_background.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-mdpi\\video_overlay_background.xml"
+    },
+    {
+        "merged": "E:\\yitiji\\7001\\duoduo\\Application\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\acbar_background.xml",
+        "source": "E:\\yitiji\\7001\\duoduo\\Application\\app\\src\\main\\res\\drawable-mdpi\\acbar_background.xml"
+    }
+]

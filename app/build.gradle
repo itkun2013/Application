@@ -1,0 +1,146 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+import org.tmatesoft.svn.core.wc.*
+
+// 获取软件的svn版本
+def getSvnRevision() {
+    ISVNOptions options = SVNWCUtil.createDefaultOptions(true);
+    SVNClientManager clientManager = SVNClientManager.newInstance(options);
+    SVNStatusClient statusClient = clientManager.getStatusClient();
+    SVNStatus status = statusClient.doStatus(projectDir, false);
+    SVNRevision revision = status.getCommittedRevision();
+    return (Integer)revision.getNumber();
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "25.0.2"
+
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "8g"
+    }
+
+    defaultConfig {
+        applicationId "com.konsung"
+        minSdkVersion 19
+        targetSdkVersion 25
+        // 获取svn版本，用于作为修订版本号
+        versionCode getSvnRevision()
+        // 填写软件版本，后缀用于区分不同项目
+        versionName "1.3.0-BasicApp"
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    // 签名配置
+    signingConfigs {
+        releaseConfig {
+            keyAlias 'healthone'
+            keyPassword 'ks888888'
+            storeFile file('healthone.jks')
+            storePassword 'ks888888'
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // release版本加入签名配置信息
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+
+    greendao {
+        schemaVersion 8 //数据库版本号
+        daoPackage 'com.greendao.dao' //自动生成的工具类的包名
+        targetGenDir 'src/main/java' //java路径
+    }
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+
+
+
+    // 自定义APK安装包名
+    android.applicationVariants.all {
+        variant -> variant.outputs.each {
+            output->
+                if (buildType.name.equals("debug")) {
+                    output.outputFile = new File(output.outputFile.parent,
+                            "HealthOne_r" + defaultConfig.versionCode + "_V"
+                                    + defaultConfig.versionName + "-debug"
+                                    + ".apk");
+                }
+                if (buildType.name.equals("release")) {
+                    output.outputFile = new File(output.outputFile.parent,
+                            "HealthOne_r" + defaultConfig.versionCode + "_V"
+                                    + defaultConfig.versionName + ".apk");
+                }
+        }
+    }
+
+    //升级gradle和gradle插件后，需要增加以下语句，不然会报错
+    packagingOptions {
+        exclude 'META-INF/maven/com.jakewharton/butterknife/pom.xml'
+        exclude 'META-INF/maven/com.jakewharton/butterknife/pom.properties'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+}
+
+//需要添加这个,否则无法找到aar
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/netty-all-4.0.25.Final.jar')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.jakewharton:butterknife:6.0.0'
+    compile 'com.github.eluleci:flatui:3.0.0'
+    compile 'com.github.citux:datetimepicker:0.1.2'
+    compile files('libs/android-async-http-1.4.7.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.squareup.okhttp:okhttp:2.6.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile files('libs/port_drive_library.jar')
+    compile files('libs/HUDAUsbDeviceLib.jar')
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.github.barteksc:android-pdf-viewer:1.1.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.bigkoo:pickerview:2.0.0'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    compile files('libs/javacsv.jar')
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile(name: 'updatelib-release', ext: 'aar')
+    compile files('libs/printerlibs.jar')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

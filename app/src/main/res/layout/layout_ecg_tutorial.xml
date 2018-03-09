@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/menuText"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_insert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/img_install"
+            android:layout_width="560px"
+            android:layout_height="415px"
+            android:src="@drawable/pic_ecg1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px10"
+            android:text="@string/ecg_guide_1"
+            android:textColor="@color/ecg_guide_text_black"
+            android:textSize="@dimen/px22"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_install"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.konsung.defineview.EcgProbeGuideView
+            android:id="@+id/img_connect"
+            android:layout_width="630px"
+            android:layout_height="364px"
+            android:layout_margin="@dimen/px10"
+            android:background="@drawable/pic_ecg2"/>
+
+        <LinearLayout
+            android:id="@+id/layout_break"
+            android:layout_width="350px"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_connect"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/px10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chest_probe"
+                android:textColor="@color/ecg_text_color"
+                android:textSize="@dimen/px22"
+                android:textStyle="bold"/>
+
+            <!--红色C1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_red"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c1"
+                    />
+            </LinearLayout>
+
+            <!--黄色C2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_yellow"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c2"
+                    />
+            </LinearLayout>
+            <!--绿色C3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_greed"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c3"
+                    />
+            </LinearLayout>
+            <!--棕色-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_brown"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c4"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_black"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c5"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_purple"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_c6"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280px"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_connect"
+            android:layout_toEndOf="@+id/layout_break"
+            android:layout_toRightOf="@+id/layout_break"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/body_probe"
+                android:textColor="@color/ecg_text_color"
+                android:textSize="@dimen/px22"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_red"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_r"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_yellow"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_l"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_black"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_n"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecg_circle_margin_right"
+                    android:src="@drawable/circle_greed"/>
+
+                <TextView
+                    style="@style/style_ecg_probe_text"
+                    android:text="@string/ecg_f"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

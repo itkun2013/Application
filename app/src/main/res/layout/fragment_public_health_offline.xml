@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingTop="70dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/personal_detail"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_dangan"
+                    android:text=" 居民健康档案"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/health_check"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_tijian"
+                    android:text=" 健康体检表"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/hypertension_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_gao"
+                    android:text=" 随访记录(高)"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/diabetes_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_tang"
+                    android:text=" 随访记录(Ⅱ糖)"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/elder_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_laoren"
+                    android:text=" 老年人健康管理"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/children_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_child"
+                    android:text=" 儿童健康管理"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/maternal_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_preg"
+                    android:text=" 孕产妇健康管理"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/holergasia_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ico_jingshen"
+                    android:text=" 重性精神病管理"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/teach_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_jiaoyu"
+                    android:text=" 健康教育活动"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/immunifaction_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ico_yufang"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text=" 预防接种服务"
+                    materialdesign:text_size="18" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/supervise_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ico_weijian"
+                    android:text=" 卫生监督服务"
+                    materialdesign:text_size="18" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/personal_detail"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:id="@+id/offline_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp">
+
+            </LinearLayout>
+
+            <!--            <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <com.gc.materialdesign.views.ButtonRectangle
+                                android:id="@+id/pre_btn"
+                                android:layout_width="220dp"
+                                android:layout_height="70dp"
+                                android:background="@color/float_btn_color"
+                                android:text="@string/previous_page"
+                                android:textColor="#ededed"
+                                android:textSize="30sp"
+                                android:visibility="invisible"
+                                materialdesign:rippleSpeed="30"
+                                android:layout_alignParentBottom="true"
+                                android:layout_toLeftOf="@+id/next_btn"
+                                android:layout_toStartOf="@+id/next_btn" />
+                            <com.gc.materialdesign.views.ButtonRectangle
+                                android:id="@+id/next_btn"
+                                android:layout_width="220dp"
+                                android:layout_height="70dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@color/float_btn_color"
+                                android:text="@string/next_page"
+                                android:textColor="#ededed"
+                                android:textSize="30sp"
+                                materialdesign:rippleSpeed="30" />
+                        </RelativeLayout>-->
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

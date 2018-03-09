@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_bmi"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/param_bmi"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <!-- 身高-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/bmi_height"/>
+
+        <TextView
+            android:id="@+id/tv_bmi_height_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/bmi_height_unit"/>
+
+        <TextView
+            style="@style/report_content_style" />
+
+        <ImageView
+            android:id="@+id/iv_bmi_height_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!-- 体重-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/bmi_weight"/>
+
+        <TextView
+            android:id="@+id/tv_bmi_weight_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/bmi_weight_unit"/>
+
+        <TextView
+            style="@style/report_content_style" />
+
+        <ImageView
+            android:id="@+id/iv_bmi_weight_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <!--bmi-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/param_bmi"/>
+
+        <TextView
+            android:id="@+id/tv_bmi_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text=""/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/bmi_report_range"/>
+
+        <ImageView
+            android:id="@+id/iv_bmi_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

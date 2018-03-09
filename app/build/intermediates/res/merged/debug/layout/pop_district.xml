@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:background="@drawable/bg_ip_dialog"
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="201dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="30dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:text="@string/upload_district_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="省:" />
+
+            <Spinner
+                android:id="@+id/spn_province"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="市:" />
+
+            <Spinner
+                android:id="@+id/spn_city"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="区/县:" />
+
+            <Spinner
+                android:id="@+id/spn_district"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:paddingRight="30dp"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="@string/cancel"
+                android:textSize="15sp"
+                android:textColor="@color/ip_et_text"
+                android:background="@drawable/bg_ip_btn"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_ok"
+                android:text="@string/save"
+                android:textSize="15sp"
+                android:textColor="@color/ip_et_text"
+                android:background="@drawable/bg_ip_btn"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

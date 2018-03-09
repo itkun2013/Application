@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="5dp"
+              android:background="@drawable/bg_round_rect_qc3"
+              android:orientation="vertical">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:text="@string/qc_uri"
+        android:textColor="#b0b133"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_eg_name"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_result"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_reference"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_sign"/>
+    </LinearLayout>
+
+    <!--leu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_leu"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_leu"/>
+
+        <TextView
+            android:id="@+id/tv_leu"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_leu"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+    <!--nit-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_nit"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_nit"/>
+
+        <TextView
+            android:id="@+id/tv_nit"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_nit"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--ubg-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_ubg"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_ubg"/>
+
+        <TextView
+            android:id="@+id/tv_ubg"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ubg"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--pro-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_pro"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_pro"/>
+
+        <TextView
+            android:id="@+id/tv_pro"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_pro"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <!--PH-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_ph"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_ph"/>
+
+        <TextView
+            android:id="@+id/tv_ph"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_reference_ph"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ph"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--sg-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_sg"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_sg"/>
+
+        <TextView
+            android:id="@+id/tv_sg"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_sg_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_sg"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:layout_width="110dp"
+            android:layout_height="37dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <!--bld-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_bld"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_bld"/>
+
+        <TextView
+            android:id="@+id/tv_bld"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_bld"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--ket-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_ket"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_ket"/>
+
+        <TextView
+            android:id="@+id/tv_ket"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ket"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--bil-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_bil"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_bil"/>
+
+        <TextView
+            android:id="@+id/tv_bil"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_bil"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!--glu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_glu"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_glu"/>
+
+        <TextView
+            android:id="@+id/tv_glu"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_glu"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <!--vc-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/qc_uri_vc"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/qc_uri_name_vc"/>
+
+        <TextView
+            android:id="@+id/tv_vc"
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:text="@string/uri_default_reference"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_vc"
+            android:layout_width="120dp"
+            android:layout_height="37dp"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

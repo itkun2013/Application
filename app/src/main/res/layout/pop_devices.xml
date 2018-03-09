@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:background="@drawable/bg_ip_dialog"
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="20dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:text="@string/device_config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_ksm5"
+                style="@style/MyCheckBox"
+                android:text="@string/ksm5"
+                android:checked="true"
+                android:clickable="false"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_empui"
+                style="@style/MyCheckBox"
+                android:text="@string/empui"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_ga7"
+                style="@style/MyCheckBox"
+                android:text="@string/ga7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_ida007"
+                style="@style/MyCheckBox"
+                android:text="@string/ida007"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_htd8819"
+                style="@style/MyCheckBox"
+                android:text="@string/htd8819"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_th809"
+                style="@style/MyCheckBox"
+                android:text="@string/th809"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_bene_check_glu"
+                style="@style/MyCheckBox"
+                android:text="@string/bene_check_glu"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_bene_check"
+                style="@style/MyCheckBox"
+                android:text="@string/bene_check"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_ogm111"
+                style="@style/MyCheckBox"
+                android:text="@string/ogm111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_urit31"
+                style="@style/MyCheckBox"
+                android:text="@string/urit31"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_mission_u120"
+                style="@style/MyCheckBox"
+                android:text="@string/mission_u120"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_hemo_cue_wbc"
+                style="@style/MyCheckBox"
+                android:text="@string/hemo_cue_wbc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/cb_hemo_cue_hb"
+                style="@style/MyCheckBox"
+                android:text="@string/hemo_cue_hb"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_urit12"
+                style="@style/MyCheckBox"
+                android:text="@string/urit12"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/cb_mission_hb"
+                style="@style/MyCheckBox"
+                android:text="@string/mission_hb"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/cb_ccm111"
+                style="@style/MyCheckBox"
+                android:text="@string/param_blood_fat_ccm"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cb_beiwen_one"
+                style="@style/MyCheckBox"
+                android:text="@string/beiwen1"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/chk_unt5000"
+                style="@style/MyCheckBox"
+                android:text="@string/unt5000"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_beiwen_two"
+                style="@style/MyCheckBox"
+                android:text="@string/beiwen2"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/cbx_ea12"
+                style="@style/MyCheckBox"
+                android:text="@string/ea_12"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="@string/cancel"
+                android:textSize="15sp"
+                android:textColor="@color/ip_et_text"
+                android:background="@drawable/bg_ip_btn"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_ok"
+                android:text="@string/save"
+                android:textSize="15sp"
+                android:textColor="@color/ip_et_text"
+                android:background="@drawable/bg_ip_btn"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

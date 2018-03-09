@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:konsung="http://schemas.android.com/apk/res-auto"
+              android:layout_width="1000dp"
+              android:layout_height="500dp"
+              android:background="#F5F5F5"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#0099FF"
+        android:gravity="left|center_vertical">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:scaleType="center"
+            android:paddingBottom="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ico_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/btn_close"
+            android:layout_centerVertical="true"
+            android:text="档案上传"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <com.konsung.defineview.ImageTextButton
+            android:id="@+id/btn_upload_all"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:background="@color/grass_konsung"
+            android:text="全部上传"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            konsung:text_size="15"/>
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#66CCFF"
+                  android:gravity="left|center_vertical"
+                  android:orientation="horizontal">
+
+        <!--档案号-->
+        <TextView
+            android:id="@+id/p_code"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="档案号"
+            android:textSize="15sp" />
+
+        <!--姓名-->
+        <TextView
+            android:id="@+id/tv_p_name"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="姓名"
+            android:textSize="15sp"/>
+
+        <!--性别-->
+        <TextView
+            android:id="@+id/p_sex"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:minWidth="40dp"
+            android:text="性别"
+            android:textSize="15sp"/>
+        <!--身份证-->
+        <TextView
+            android:id="@+id/p_idcard"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/p_sex"
+            android:gravity="left"
+            android:text="身份证"
+            android:textSize="15sp"/>
+
+        <!--出生日期-->
+        <TextView
+            android:id="@+id/p_birthday"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:maxLength="10"
+            android:text="出生日期"
+            android:textSize="15sp"/>
+        <!--家庭住址-->
+        <TextView
+            android:id="@+id/p_home_address"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/syn_state"
+            android:textSize="15sp"/>
+
+        <!--上传结果-->
+        <TextView
+            android:id="@+id/p_upload_result"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="上传结果"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|center_vertical"
+            android:text="操作"
+            android:visibility="gone"
+            android:textSize="15sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#99FFFF">
+
+        <ListView
+            android:id="@+id/list_measure"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"></ListView>
+    </LinearLayout>
+</LinearLayout>

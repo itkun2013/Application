@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:flatui="http://schemas.android.com/apk/res-auto"
+              xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+              xmlns:toggle="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_upload" />
+
+                <com.konsung.defineview.ToggleView
+                    android:id="@+id/toggle_upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="68dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auto_update_soft" />
+
+                <com.konsung.defineview.ToggleView
+                    android:id="@+id/toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_card_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="15dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_input"/>
+
+                <com.konsung.defineview.ToggleView
+                    android:id="@+id/tog_card_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="25dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ip_refresh" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/refresh_ip_ed"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:imeOptions="actionDone"
+                    android:maxLength="23"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_refresh_ip_port"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/modify_update_id_btn"
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="修改" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ip_configure" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/ip_ed"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:digits="0123456789."
+                    android:inputType="number"
+                    android:maxLength="23"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_ip_port"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/modify_service_id_btn"
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="修改" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cloud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ip_configure_cloud" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_cloud_ip_ed"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLength="23"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_cloud_ip_port"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cloud_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/cloud_address" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_cloud_address"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_server_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/server_address" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_server_address"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/upload_address" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="省:" />
+
+                        <Spinner
+                            android:id="@+id/spn_province"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="市:" />
+
+                        <Spinner
+                            android:id="@+id/spn_city"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="区/县:" />
+
+                        <Spinner
+                            android:id="@+id/spn_district"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp" />
+                    </LinearLayout>
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/et_detail_address"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:minWidth="100dp"
+                        android:paddingBottom="10dp"
+                        android:singleLine="true"
+                        flatui:fl_fieldStyle="fl_transparent" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_organization_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/organization_name" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/et_organization_name"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/printer_ip_address" />
+
+                <com.cengalabs.flatui.views.FlatEditText
+                    android:id="@+id/printer_ip_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLength="23"
+                    android:minWidth="100dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    flatui:fl_fieldStyle="fl_transparent" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.konsung.defineview.ImageTextButton
+                        android:id="@+id/printer_commit_btn"
+                        android:layout_width="190dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/ico_save"
+                        android:text="保存" />
+
+                    <com.konsung.defineview.ImageTextButton
+                        android:id="@+id/printer_commit_btn_change"
+                        android:layout_width="190dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="修改" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/urine_machine_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/urine_type" />
+
+                <Spinner
+                    android:id="@+id/temp_type_sp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawSelectorOnTop="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_device_config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/device_config" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/chk_ksm5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ksm5" />
+
+                    <CheckBox
+                        android:id="@+id/chk_empui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/empui" />
+
+                    <CheckBox
+                        android:id="@+id/chk_ga7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ga7" />
+
+                    <CheckBox
+                        android:id="@+id/chk_ida007"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ida007" />
+
+                    <CheckBox
+                        android:id="@+id/chk_htd8819"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/htd8819" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/chk_th809"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/th809" />
+
+                    <CheckBox
+                        android:id="@+id/chk_bene_check_glu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/bene_check_glu" />
+
+                    <CheckBox
+                        android:id="@+id/chk_bene_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/bene_check" />
+
+                    <CheckBox
+                        android:id="@+id/chk_ogm111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/ogm111" />
+
+                    <CheckBox
+                        android:id="@+id/chk_urit31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/urit31" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/chk_mission_u120"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/mission_u120" />
+
+                    <CheckBox
+                        android:id="@+id/chk_hemo_cue_wbc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/hemo_cue_wbc" />
+
+                    <CheckBox
+                        android:id="@+id/chk_hemo_cue_hb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/hemo_cue_hb" />
+
+                    <CheckBox
+                        android:id="@+id/chk_urit12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/urit12" />
+
+                    <CheckBox
+                        android:id="@+id/chk_mission_hb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/mission_hb" />
+                </LinearLayout>
+
+                <!--<com.konsung.defineview.ImageTextButton-->
+                <!--android:id="@+id/btn_device_config"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_width="90dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:text="修改"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_param_config"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/param_config" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/param_ecg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_ecg" />
+
+                    <CheckBox
+                        android:id="@+id/param_spo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_spo2" />
+
+                    <CheckBox
+                        android:id="@+id/pram_blood_pressure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/pram_blood_pressure" />
+
+                    <CheckBox
+                        android:id="@+id/param_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_temp" />
+
+                    <CheckBox
+                        android:id="@+id/param_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_more" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/param_urine_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_urine_11" />
+
+                    <CheckBox
+                        android:id="@+id/param_urine_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_urine_14" />
+
+                    <CheckBox
+                        android:id="@+id/param_blogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_blogin" />
+
+                    <CheckBox
+                        android:id="@+id/param_blood_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_blood_4" />
+
+                    <CheckBox
+                        android:id="@+id/cb_sugar_blood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_sugar_blogin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_bmi" />
+
+                    <CheckBox
+                        android:id="@+id/cb_wbc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="@string/param_white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/btn_clear_data"
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:text="@string/clear_data"
+                    android:visibility="gone" />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/btn_start_logo"
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/start_logo"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <!--屏蔽“连接方式”方式设置项，此前此功能只是为了招标演示用 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="连接方式:" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="身份证" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="血糖" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="尿常规" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="体温" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:id="@+id/id_card_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/id_card_wired"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="有线" />
+
+                            <RadioButton
+                                android:id="@+id/id_card_bluetooth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="蓝牙" />
+                        </RadioGroup>
+
+                        <RadioGroup
+                            android:id="@+id/blood_glu_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/blood_glu_wired"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="有线" />
+
+                            <RadioButton
+                                android:id="@+id/blood_glu_bluetooth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="蓝牙" />
+                        </RadioGroup>
+
+                        <RadioGroup
+                            android:id="@+id/urine_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/urine_wired"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="有线" />
+
+                            <RadioButton
+                                android:id="@+id/urine_bluetooth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="蓝牙" />
+                        </RadioGroup>
+
+                        <RadioGroup
+                            android:id="@+id/temp_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/temp_wired"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="有线" />
+
+                            <RadioButton
+                                android:id="@+id/temp_bluetooth"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="蓝牙" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--<com.konsung.defineview.ToggleView-->
+            <!--android:id="@+id/app_refresh"-->
+            <!--flatui:toggle_isOpen="true"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--flatui:toggle_text="自动检测更新"/>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

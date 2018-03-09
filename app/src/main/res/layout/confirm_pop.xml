@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="180dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_ip_dialog"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:paddingLeft="30dp"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:text="@string/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_confirm_dec"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#666"
+                android:textSize="15sp"
+                android:text="@string/ip_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:paddingRight="30dp"
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_confirm_cancel"
+                android:layout_marginRight="10dp"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/confirm_press_selector"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+            <TextView
+                android:id="@+id/tv_confirm_ok"
+                android:text="@string/delete"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/confirm_press_selector"
+                android:layout_width="52dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

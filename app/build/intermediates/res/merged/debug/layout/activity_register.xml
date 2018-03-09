@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.konsung.activity.RegisterActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:text="@string/new_register"
+                android:textSize="30sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_right">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_username" />
+
+                <EditText
+                    android:id="@+id/username_ed"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:minWidth="80dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:maxLength="20" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_right">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pls_password" />
+
+                <EditText
+
+                    android:id="@+id/password_ed"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:minWidth="80dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:maxLength="20" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_right">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pls_password_agin" />
+
+                <EditText
+                    android:id="@+id/password_correct_ed"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:minWidth="80dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:maxLength="20" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_register_selector"
+                android:text="@string/register"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

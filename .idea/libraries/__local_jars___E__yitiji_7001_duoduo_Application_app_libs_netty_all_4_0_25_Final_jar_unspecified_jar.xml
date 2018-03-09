@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="__local_jars__:E.\yitiji\7001\duoduo\Application\app\libs\netty-all-4.0.25.Final.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/netty-all-4.0.25.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/app/libs/netty-all-4.0.25.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

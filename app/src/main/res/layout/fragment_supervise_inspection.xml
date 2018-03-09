@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/layout_bottom">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TextView
+            android:gravity="center"
+            android:text="卫生监督协管巡查登记"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dp"
+            android:background="#FF909090"/>
+
+        <TableRow
+            android:background="@drawable/edit_bold">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="巡查地点"/>
+
+                <EditText
+                    android:id="@+id/superviseInspectionAdd"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="巡查内容"/>
+
+                <EditText
+                    android:id="@+id/superviseInspectionCont"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bold_right"
+                    android:inputType="textMultiLine"
+                    android:minLines="5"
+                    />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="发现的主要问题"/>
+
+                <EditText
+                    android:id="@+id/discoverProblem"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bold_right"
+                    android:inputType="textMultiLine"
+                    android:minLines="5"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="备注"/>
+
+                <EditText
+                    android:id="@+id/remark"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5"
+                    android:background="@drawable/edit_bold_right"
+                    android:inputType="textMultiLine"
+                    android:minLines="5"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold_top">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="巡查时间"/>
+
+                <com.konsung.defineview.ButtonFlat
+                    android:id="@+id/superviseInspectionDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/txt_color"
+                    android:text="@string/patient_birthday_btn"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold_top">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="巡查人"/>
+
+                <EditText
+                    android:id="@+id/superviseInspectionEmpName"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/edit_bold_top">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6">
+
+                <TextView
+                    style="@style/FormTextView"
+                    android:layout_width="200dp"
+                    android:text="报告机构"/>
+
+                <EditText
+                    android:id="@+id/reportOrgName"
+                    style="@style/FormEditText"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_span="6"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/save_btn"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="保  存"
+                    materialdesign:text_size="18"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

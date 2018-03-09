@@ -1,0 +1,371 @@
+<ScrollView
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NibpActivity"
+    >
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--收缩压-->
+            <LinearLayout
+                android:id="@+id/nibp_sys_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nibp_sys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:minWidth="80dp"
+                    android:text="@string/nibp_sys"
+                    android:textColor="#FF9933"
+                    android:textSize="30sp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:text="140"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="90"
+                        android:textSize="10sp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/nibp_sys_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="mmHg"
+                    android:textSize="20sp"/>
+                <ImageView
+                    android:id="@+id/iv_nibp_sys"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/alarm_high"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <!--舒张压-->
+            <LinearLayout
+                android:id="@+id/nibp_dia_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nibp_sys_ll"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nibp_dia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:minWidth="80dp"
+                    android:text="@string/nibp_dia"
+                    android:textColor="#FF9933"
+                    android:textSize="30sp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:text="90"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="60"
+                        android:textSize="10sp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/nibp_dia_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_marginStart="10dp"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="mmHg"
+                    android:textSize="20sp"/>
+                <ImageView
+                    android:id="@+id/iv_nibp_dia"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/alarm_high"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <!--平均压-->
+            <LinearLayout
+                android:id="@+id/nibp_map_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nibp_dia_ll"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nibp_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:minWidth="80dp"
+                    android:text="@string/nibp_map"
+                    android:textColor="#FF9933"
+                    android:textSize="30sp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:text="110"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="60"
+                        android:textSize="10sp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/nibp_map_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="mmHg"
+                    android:textSize="20sp"
+                     />
+            </LinearLayout>
+
+            <!--血压脉率-->
+            <LinearLayout
+                android:id="@+id/nibp_pr_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nibp_map_ll"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nibp_pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:minWidth="80dp"
+                    android:text="@string/nibp_pr"
+                    android:textColor="#FF9933"
+                    android:textSize="30sp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:text="@string/hr_reference_high"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:text="@string/hr_reference_low"
+                        android:textSize="10sp"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/nibp_pr_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_marginStart="10dp"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/mesu_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="bpm"
+                    android:textSize="20sp"/>
+                <ImageView
+                    android:id="@+id/iv_nibp_pr"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/alarm_high"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nibp_cuff_ll"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nibp_sys_ll"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nibp_cuff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:text=""
+                    android:textColor="@color/txt_color"
+                    android:textSize="35sp"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_marginRight="10dp"
+                android:id="@+id/nibp_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/measure_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:text="启动测量"
+                    android:paddingLeft="5dp"
+                    materialdesign:text_size="18"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/content_table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </RelativeLayout>
+        </HorizontalScrollView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/content_sys"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/content_dia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/content_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/content_pr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></RelativeLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</ScrollView>

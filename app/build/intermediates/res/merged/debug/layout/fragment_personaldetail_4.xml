@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/layout_bottom"
+
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="@dimen/text_right"
+            android:text="@string/detail_history_home" />
+        <!--家族史-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="@string/detail_history_home_disease_string1"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/detail_history_home_disease_string2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/home_other_ed"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/detail_4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/background_with_shadow"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--父亲-->
+                    <LinearLayout
+                        android:id="@+id/father_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_father"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="①"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed1"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="②"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="③"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed3"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_father"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="④"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed4"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑤"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed5"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑥"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/father_ed6"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+
+                    </LinearLayout>
+                    <!--母亲-->
+                    <LinearLayout
+                        android:id="@+id/mother_ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_mother"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="①"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed1"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="②"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="14sp"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="③"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed3"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_father"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="④"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed4"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textSize="14sp"
+                            android:maxLength="1"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑤"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed5"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑥"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/mother_ed6"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+
+                    </LinearLayout>
+                    <!--兄弟姐妹-->
+                    <LinearLayout
+                        android:id="@+id/brother_ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_brother"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="①"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed1"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="②"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="③"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed3"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_father"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="④"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed4"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑤"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed5"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑥"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/brother_ed6"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+
+                    </LinearLayout>
+
+                    <!--子女-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_child"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="①"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed1"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="②"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="③"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed3"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/detail_history_home_father"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:text="④"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed4"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑤"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed5"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="20dp"
+                            android:text="⑥"
+                            android:textColor="@color/grass_konsung"
+                            android:textSize="30sp" />
+
+                        <com.cengalabs.flatui.views.FlatEditText
+                            android:id="@+id/child_ed6"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="14sp"
+                            android:singleLine="true"
+                            flatui:fl_fieldStyle="fl_transparent" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--遗传病史-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_history_disease_inherited" />
+
+        <Spinner
+            android:id="@+id/inherited_sp1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:minWidth="100dp" />
+
+        <com.cengalabs.flatui.views.FlatEditText
+            android:id="@+id/inherited_other_ed1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:maxLength="4"
+            android:minWidth="100dp"
+            android:singleLine="true"
+            flatui:fl_fieldStyle="fl_transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <com.konsung.defineview.ImageTextButton
+            android:id="@+id/pre_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/float_btn_color"
+            android:text="@string/previous_page"
+            android:textColor="#ededed"
+            android:textSize="30sp"/>
+
+        <com.konsung.defineview.ImageTextButton
+            android:id="@+id/next_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/float_btn_color"
+            android:text="@string/next_page"
+            android:textColor="#ededed"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>

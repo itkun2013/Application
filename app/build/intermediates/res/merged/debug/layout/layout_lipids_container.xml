@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_lipids"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/lipids_name"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <!--CHOL-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/lipids_chol_title"/>
+
+        <TextView
+            android:id="@+id/tv_ch_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/p_unit_mmol"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/lipids_chol_range"/>
+
+        <ImageView
+            android:id="@+id/iv_ch_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--TRIG-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/lipids_trig_title"/>
+
+        <TextView
+            android:id="@+id/tv_trig_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/p_unit_mmol"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/lipids_trig_range"/>
+
+        <ImageView
+            android:id="@+id/iv_trig_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--HDL-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/lipids_hdl_title"/>
+
+        <TextView
+            android:id="@+id/tv_hdl_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/p_unit_mmol"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/lipids_hdl_range"/>
+
+        <ImageView
+            android:id="@+id/iv_hdl_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+    <!--LDL-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/lipids_ldl_title"/>
+
+        <TextView
+            android:id="@+id/tv_ldl_value"
+            style="@style/report_content_style"
+            android:text="@string/_1_02"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/p_unit_mmol"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/lipids_ldl_range"/>
+
+        <ImageView
+            android:id="@+id/iv_ldl_notice"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_value"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/check_value_layout_height_2"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/rounded_rectangle"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/relative_cho"
+                layout="@layout/include_measure_value_horizontal"/>
+
+            <include
+                android:id="@+id/relative_hdl"
+                layout="@layout/include_measure_value_horizontal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/relative_trig"
+                layout="@layout/include_measure_value_horizontal"/>
+
+            <include
+                android:id="@+id/relative_ldl"
+                layout="@layout/include_measure_value_horizontal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_value"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_contain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_weight="1"
+            android:background="#fff">
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_measure_template2"/>
+    </LinearLayout>
+
+</RelativeLayout>

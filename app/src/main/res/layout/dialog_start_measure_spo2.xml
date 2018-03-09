@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dg_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000"
+    android:padding="32dp" >
+
+    <!--layout_width修改前为match_parent, 直接修改成450dp,适应康尚平板-->
+    <RelativeLayout
+        android:id="@+id/dg_content"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_background"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/spo2_dg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000" />
+
+        <!--次数ScrollView需要修改-->
+        <ScrollView
+            android:id="@+id/message_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spo2_dg_title"
+            android:paddingBottom="50dp"
+            android:scrollbarSize="2dp"
+            android:scrollbarThumbVertical="@color/thumbColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+               <!-- <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                    android:id="@+id/ecg_dg_pb"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@color/blood_light"
+                    android:layout_gravity="center_horizontal"/>-->
+
+                <com.konsung.defineview.ProgressBarDeterminate
+                    android:id="@+id/spo2_dg_pb"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/blood_light"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/message_scrollView"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+            <!--spo2Trend-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spo2_dg_trend"
+                android:textColor="#000"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/spo2_dg_trend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:text="123"/>
+
+            <!--pr-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spo2_dg_pr"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/spo2_dg_pr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:text="123"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f000000"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/view_shadow"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="244dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="#f0f0f0"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/patient_filter"
+            android:textColor="#666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/sex"
+            android:textColor="#999"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_sex"
+            android:layout_width="198dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_all"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rect_left_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/sex_all"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_man"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rect_mid_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/sex_man"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_woman"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_rect_right_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/sex_woman"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/measure_time2"
+            android:textColor="#999"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/qury_start"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <com.konsung.view.DateButton
+                android:id="@+id/db_start"
+                android:layout_width="135dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_white_rect_btn"
+                android:drawableRight="@drawable/ic_calendar"
+                android:gravity="left|center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="8dp"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/query_end"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <com.konsung.view.DateButton
+                android:id="@+id/db_end"
+                android:layout_width="135dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_white_rect_btn"
+                android:drawableRight="@drawable/ic_calendar"
+                android:gravity="left|center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="8dp"
+                android:textColor="#666"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_today"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_dark_black_btn"
+                android:gravity="center"
+                android:text="@string/query_today"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_week"
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_dark_black_btn"
+                android:gravity="center"
+                android:text="@string/query_week"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_month"
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_dark_black_btn"
+                android:gravity="center"
+                android:text="@string/query_month"
+                android:textColor="@color/patient_sex_seletor"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:background="#f0f0f0"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="63dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+                <Button
+                    android:id="@+id/btn_clear"
+                    android:layout_width="84dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/bg_white_blue_rect"
+                    android:gravity="center"
+                    android:text="@string/query_clear"
+                    android:textColor="@color/patient_query_selector"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btn_query"
+                    android:layout_width="84dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/bg_white_blue_rect"
+                    android:gravity="center"
+                    android:text="@string/query_commit"
+                    android:textColor="@color/patient_query_selector"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

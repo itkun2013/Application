@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="630dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_rect_query">
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="8dp"
+                android:src="@drawable/ic_search" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/et_download_hint"
+                android:maxLength="18"
+                android:imeOptions="actionDone"
+                android:textColorHint="#909090"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_query"
+            style="@style/btn_blue_solid"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="250dp"
+            android:text="@string/query" />
+
+        <Button
+            android:id="@+id/btn_download"
+            style="@style/btn_blue_solid"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="250dp"
+            android:text="@string/download" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="630dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="15dp"
+        android:background="#ccc">
+
+        <TextView
+            style="@style/download_patient_subtitle"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:text="@string/download_subtitle_first" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0" />
+
+        <TextView
+            style="@style/download_patient_subtitle"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:text="@string/patient_age" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0" />
+
+        <TextView
+            style="@style/download_patient_subtitle"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:text="@string/download_subtitle_type" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0" />
+
+        <TextView
+            style="@style/download_patient_subtitle"
+            android:layout_width="196dp"
+            android:layout_height="match_parent"
+            android:text="@string/download_subtitle_card" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f0f0f0" />
+
+        <CheckBox
+            android:id="@+id/cb_all"
+            android:text="@string/download_subtitle_all"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:button="@null"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/downlaod_checkbox_selector"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="630dp"
+        android:layout_height="340dp">
+        <ListView
+            android:id="@+id/lv_patient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/blank_page_show_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/not_match_patient"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#666666"
+            android:background="@color/white"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_page_first"
+            style="@style/btn_blue_solid"
+            android:textColor="@color/page_first_color"
+            android:background="@drawable/bg_blue_page_first"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:text="@string/page_first" />
+
+        <Button
+            android:id="@+id/btn_page_pre"
+            style="@style/download_page_btn"
+            android:textColor="@color/page_first_color"
+            android:background="@drawable/bg_blue_page_first"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/x_page_pre" />
+
+        <Button
+            android:id="@+id/btn_page_number"
+            style="@style/download_page_btn"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/page_btn_color"
+            android:enabled="true"
+            />
+
+        <Button
+            android:id="@+id/btn_page_next"
+            style="@style/download_page_btn"
+            android:textColor="@color/page_first_color"
+            android:background="@drawable/bg_blue_page_first"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/x_page_next" />
+
+        <Button
+            android:id="@+id/btn_page_last"
+            style="@style/btn_blue_solid"
+            android:textColor="@color/page_first_color"
+            android:background="@drawable/bg_blue_page_first"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/page_last" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_value"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:gravity="center"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/rounded_rectangle"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/relative_hgb"
+            layout="@layout/include_measure_value_horizontal" />
+
+        <include
+            android:id="@+id/relative_hct"
+            layout="@layout/include_measure_value_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="960px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_value"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_contain"
+            android:layout_width="640px"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:background="#fff">
+
+        </RelativeLayout>
+
+        <include layout="@layout/include_measure_template" />
+    </LinearLayout>
+
+</RelativeLayout>

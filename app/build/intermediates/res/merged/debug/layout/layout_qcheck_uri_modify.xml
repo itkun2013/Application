@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/qc_uri"
+        android:textColor="@color/quick_measure_text_color_1"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_result"
+            android:textSize="16sp"
+            android:textColor="@color/quicl_measure_text_color_2"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_reference"
+            android:textSize="16sp"
+            android:textColor="@color/quicl_measure_text_color_2"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_sign"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--leu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_leu"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_leu"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_leu"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_leu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+    <!--nit-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_nit"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_nit"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_nit"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_nit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--ubg-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_ubg"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_ubg"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_ubg"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ubg"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--pro-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_pro"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_pro"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_pro"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_pro"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+    <!--PH-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_ph"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_ph"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_ph"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_reference_ph"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ph"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--sg-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_sg"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_sg"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_sg"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_sg_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_sg"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--vc-->
+    <LinearLayout
+        android:id="@+id/ca_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_vc"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_ca"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_ca"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_alarm_vc"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+    </LinearLayout>
+    <!--bld-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_bld"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_bld"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_bld"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_bld"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--ket-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_ket"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_ket"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_ket"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_ket"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--bil-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_bil"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_bil"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_bil"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_bil"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <!--glu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_glu"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_name_glu"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_glu"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_glu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+    <!--vc-->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_vc"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_asc"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_asc"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_alarm_vc"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+    </LinearLayout>
+
+
+
+    <!--vc-->
+    <LinearLayout
+        android:id="@+id/ma_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_vc"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_alb"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alb"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_alarm_vc"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+    </LinearLayout>
+
+    <!--CRE-->
+    <LinearLayout
+        android:id="@+id/cr_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/urine_padding"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qc_uri_vc"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/qc_uri_cr"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_cr"
+            android:layout_width="@dimen/urine_quick_check_width_other"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uri_default_reference"
+            android:textSize="16sp"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_alarm_vc"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="16sp"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+    </LinearLayout>
+
+</merge>

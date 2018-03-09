@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|bottom"
+        android:orientation="vertical">
+
+        <!--1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+            <!--姓名-->
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_name" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:id="@+id/patient_name"
+                android:textColor="#0099CC"
+                android:singleLine="true" />
+
+            <!--随访日期-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|bottom"
+                android:orientation="horizontal"
+                android:layout_marginRight="100dp">
+                <!--随访日期-->
+                <TextView
+                    style="@style/FormTextView"
+                    android:text="@string/hypertension_date" />
+
+                <com.konsung.defineview.ButtonFlat
+                    android:id="@+id/follow_up_date_ed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/txt_color"
+                    android:textColor="#0099CC"
+                    android:text="@string/patient_birthday_btn" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+            <!--随访方式-->
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/hypertension_way" />
+
+            <RadioGroup
+                android:id="@+id/hypertension_way_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="30dp">
+
+                <RadioButton
+                    android:id="@+id/hypertension_way_sp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 门诊"
+                    android:tag="1V1.0FOLLOW_UP_METHOD_CODE"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/hypertension_way_sp_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 家庭"
+                    android:tag="2V1.0FOLLOW_UP_METHOD_CODE"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/hypertension_way_sp_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 电话"
+                    android:tag="3V1.0FOLLOW_UP_METHOD_CODE"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/hypertension_way_sp_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 其他"
+                    android:tag="4V1.0FOLLOW_UP_METHOD_CODE"
+                    android:textSize="13sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp">
+            <!--症状-->
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/hypertension_symptom" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|bottom"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp">
+
+                    <CheckBox
+                        android:id="@+id/symptom_code1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 无症状"
+                        android:tag="1V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 头痛头晕"
+                        android:tag="2V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 恶心呕吐"
+                        android:tag="3V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 眼花耳鸣"
+                        android:tag="4V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 呼吸困难"
+                        android:tag="5V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|bottom"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp">
+
+                    <CheckBox
+                        android:id="@+id/symptom_code7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 鼻衄出血不止"
+                        android:tag="7V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8 四肢发麻"
+                        android:tag="8V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9 下肢水肿"
+                        android:tag="9V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                    <CheckBox
+                        android:id="@+id/symptom_code6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6 心悸胸闷"
+                        android:tag="6V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|bottom"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp">
+                    <CheckBox
+                        android:id="@+id/symptom_code10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10 其他"
+                        android:tag="10V1.0FOLLOW_UP_SYMPTOM_CODE"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/symptom_other_ed"
+                        style="@style/FormEditText"
+                        android:layout_width="fill_parent" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--4-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp">
+            <!--体征-->
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/hypertension_sign" />
+
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="120dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hypertension_nibp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:id="@+id/hyperternsion_nibp"
+                android:gravity="right"
+                android:textColor="#0099CC"
+                android:text="-?-" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:layout_marginLeft="50dp"
+                android:text="@string/hypertension_weight"/>
+
+            <TextView
+                android:id="@+id/hyperternsion_weight"
+                style="@style/FormTextView"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#0099CC"
+                android:text="-?-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp">
+            <!--体征-->
+            <TextView
+                style="@style/FormTextView" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hypertension_bmi"/>
+            <TextView
+                android:id="@+id/hyperternsion_bmi"
+                style="@style/FormTextView"
+                android:gravity="right"
+                android:textColor="#0099CC"
+                android:text="-?-" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_marginLeft="50dp"
+                android:text="@string/hypertension_hr"/>
+            <TextView
+                android:id="@+id/hyperternsion_hr"
+                style="@style/FormTextView"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#0099CC"
+                android:text="-?-" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp">
+
+            <!--体征-->
+            <TextView
+                style="@style/FormTextView" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hypertension_other"/>
+            <EditText
+                android:id="@+id/sign_other_ed"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp">
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="生活方式指导"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="120dp"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:text="日吸烟量(支)"/>
+
+            <EditText
+                android:id="@+id/smokingDailyAmount"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="20dp"
+                android:text="/"/>
+            <EditText
+                android:id="@+id/smokingDailyAmountTarght"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:layout_width="50dp"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="120dp"
+                android:gravity="left"
+                android:layout_marginLeft="50dp"
+                android:text="日喝酒量(两)"/>
+
+            <EditText
+                android:id="@+id/drinkingDailyAmount"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="20dp"
+                android:text="/"/>
+            <EditText
+                android:id="@+id/drinkingDailyAmountTarght"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:layout_width="50dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp">
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:text="运动"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp"
+                android:gravity="right"
+                android:text="实际:"/>
+            <EditText
+                android:id="@+id/weeklyExerciseTimes"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:maxLength="9"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:layout_width="40dp"
+                android:text="次/周"/>
+            <EditText
+                android:id="@+id/dayExerciseTime"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:maxLength="9"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:text="分钟/次"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_marginLeft="15dp"
+                android:gravity="left" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="right"
+                android:layout_width="60dp"
+                android:text="建议:"/>
+            <EditText
+                android:id="@+id/weeklyExerciseTimesTarget"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:maxLength="9"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:layout_width="40dp"
+                android:text="次/周"/>
+            <EditText
+                android:id="@+id/dayExerciseTimeTarget"
+                style="@style/FormEditText"
+                android:inputType="number"
+                android:maxLength="9"
+                android:layout_width="50dp"/>
+            <TextView
+                style="@style/FormTextView"
+                android:gravity="left"
+                android:text="分钟/次"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="105dp"
+                android:text="摄盐情况(咸淡)"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp"
+                android:text="实际:"/>
+            <RadioGroup
+                android:id="@+id/saltStateCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <RadioButton
+                    android:id="@+id/saltStateCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 轻"
+                    android:tag="1V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/saltStateCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 中"
+                    android:tag="2V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/saltStateCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 重"
+                    android:tag="3V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="105dp"/>
+
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp"
+                android:text="建议:"/>
+            <RadioGroup
+                android:id="@+id/saltStateCodeTarget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+                <RadioButton
+                    android:id="@+id/saltStateCodeTarget_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 轻"
+                    android:tag="1V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/saltStateCodeTarget_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 中"
+                    android:tag="2V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/saltStateCodeTarget_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 重"
+                    android:tag="3V1.0SALT_STATE_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="心理调整"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp" />
+
+            <RadioGroup
+                android:id="@+id/psychologicalAdjustmentCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <RadioButton
+                    android:id="@+id/psychologicalAdjustmentCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 良好"
+                    android:tag="1V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/psychologicalAdjustmentCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 一般"
+                    android:tag="2V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/psychologicalAdjustmentCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 差"
+                    android:tag="3V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:text="遵医行为"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp" />
+
+            <RadioGroup
+                android:id="@+id/medicalBehaviorCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <RadioButton
+                    android:id="@+id/medicalBehaviorCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 良好"
+                    android:tag="1V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicalBehaviorCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 一般"
+                    android:tag="2V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicalBehaviorCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 差"
+                    android:tag="3V1.0MEDICAL_BEHAVIOR_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:text="辅助检查"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="60dp" />
+
+            <EditText
+                android:id="@+id/auxiliaryExamination"
+                style="@style/FormEditText"
+                android:layout_width="fill_parent"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="服药依赖性"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="50dp" />
+
+
+            <RadioGroup
+                android:id="@+id/medicationComplyCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <RadioButton
+                    android:id="@+id/medicationComplyCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 规律"
+                    android:tag="1V1.0MEDICATION_COMPLY_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicationComplyCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 间断"
+                    android:tag="2V1.0MEDICATION_COMPLY_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/medicationComplyCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 不服药"
+                    android:tag="3V1.0MEDICATION_COMPLY_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="药物不良反应"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="50dp" />
+
+
+            <RadioGroup
+                android:id="@+id/adverseDrugStateCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <RadioButton
+                    android:id="@+id/adverseDrugStateCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/adverseDrugStateCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 有"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left|bottom"
+            android:layout_marginLeft="10dp">
+
+            <!--生活方式指导-->
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="此次随访分类"/>
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="50dp" />
+
+
+            <RadioGroup
+                android:id="@+id/followUpTypeCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp">
+                <RadioButton
+                    android:id="@+id/followUpTypeCode_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 控制满意"
+                    android:tag="1V1.0FOLLOW_UP_TYPE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/followUpTypeCode_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 控制不满意"
+                    android:tag="2V1.0FOLLOW_UP_TYPE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/followUpTypeCode_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 不良反应"
+                    android:tag="3V1.0FOLLOW_UP_TYPE_CODE"
+                    android:textSize="13sp"/>
+                <RadioButton
+                    android:id="@+id/followUpTypeCode_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 并发症"
+                    android:tag="4V1.0FOLLOW_UP_TYPE_CODE"
+                    android:textSize="13sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="@string/hypertension_next_date" />
+
+
+            <com.konsung.defineview.ButtonFlat
+                android:layout_marginLeft="50dp"
+                android:id="@+id/next_follow_up_date_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:background="@color/txt_color"
+                android:text="@string/patient_birthday_btn" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="50dp" />
+
+            <TextView
+                style="@style/FormTextView"
+                android:layout_width="100dp"
+                android:text="随访医生签名" />
+
+            <EditText
+                android:id="@+id/followUpDoctorName"
+                style="@style/FormEditText"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <com.konsung.defineview.ImageTextButton
+                android:id="@+id/next_btn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="保   存"
+                materialdesign:text_size="18"  />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+

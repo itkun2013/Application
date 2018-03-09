@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_hgb"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#c5ffcc"/>
+
+    <TextView
+        style="@style/report_title_style"
+        android:text="@string/hemoglobin"/>
+
+
+    <include layout="@layout/layout_report_subtitle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/hemoglobin"/>
+
+        <TextView
+            android:id="@+id/tv_hemoglobin"
+            style="@style/report_content_style"
+            android:text="@string/_97"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/health_unit_mol"/>
+
+        <TextView
+            android:id="@+id/hgb_reference"
+            style="@style/report_content_style"
+            android:text="@string/p_hemoglobin_range"/>
+
+        <ImageView
+            android:id="@+id/iv_hgb_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            style="@style/report_first_item_style"
+            android:text="@string/red_blood"/>
+
+        <TextView
+            android:id="@+id/tv_red_blood"
+            style="@style/report_content_style"
+            
+            android:text="@string/_97"/>
+
+        <TextView
+            style="@style/report_content_style"
+            android:text="@string/p_unit_percentage"/>
+
+        <TextView
+            android:id="@+id/htc_reference"
+            style="@style/report_content_style"
+            android:text="@string/p_4050"/>
+
+        <ImageView
+            android:id="@+id/iv_htc_hint"
+            style="@style/report_pic_style"/>
+    </LinearLayout>
+</LinearLayout>

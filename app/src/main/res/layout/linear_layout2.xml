@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_rack_notice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/px14"
+            android:drawablePadding="@dimen/px2"
+            android:drawableStart="@drawable/rack_notice_yellow"
+            android:textColor="@color/measureMax"
+            android:textSize="@dimen/px18"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/px14"
+            android:drawableLeft="@drawable/rack_notice_yellow"/>
+
+        <TextView
+            android:id="@+id/tv_rack_notice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/px14"
+            android:drawablePadding="@dimen/px2"
+            android:drawableStart="@drawable/rack_notice_green"
+            android:textColor="@color/measureMax"
+            android:textSize="@dimen/px18"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/px14"
+            android:drawableLeft="@drawable/rack_notice_green"/>
+
+        <TextView
+            android:id="@+id/tv_rack_notice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/px14"
+            android:drawableStart="@drawable/rack_notice_light_green"
+            android:textColor="@color/measureMax"
+            android:textSize="@dimen/px18"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/px14"
+            android:drawableLeft="@drawable/rack_notice_light_green"/>
+
+        <TextView
+            android:id="@+id/tv_rack_notice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/px14"
+            android:drawableStart="@drawable/rack_notice_blue"
+            android:textColor="@color/measureMax"
+            android:textSize="@dimen/px18"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/px14"
+            android:drawableLeft="@drawable/rack_notice_blue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+</LinearLayout>

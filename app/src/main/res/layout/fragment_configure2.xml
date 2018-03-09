@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f0f0f0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="630dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_resident"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/pic_default_avatar" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingRight="30dp">
+
+                <Button
+                    android:id="@+id/btn_exit"
+                    android:layout_width="140dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_btn_exit"
+                    android:text="@string/btn_exit"
+                    android:textColor="#ff875e"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:gravity="center"
+                android:text="@string/auto_upload"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <com.konsung.defineview.ToggleView
+                android:id="@+id/toggle_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="@string/auto_update_soft"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <com.konsung.defineview.ToggleView
+                android:id="@+id/toggle_update"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_card_input"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:text="@string/card_input"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <com.konsung.defineview.ToggleView
+                android:id="@+id/toggle_card_input"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_update"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/ip_refresh"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_update_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_server"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:clickable="true"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/ip_configure"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_server_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_network"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/network_setting"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rl_server_net_addr"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:clickable="true"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/server_address"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_server_net_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_cloud_ip"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/ip_configure_cloud"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_cloud_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_cloud_net_addr"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/cloud_address"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_cloud_net_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_upload_district"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/upload_district"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_upload_district"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_upload_detail"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:clickable="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_title_container"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/tv_addr_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/detail_address"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_upload_detail"
+                android:layout_toRightOf="@+id/tv_addr_dec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center|left"
+                android:maxLength="50"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_param_config"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:clickable="true"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/param_config"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_param"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="right|center_vertical"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_devices_config"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:clickable="true"
+            android:background="@drawable/bg_title_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/device_config"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_devices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="100dp"
+                android:gravity="right|center_vertical"
+                android:textColor="#666"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text=">"
+                android:textColor="#666"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_btn"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_clear_data"
+                android:textSize="15sp"
+                android:textColor="@color/main_app_color"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_btn_blue"
+                android:text="@string/clear_data"/>
+
+            <Button
+                android:id="@+id/btn_start_logo"
+                android:textSize="15sp"
+                android:textColor="@color/main_app_color"
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_btn_blue"
+                android:text="@string/start_logo" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

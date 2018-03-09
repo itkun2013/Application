@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.konsung">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <uses-feature android:name="android.hardware.usb.host"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/desk_logo"
+        android:label="健康一体机"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label"
+        >
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|locale|keyboard"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleInstance"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BaseActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_base"/>
+        <activity
+            android:name=".fileselect.MyFileManager"
+            android:configChanges="locale"
+            android:label="@string/title_activity_base"/>
+        <activity
+            android:name=".fileselect.MyImportFileManager"
+            android:configChanges="locale"
+            android:label="@string/title_activity_base"/>
+        <activity
+            android:name=".fileselect.SelectHelpFile"
+            android:configChanges="locale"
+            android:label="@string/title_activity_base"/>
+
+        <activity
+            android:name=".activity.PatientListActivity"
+            android:configChanges="locale"
+            android:label="@string/main_residents_list"
+            android:launchMode="singleTop"
+            />
+
+        <service
+            android:name=".service.AIDLServer"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.konsung.aidlServer"/>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+            android:name=".activity.UpdateProgressActivity"
+            android:theme="@style/transcutestyle">
+        </activity>
+        <activity android:name=".activity.MeasureActivity"
+                   android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".activity.SystemActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".activity.TeleEcgActivity"
+                   android:screenOrientation="landscape"></activity>
+        <activity android:name=".activity.AddPatientActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+                android:resource="@xml/device_filter"/>
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter"/>
+        </activity>
+
+        <activity android:name=".activity.ReportListActivity"
+                  android:screenOrientation="landscape"/>
+        <activity android:name=".activity.ReportDetailActivity"
+                   android:screenOrientation="landscape"
+                   android:launchMode="singleTop"
+            />
+        <activity android:name=".activity.QuickCheckModifyActivity"/>
+        <activity android:name=".activity.PatientDownloadActivity"/>
+        <receiver android:name=".receiver.AppInstallReceiver"
+                   android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.konsung.provider.ServiceProvider"
+            android:authorities="com.konsung.dev"
+            android:exported="true"/>
+        <service android:name=".service.FileObserverService"/>
+    </application>
+</manifest>

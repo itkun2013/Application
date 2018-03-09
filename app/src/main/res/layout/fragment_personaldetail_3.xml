@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:shrinkColumns="1,2,3,4,5"
+        android:stretchColumns="1,2,3,4,5"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_allergy" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/allergy_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/allergy_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 青霉素"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/allergy_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 磺胺"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/allergy_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 链霉素"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/allergy_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 其他"
+                    android:tag="5"
+                    android:textSize="13sp"/>
+                <EditText
+                    android:id="@+id/allergyname"
+                    style="@style/FormEditText"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_expose" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/expose_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 无"
+                    android:tag="1"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/expose_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 化学品"
+                    android:tag="2"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/expose_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 毒药"
+                    android:tag="3"
+                    android:textSize="13sp"/>
+                <CheckBox
+                    android:id="@+id/expose_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 射线"
+                    android:tag="4"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:orientation="horizontal">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left">
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="50dp"
+                            android:text="@string/detail_history_disease" />
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <CheckBox
+                                        android:id="@+id/disease_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="1 无"
+                                        android:tag="1"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="2 高血压"
+                                        android:tag="2"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="3 糖尿病"
+                                        android:tag="3"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="4 冠心病"
+                                        android:tag="4"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="5 慢性阻塞性肺疾病"
+                                        android:tag="5"
+                                        android:textSize="13sp"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <CheckBox
+                                        android:id="@+id/disease_6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="6 恶性肿瘤"
+                                        android:tag="6"
+                                        android:textSize="13sp"/>
+                                    <EditText
+                                        android:id="@+id/diseasename"
+                                        style="@style/FormEditText" />
+                                    <CheckBox
+                                        android:id="@+id/disease_7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="7 脑卒中"
+                                        android:tag="7"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_8"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="8 重性疾病"
+                                        android:tag="8"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_9"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="9 结核病"
+                                        android:tag="9"
+                                        android:textSize="13sp"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <CheckBox
+                                        android:id="@+id/disease_10"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="10 肝炎"
+                                        android:tag="10"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_11"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="11 其他法定传染病"
+                                        android:tag="11"
+                                        android:textSize="13sp"/>
+                                    <CheckBox
+                                        android:id="@+id/disease_12"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="12 职业病"
+                                        android:tag="12"
+                                        android:textSize="13sp"/>
+                                    <EditText
+                                        android:id="@+id/diseasename2"
+                                        style="@style/FormEditText" />
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <CheckBox
+                                        android:id="@+id/disease_13"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="13 其他"
+                                        android:tag="13"
+                                        android:textSize="13sp"/>
+                                    <EditText
+                                        android:id="@+id/diseasename3"
+                                        style="@style/FormEditText"
+                                        android:layout_width="fill_parent" />
+                                </LinearLayout>
+                            </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="40dp"
+                            android:text="@string/detail_history_operation" />
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RadioGroup
+                                android:id="@+id/operation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:id="@+id/operation_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <RadioButton
+                                    android:id="@+id/operation_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 有"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                            </RadioGroup>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:text="名称1"
+                                    android:layout_width="50dp"/>
+                                <EditText
+                                    android:id="@+id/operationname"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/operation_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="20dp"
+                                    android:text="/" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="50dp"
+                                    android:text="名称2" />
+                                <EditText
+                                    android:id="@+id/operationname2"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/operation_time2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="40dp"
+                            android:text="@string/detail_history_trauma" />
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RadioGroup
+                                android:id="@+id/trauma"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:id="@+id/trauma_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <RadioButton
+                                    android:id="@+id/trauma_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 有"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                            </RadioGroup>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="50dp"
+                                    android:text="名称1" />
+                                <EditText
+                                    android:id="@+id/traumaname"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/trauma_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="20dp"
+                                    android:text="/" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="50dp"
+                                    android:text="名称2" />
+                                <EditText
+                                    android:id="@+id/traumaname2"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/trauma_time2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:layout_width="40dp"
+                            android:text="@string/detail_history_transfusion" />
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RadioGroup
+                                android:id="@+id/transfusation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+                                <RadioButton
+                                    android:id="@+id/transfusation_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <RadioButton
+                                    android:id="@+id/transfusation_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 有"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                            </RadioGroup>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="50dp"
+                                    android:text="原因1" />
+                                <EditText
+                                    android:id="@+id/transfusationname"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/transfusation_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:layout_width="20dp"
+                                    android:text="/" />
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="50dp"
+                                    android:text="原因2" />
+                                <EditText
+                                    android:id="@+id/transfusationname2"
+                                    style="@style/FormEditText"
+                                    android:layout_width="65dp"/>
+                                <TextView
+                                    style="@style/FormTextView"
+                                    android:gravity="center|left"
+                                    android:layout_width="40dp"
+                                    android:text="@string/detail_history_operation_2" />
+                                <com.konsung.defineview.ButtonFlat
+                                    android:id="@+id/transfusation_time2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@color/txt_color"
+                                    android:text="@string/patient_birthday_btn" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableRow>
+
+         <!--家族史-->
+        <TableRow>
+            <TextView
+                style="@style/FormTextView"
+                android:text="@string/detail_history_home" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left">
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:text="@string/detail_history_home_father"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/father_dis_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 高血压"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="3 糖尿病"
+                                    android:tag="3"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4 冠心病"
+                                    android:tag="4"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5 慢性阻塞性肺病"
+                                    android:tag="5"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/father_dis_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6 恶性肿瘤"
+                                    android:tag="6"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7 脑卒中"
+                                    android:tag="7"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8 重性精神疾病"
+                                    android:tag="8"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="9 肺核病"
+                                    android:tag="9"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 肝炎"
+                                    android:tag="10"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/father_dis_11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11 先天畸形"
+                                    android:tag="11"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/father_dis_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12 其他"
+                                    android:tag="12"
+                                    android:textSize="13sp"/>
+                                <EditText
+                                    android:id="@+id/father_dis_other"
+                                    style="@style/FormTextView"
+                                    android:layout_width="fill_parent"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:text="@string/detail_history_home_mother"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/mother_dis_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 高血压"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="3 糖尿病"
+                                    android:tag="3"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4 冠心病"
+                                    android:tag="4"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5 慢性阻塞性肺病"
+                                    android:tag="5"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/mother_dis_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6 恶性肿瘤"
+                                    android:tag="6"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7 脑卒中"
+                                    android:tag="7"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8 重性精神疾病"
+                                    android:tag="8"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="9 肺核病"
+                                    android:tag="9"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 肝炎"
+                                    android:tag="10"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/mother_dis_11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11 先天畸形"
+                                    android:tag="11"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/mother_dis_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12 其他"
+                                    android:tag="12"
+                                    android:textSize="13sp"/>
+                                <EditText
+                                    android:id="@+id/mother_dis_other"
+                                    style="@style/FormTextView"
+                                    android:layout_width="fill_parent"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:text="@string/detail_history_home_brother"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/brother_dis_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 高血压"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="3 糖尿病"
+                                    android:tag="3"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4 冠心病"
+                                    android:tag="4"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5 慢性阻塞性肺病"
+                                    android:tag="5"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/brother_dis_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6 恶性肿瘤"
+                                    android:tag="6"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7 脑卒中"
+                                    android:tag="7"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8 重性精神疾病"
+                                    android:tag="8"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="9 肺核病"
+                                    android:tag="9"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 肝炎"
+                                    android:tag="10"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/brother_dis_11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11 先天畸形"
+                                    android:tag="11"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/brother_dis_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12 其他"
+                                    android:tag="12"
+                                    android:textSize="13sp"/>
+                                <EditText
+                                    android:id="@+id/brother_dis_other"
+                                    style="@style/FormTextView"
+                                    android:layout_width="fill_parent"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            style="@style/FormTextView"
+                            android:text="@string/detail_history_home_child"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/child_dis_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1 无"
+                                    android:tag="1"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2 高血压"
+                                    android:tag="2"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="3 糖尿病"
+                                    android:tag="3"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4 冠心病"
+                                    android:tag="4"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5 慢性阻塞性肺病"
+                                    android:tag="5"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/child_dis_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="6 恶性肿瘤"
+                                    android:tag="6"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7 脑卒中"
+                                    android:tag="7"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8 重性精神疾病"
+                                    android:tag="8"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="9 肺核病"
+                                    android:tag="9"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 肝炎"
+                                    android:tag="10"
+                                    android:textSize="13sp"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <CheckBox
+                                    android:id="@+id/child_dis_11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11 先天畸形"
+                                    android:tag="11"
+                                    android:textSize="13sp"/>
+                                <CheckBox
+                                    android:id="@+id/child_dis_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12 其他"
+                                    android:tag="12"
+                                    android:textSize="13sp"/>
+                                <EditText
+                                    android:id="@+id/child_dis_other"
+                                    style="@style/FormTextView"
+                                    android:layout_width="fill_parent"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="right">
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/pre_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="上一页"
+                    materialdesign:text_size="22"  />
+
+                <com.konsung.defineview.ImageTextButton
+                    android:id="@+id/next_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="下一页"
+                    materialdesign:text_size="22"  />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        &lt;!&ndash;10&ndash;&gt;
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp">
+            &lt;!&ndash;药物过敏史&ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingRight="20dp"
+                        android:text="@string/detail_history_allergy" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/detail_history_allergy_all"
+                            android:textSize="14dp" />
+
+                        <EditText
+                            android:id="@+id/allergyother_ed"
+                            android:layout_width="150dp"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:text="①"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/allergy_ed1"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="②"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/allergy_ed2"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="③"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/allergy_ed3"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="④"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/allergy_ed4"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+                </LinearLayout>
+
+            </LinearLayout>
+            &lt;!&ndash;暴露史&ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_history_expose" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/detail_history_expose_all"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:text="①"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/expose_ed1"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="②"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/expose_ed2"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="③"
+                        android:textColor="@color/grass_konsung"
+                        android:textSize="30sp" />
+
+                    <com.cengalabs.flatui.views.FlatEditText
+                        android:id="@+id/expose_ed3"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        flatui:fl_fieldStyle="fl_transparent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        &lt;!&ndash;11&ndash;&gt;
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            &lt;!&ndash;既往病史&ndash;&gt;
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingRight="@dimen/text_right"
+                android:text="@string/detail_history" />
+            &lt;!&ndash;病例&ndash;&gt;
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingRight="20dp">
+                &lt;!&ndash;疾病&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/disease_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:text="@string/detail_history_disease" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_disease_all_1"
+                                />
+                            <EditText
+                                android:id="@+id/diseaseother_ed1"
+                                android:layout_width="80dp"
+                                android:singleLine="true"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:visibility="invisible"
+                                android:text="@string/detail_history_disease" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_disease_all_2"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:visibility="invisible"
+                                android:text="@string/detail_history_disease" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_disease_all_3"
+                                />
+                            <EditText
+                                android:id="@+id/diseaseother_ed3"
+                                android:layout_width="80dp"
+                                android:singleLine="true"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:paddingLeft="10dp"
+                                android:text="@string/detail_history_disease_all_4"
+                                />
+                            <EditText
+                                android:id="@+id/diseaseother_ed4"
+                                android:layout_width="80dp"
+                                android:singleLine="true"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:text="@string/detail_history_disease"
+                                android:visibility="invisible"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="①"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed1"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textSize="14sp"
+                                android:inputType="number"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="20dp"
+                                android:text="②"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed2"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:inputType="number"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:text="@string/detail_history_disease"
+                                android:visibility="invisible"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="③"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed3"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="20dp"
+                                android:text="④"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed4"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingRight="30dp"
+                                android:text="@string/detail_history_disease"
+                                android:visibility="invisible"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="⑤"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed5"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="20dp"
+                                android:text="⑥"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/disease_ed6"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textSize="14dp"
+                                android:paddingLeft="5dp"
+                                android:text="@string/detail_history_disease_time" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/disease_time_ed6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                &lt;!&ndash;手术&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="30dp"
+                        android:text="@string/detail_history_operation" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="①"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_1" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/operation_name_ed"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/operation_time_ed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/operation_ll2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp"
+                           >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="②"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_3" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/operation_name_ed2"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/operation_time_ed2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                &lt;!&ndash;外伤&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="30dp"
+                        android:text="@string/detail_history_trauma" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="①"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_1" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/trauma_name_ed"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/trauma_time_ed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/trauma_ll2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="②"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_operation_3" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/trauma_name_ed2"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/trauma_time_ed2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                &lt;!&ndash;输血&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="30dp"
+                        android:text="@string/detail_history_transfusion" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="①"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_transfusion_1" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/transfusion_name_ed"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:textSize="14dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/transfusion_time_ed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/transfusion_ll2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                          >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingBottom="5dp"
+                                android:text="②"
+                                android:textColor="@color/grass_konsung"
+                                android:textSize="30sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="5dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_transfusion_3" />
+
+                            <com.cengalabs.flatui.views.FlatEditText
+                                android:id="@+id/transfusion_name_ed2"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:textSize="14sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                flatui:fl_fieldStyle="fl_transparent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textSize="14dp"
+                                android:text="@string/detail_history_operation_2" />
+
+                            <com.gc.materialdesign.views.ButtonFlat
+                                android:id="@+id/transfusion_time_ed2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/txt_color"
+                                android:text="@string/patient_birthday_btn" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/pre_btn"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/previous_page"
+                android:textColor="#ededed"
+                android:textSize="30sp"
+                materialdesign:rippleSpeed="30" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/next_btn"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:background="@color/float_btn_color"
+                android:text="@string/next_page"
+                android:textColor="#ededed"
+                android:textSize="30sp"
+                materialdesign:rippleSpeed="30" />
+        </LinearLayout>
+    </LinearLayout>-->
+</ScrollView>
+
